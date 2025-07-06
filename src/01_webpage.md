@@ -78,7 +78,7 @@ Pronouns
 ## What?
 
 - Create a GitHub *repository*!
-    - How GitHub stores the information in a website
+    - Repositories are how GitHub stores the information in a website
     - Use whatever name you want...
         - But make sure you remember it!
     - (Someday) it will live at:
@@ -102,7 +102,7 @@ Pronouns
 
 :::{.column width="65%"}
 
-- Store files that make up a webpages:
+- Store files that make up a webpage:
     - "HTML" page "content".
     - "CSS" page "formatting".
     - "JS" (JavaScript) "interactivity".
@@ -141,7 +141,7 @@ Pronouns
     - Click the "Codespaces" tab.
     - Click <span style="background-color:green;color:white">Create codespace on main</span>
     - A new window will open... slowly.
-    
+
 ## Why?
 
 - Edit files that make up a webpages:
@@ -163,7 +163,7 @@ Pronouns
 ## How?
 
 - On the left side of the screen, ensure "Explorer" is opened.
-    - Two overlapping files <svg style="filter:invert(1)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+- Two overlapping files <svg style="filter:invert(1)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em"><path d="M17.5 0h-9L7 1.5V6H2.5L1 7.5v15.07L2.5 24h12.07L16 22.57V18h4.7l1.3-1.43V4.5L17.5 0zm0 2.12l2.38 2.38H17.5V2.12zm-3 20.38h-12v-15H7v9.07L8.5 18h6v4.5zm6-6h-12v-15H16V6h4.5v10.5z"/></svg>
 - A bar will pop out and at the top there will be a few icons.
     - Click the file with a `+` on it.
     - If missing, "mouseover" repository name!
@@ -176,7 +176,7 @@ Pronouns
 
 ## Why?
 
-- We want to be able to determine what appears on out webpage.
+- We want to be able to determine what appears on our webpage.
 - For now, it matters less *what* we change than *that* we can change the content.
 - We'll learn more soon!
 
@@ -230,7 +230,7 @@ Hi it's me :)
 - Click the `✓` on the top right.
 - Click <span style="background-color:blue;color:white"><svg style="filter:invert(1)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em"><path d="M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z"></path></svg> Sync Changes 1 ↑ </span>
 - Now *go back* to the *repository* page.
-    - There should now be an "index.html" there!
+    - There should now be an `index.html` there!
     - You may need to refresh/reload.
 
 ## Why?
@@ -239,7 +239,7 @@ Hi it's me :)
     - Spam, broken links, stale memes, etc.
     - Mostly *GitHub* doesn't want that and won't leave it up to us!
 - This process requires every change to be intentional.
-    - I would rather it's easier, but that's okay!
+    - I would rather it be easier, but that's okay!
     - It gets better every year!
 
 # 📺 Publish
@@ -286,7 +286,7 @@ Hi it's me :)
 - `<account name>.github.io/<repository name>`
 - Or:
     - Back to <span style="background-color:white;color:black;">&lt;&gt; Code</span>
-    - Bottom right, under "Deployments", click `github-pages` 
+    - Bottom right, under "Deployments", click `github-pages`
     - There will be a link on this page under the heading `github-pages`
 
 ## Why?
