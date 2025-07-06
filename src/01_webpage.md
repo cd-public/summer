@@ -176,7 +176,7 @@ Pronouns
 
 ## Why?
 
-- We want to be able to determine what appears on out webpage.
+- We want to be able to determine what appears on our webpage.
 - For now, it matters less *what* we change than *that* we can change the content.
 - We'll learn more soon!
 
