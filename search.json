@@ -84,7 +84,7 @@
     "href": "01_webpage.html#what-1",
     "title": "📄 Webpages!",
     "section": "What?",
-    "text": "What?\n\nCreate a GitHub repository!\n\nHow GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/",
+    "text": "What?\n\nCreate a GitHub repository!\n\nRepositories are how GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/",
     "crumbs": [
       "📄 Webpages!"
     ]
@@ -104,7 +104,7 @@
     "href": "01_webpage.html#why-1",
     "title": "📄 Webpages!",
     "section": "Why?",
-    "text": "Why?\n\n\n\nStore files that make up a webpages:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image",
+    "text": "Why?\n\n\n\nStore files that make up a webpage:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image",
     "crumbs": [
       "📄 Webpages!"
     ]
@@ -154,7 +154,7 @@
     "href": "01_webpage.html#how-3",
     "title": "📄 Webpages!",
     "section": "How?",
-    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\n\nTwo overlapping files \n\nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”",
+    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\nTwo overlapping files \nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”",
     "crumbs": [
       "📄 Webpages!"
     ]
@@ -174,7 +174,7 @@
     "href": "01_webpage.html#why-3",
     "title": "📄 Webpages!",
     "section": "Why?",
-    "text": "Why?\n\nWe want to be able to determine what appears on out webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!",
+    "text": "Why?\n\nWe want to be able to determine what appears on our webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!",
     "crumbs": [
       "📄 Webpages!"
     ]
@@ -214,7 +214,7 @@
     "href": "01_webpage.html#resolve",
     "title": "📄 Webpages!",
     "section": "🤝 Resolve",
-    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an “index.html” there!\nYou may need to refresh/reload.",
+    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an index.html there!\nYou may need to refresh/reload.",
     "crumbs": [
       "📄 Webpages!"
     ]
@@ -224,7 +224,7 @@
     "href": "01_webpage.html#why-4",
     "title": "📄 Webpages!",
     "section": "Why?",
-    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it’s easier, but that’s okay!\nIt gets better every year!",
+    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it be easier, but that’s okay!\nIt gets better every year!",
     "crumbs": [
       "📄 Webpages!"
     ]
@@ -363,7 +363,7 @@
     "href": "01_webpage.rjs.html#what-1",
     "title": "📄 Webpages!",
     "section": "What?",
-    "text": "What?\n\nCreate a GitHub repository!\n\nHow GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/"
+    "text": "What?\n\nCreate a GitHub repository!\n\nRepositories are how GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/"
   },
   {
     "objectID": "01_webpage.rjs.html#how-1",
@@ -377,7 +377,7 @@
     "href": "01_webpage.rjs.html#why-1",
     "title": "📄 Webpages!",
     "section": "Why?",
-    "text": "Why?\n\n\n\nStore files that make up a webpages:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image"
+    "text": "Why?\n\n\n\nStore files that make up a webpage:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image"
   },
   {
     "objectID": "01_webpage.rjs.html#what-2",
@@ -412,7 +412,7 @@
     "href": "01_webpage.rjs.html#how-3",
     "title": "📄 Webpages!",
     "section": "How?",
-    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\n\nTwo overlapping files \n\nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”"
+    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\nTwo overlapping files \nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”"
   },
   {
     "objectID": "01_webpage.rjs.html#visually",
@@ -426,7 +426,7 @@
     "href": "01_webpage.rjs.html#why-3",
     "title": "📄 Webpages!",
     "section": "Why?",
-    "text": "Why?\n\nWe want to be able to determine what appears on out webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!"
+    "text": "Why?\n\nWe want to be able to determine what appears on our webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!"
   },
   {
     "objectID": "01_webpage.rjs.html#what-4",
@@ -454,14 +454,14 @@
     "href": "01_webpage.rjs.html#resolve",
     "title": "📄 Webpages!",
     "section": "🤝 Resolve",
-    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an “index.html” there!\nYou may need to refresh/reload."
+    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an index.html there!\nYou may need to refresh/reload."
   },
   {
     "objectID": "01_webpage.rjs.html#why-4",
     "href": "01_webpage.rjs.html#why-4",
     "title": "📄 Webpages!",
     "section": "Why?",
-    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it’s easier, but that’s okay!\nIt gets better every year!"
+    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it be easier, but that’s okay!\nIt gets better every year!"
   },
   {
     "objectID": "01_webpage.rjs.html#what-5",
