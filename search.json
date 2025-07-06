@@ -1,0 +1,522 @@
+[
+  {
+    "objectID": "01_webpage.html",
+    "href": "01_webpage.html",
+    "title": "📄 Webpages!",
+    "section": "",
+    "text": "Name\n\n(Prof.) Calvin (Deutschbein)\n\nEmail\n\nckdeutschbein\n\nWebsite\n\ncd-public.github.io\n\nField\n\nHardware Security, Computer Systems\n\nPronouns\n\nThey/Them\n\n\n\n\n\n\nCreate a webpage\nMake it stylish\nMake it dynamic\nMake it interactive\nMake it graphical\n\n\n\n\n\nGitHub!\n\nThe worlds #1 online collaboration platform!\n\nThree languages.\n\nHTML - for text.\nCSS - for style.\nJavaScript - for action.\n\n\n\n\n\n\nGithub!\nHTML!\nCreate a 📄 webpage",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#about-me",
+    "href": "01_webpage.html#about-me",
+    "title": "📄 Webpages!",
+    "section": "",
+    "text": "Name\n\n(Prof.) Calvin (Deutschbein)\n\nEmail\n\nckdeutschbein\n\nWebsite\n\ncd-public.github.io\n\nField\n\nHardware Security, Computer Systems\n\nPronouns\n\nThey/Them",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#goals",
+    "href": "01_webpage.html#goals",
+    "title": "📄 Webpages!",
+    "section": "",
+    "text": "Create a webpage\nMake it stylish\nMake it dynamic\nMake it interactive\nMake it graphical",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#technologies",
+    "href": "01_webpage.html#technologies",
+    "title": "📄 Webpages!",
+    "section": "",
+    "text": "GitHub!\n\nThe worlds #1 online collaboration platform!\n\nThree languages.\n\nHTML - for text.\nCSS - for style.\nJavaScript - for action.",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#today",
+    "href": "01_webpage.html#today",
+    "title": "📄 Webpages!",
+    "section": "",
+    "text": "Github!\nHTML!\nCreate a 📄 webpage",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what",
+    "href": "01_webpage.html#what",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCreate a GitHub account!\n\nUse whatever name and password you want…\n\nBut make sure you remember them!\n\nI really recommend using your .edu email address!\n\nYou get extra goodies!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how",
+    "href": "01_webpage.html#how",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating an account on GitHub\nOr:\n\nGo to GitHub.com\nEnter your email.\nClick Sign up for GitHub\nFollow the steps!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#why",
+    "href": "01_webpage.html#why",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nGitHub is a great tool for:\n\nLearning new technologies.\nSharing your projects.\nWorking on projects together.\nCreating websites or portfolios.\n\nI wish I’d learned about it sooner!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what-1",
+    "href": "01_webpage.html#what-1",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCreate a GitHub repository!\n\nHow GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how-1",
+    "href": "01_webpage.html#how-1",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nQuickstart for repositories\nOr:\n\nGo to GitHub.com\n\nIt should look different now that you’re logged in!\n\nClick  New\n\nGive it a name\nAdd a README file\nClick Create Repositry",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#why-1",
+    "href": "01_webpage.html#why-1",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\n\n\nStore files that make up a webpages:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what-2",
+    "href": "01_webpage.html#what-2",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nOpen a GitHub codespace!\n\nOnline code editor\n\nGoogle Docs for code.\n\nHas a lot of options.\n\nWe won’t use most of them.\nThere’s plenty of room to grow!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how-2",
+    "href": "01_webpage.html#how-2",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating a codespace for a repository\nOr:\n\nOn the page for the respository you created…\n\ngithub.com/&lt;account name&gt;/&lt;repository name&gt;\n\nClick  &lt;&gt; Code 🔽\nClick the “Codespaces” tab.\nClick Create codespace on main\nA new window will open… slowly.",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#why-2",
+    "href": "01_webpage.html#why-2",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nEdit files that make up a webpages:\n\n“HTML” page “content”.\n\nWe’ll do this one first!\nIt is the foundation of all webpages!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what-3",
+    "href": "01_webpage.html#what-3",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nNow: The first achievement when coding!\n“Hello, world!”\nWithin GitHub codespaces, create a new file.\n\nIt must be called index.html\nHTML for “hypertext markup language”\nThe language of the internet!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how-3",
+    "href": "01_webpage.html#how-3",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\n\nTwo overlapping files \n\nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” your repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#visually",
+    "href": "01_webpage.html#visually",
+    "title": "📄 Webpages!",
+    "section": "👀 Visually",
+    "text": "👀 Visually",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#why-3",
+    "href": "01_webpage.html#why-3",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe want to be able to determine what appears on out webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what-4",
+    "href": "01_webpage.html#what-4",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nWe need changes made in codespaces to become changes in the repository.\n\nYou may wonder why this isn’t automatic: I’m not sure!\n\nTo do so we will change from the “Explorer” activity to the “Source Control” activity\n\nIt’s the technical term for “keeping track of code”\n\nLots of paperwork!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how-4",
+    "href": "01_webpage.html#how-4",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nClick the \nClick  ✓ Commit \n\nI get a box pop-up and say Always",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#alert",
+    "href": "01_webpage.html#alert",
+    "title": "📄 Webpages!",
+    "section": "🚨 Alert!",
+    "text": "🚨 Alert!\n\nThis pops up :\n\n\n\nCOMMIT_EDITMSG\n\n\n# Please enter the commit message for your changes. Lines starting\n# with '#' will be ignored, and an empty message aborts the commit.\n#\n# On branch main\n# Your branch is up to date with 'origin/main'.\n#\n# Changes to be committed:\n#   new file:   index.html\n#\n\n\n\n\n\n\n\nCaution\n\n\n\nWe must name our changes.",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#resolve",
+    "href": "01_webpage.html#resolve",
+    "title": "📄 Webpages!",
+    "section": "🤝 Resolve",
+    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an “index.html” there!\nYou may need to refresh/reload.",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#why-4",
+    "href": "01_webpage.html#why-4",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it’s easier, but that’s okay!\nIt gets better every year!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what-5",
+    "href": "01_webpage.html#what-5",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nLet’s take index.html and make it a webpage!\nWe’ll use “GitHub Pages”\n\nNot too hard to set up…\nI use it a lot for fun 😬\n\nYou’ll be able to show anything you do to friends and family!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how-5",
+    "href": "01_webpage.html#how-5",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating a GitHub Pages site\nOr:\n\nBack on the repository page… - &lt;account name&gt;.github.io/&lt;repository name&gt;\nWe’ll change repository settings.\n\nOn the top, click on  Settings\nOn the left, click on  Pages\nIn the middle, under branch, change “None” to “Main” via the drop-down menu.",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#visually-1",
+    "href": "01_webpage.html#visually-1",
+    "title": "📄 Webpages!",
+    "section": "Visually",
+    "text": "Visually",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#why-5",
+    "href": "01_webpage.html#why-5",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe get to examine what we did!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what-6",
+    "href": "01_webpage.html#what-6",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCheck our work.\nLearn how to see where updates will show up.\n\nA few minutes after “Commit+Sync”\n\nTell ourselves we did a good job!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how-6",
+    "href": "01_webpage.html#how-6",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nOr:\n\nBack to &lt;&gt; Code\nBottom right, under “Deployments”, click github-pages\nThere will be a link on this page under the heading github-pages",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#why-6",
+    "href": "01_webpage.html#why-6",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nThere’s many ways to publish online but this is…\n\nFree.\nRelatively quick (minutes, not hours).\nPowerful enough for interactive, public webpages.\n\nIt also builds a lot of valuable skills!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#today-1",
+    "href": "01_webpage.html#today-1",
+    "title": "📄 Webpages!",
+    "section": "Today",
+    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.rjs.html#about-me",
+    "href": "01_webpage.rjs.html#about-me",
+    "title": "📄 Webpages!",
+    "section": "About Me",
+    "text": "About Me\n\nName\n\n(Prof.) Calvin (Deutschbein)\n\nEmail\n\nckdeutschbein\n\nWebsite\n\ncd-public.github.io\n\nField\n\nHardware Security, Computer Systems\n\nPronouns\n\nThey/Them"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#goals",
+    "href": "01_webpage.rjs.html#goals",
+    "title": "📄 Webpages!",
+    "section": "Goals",
+    "text": "Goals\n\nCreate a webpage\nMake it stylish\nMake it dynamic\nMake it interactive\nMake it graphical"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#technologies",
+    "href": "01_webpage.rjs.html#technologies",
+    "title": "📄 Webpages!",
+    "section": "Technologies",
+    "text": "Technologies\n\nGitHub!\n\nThe worlds #1 online collaboration platform!\n\nThree languages.\n\nHTML - for text.\nCSS - for style.\nJavaScript - for action."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#today",
+    "href": "01_webpage.rjs.html#today",
+    "title": "📄 Webpages!",
+    "section": "Today",
+    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what",
+    "href": "01_webpage.rjs.html#what",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCreate a GitHub account!\n\nUse whatever name and password you want…\n\nBut make sure you remember them!\n\nI really recommend using your .edu email address!\n\nYou get extra goodies!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how",
+    "href": "01_webpage.rjs.html#how",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating an account on GitHub\nOr:\n\nGo to GitHub.com\nEnter your email.\nClick Sign up for GitHub\nFollow the steps!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why",
+    "href": "01_webpage.rjs.html#why",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nGitHub is a great tool for:\n\nLearning new technologies.\nSharing your projects.\nWorking on projects together.\nCreating websites or portfolios.\n\nI wish I’d learned about it sooner!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-1",
+    "href": "01_webpage.rjs.html#what-1",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCreate a GitHub repository!\n\nHow GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-1",
+    "href": "01_webpage.rjs.html#how-1",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nQuickstart for repositories\nOr:\n\nGo to GitHub.com\n\nIt should look different now that you’re logged in!\n\nClick  New\n\nGive it a name\nAdd a README file\nClick Create Repositry"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-1",
+    "href": "01_webpage.rjs.html#why-1",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\n\n\nStore files that make up a webpages:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-2",
+    "href": "01_webpage.rjs.html#what-2",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nOpen a GitHub codespace!\n\nOnline code editor\n\nGoogle Docs for code.\n\nHas a lot of options.\n\nWe won’t use most of them.\nThere’s plenty of room to grow!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-2",
+    "href": "01_webpage.rjs.html#how-2",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating a codespace for a repository\nOr:\n\nOn the page for the respository you created…\n\ngithub.com/&lt;account name&gt;/&lt;repository name&gt;\n\nClick  &lt;&gt; Code 🔽\nClick the “Codespaces” tab.\nClick Create codespace on main\nA new window will open… slowly."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-2",
+    "href": "01_webpage.rjs.html#why-2",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nEdit files that make up a webpages:\n\n“HTML” page “content”.\n\nWe’ll do this one first!\nIt is the foundation of all webpages!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-3",
+    "href": "01_webpage.rjs.html#what-3",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nNow: The first achievement when coding!\n“Hello, world!”\nWithin GitHub codespaces, create a new file.\n\nIt must be called index.html\nHTML for “hypertext markup language”\nThe language of the internet!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-3",
+    "href": "01_webpage.rjs.html#how-3",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\n\nTwo overlapping files \n\nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” your repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#visually",
+    "href": "01_webpage.rjs.html#visually",
+    "title": "📄 Webpages!",
+    "section": "👀 Visually",
+    "text": "👀 Visually"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-3",
+    "href": "01_webpage.rjs.html#why-3",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe want to be able to determine what appears on out webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-4",
+    "href": "01_webpage.rjs.html#what-4",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nWe need changes made in codespaces to become changes in the repository.\n\nYou may wonder why this isn’t automatic: I’m not sure!\n\nTo do so we will change from the “Explorer” activity to the “Source Control” activity\n\nIt’s the technical term for “keeping track of code”\n\nLots of paperwork!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-4",
+    "href": "01_webpage.rjs.html#how-4",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nClick the \nClick  ✓ Commit \n\nI get a box pop-up and say Always"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#alert",
+    "href": "01_webpage.rjs.html#alert",
+    "title": "📄 Webpages!",
+    "section": "🚨 Alert!",
+    "text": "🚨 Alert!\n\nThis pops up :\n\n\n\nCOMMIT_EDITMSG\n\n\n# Please enter the commit message for your changes. Lines starting\n# with '#' will be ignored, and an empty message aborts the commit.\n#\n# On branch main\n# Your branch is up to date with 'origin/main'.\n#\n# Changes to be committed:\n#   new file:   index.html\n#\n\n\n\n\n\n\n\nCaution\n\n\nWe must name our changes."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#resolve",
+    "href": "01_webpage.rjs.html#resolve",
+    "title": "📄 Webpages!",
+    "section": "🤝 Resolve",
+    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an “index.html” there!\nYou may need to refresh/reload."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-4",
+    "href": "01_webpage.rjs.html#why-4",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it’s easier, but that’s okay!\nIt gets better every year!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-5",
+    "href": "01_webpage.rjs.html#what-5",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nLet’s take index.html and make it a webpage!\nWe’ll use “GitHub Pages”\n\nNot too hard to set up…\nI use it a lot for fun 😬\n\nYou’ll be able to show anything you do to friends and family!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-5",
+    "href": "01_webpage.rjs.html#how-5",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating a GitHub Pages site\nOr:\n\nBack on the repository page… - &lt;account name&gt;.github.io/&lt;repository name&gt;\nWe’ll change repository settings.\n\nOn the top, click on  Settings\nOn the left, click on  Pages\nIn the middle, under branch, change “None” to “Main” via the drop-down menu."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#visually-1",
+    "href": "01_webpage.rjs.html#visually-1",
+    "title": "📄 Webpages!",
+    "section": "Visually",
+    "text": "Visually"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-5",
+    "href": "01_webpage.rjs.html#why-5",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe get to examine what we did!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-6",
+    "href": "01_webpage.rjs.html#what-6",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCheck our work.\nLearn how to see where updates will show up.\n\nA few minutes after “Commit+Sync”\n\nTell ourselves we did a good job!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-6",
+    "href": "01_webpage.rjs.html#how-6",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nOr:\n\nBack to &lt;&gt; Code\nBottom right, under “Deployments”, click github-pages\nThere will be a link on this page under the heading github-pages"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-6",
+    "href": "01_webpage.rjs.html#why-6",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nThere’s many ways to publish online but this is…\n\nFree.\nRelatively quick (minutes, not hours).\nPowerful enough for interactive, public webpages.\n\nIt also builds a lot of valuable skills!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#today-1",
+    "href": "01_webpage.rjs.html#today-1",
+    "title": "📄 Webpages!",
+    "section": "Today",
+    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage"
+  }
+]
