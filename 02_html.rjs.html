@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.30">
 
   <meta name="author" content="Prof.&nbsp;Calvin">
-  <title>Coding Camp – 📄 Webpages!</title>
+  <title>Coding Camp – 🌐 HTML!</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -390,7 +390,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">📄 Webpages!</h1>
+  <h1 class="title">🌐 HTML!</h1>
   <p class="subtitle">Coding Camp</p>
 
 <div class="quarto-title-authors">
@@ -407,81 +407,45 @@ Prof.&nbsp;Calvin
 <h1>👋 Introduction</h1>
 
 </section>
-<section id="about-me" class="slide level2">
-<h2>About Me</h2>
-<dl>
-<dt>Name</dt>
-<dd>
-(Prof.) Calvin (Deutschbein)
-</dd>
-<dt>Email</dt>
-<dd>
-<a href="mailto:ckdeutschbein@willamette.edu">ckdeutschbein</a>
-</dd>
-<dt>Website</dt>
-<dd>
-<a href="https://cd-public.github.io/">cd-public.github.io</a>
-</dd>
-<dt>Field</dt>
-<dd>
-Hardware Security, Computer Systems
-</dd>
-<dt>Pronouns</dt>
-<dd>
-They/Them
-</dd>
-</dl>
-</section>
 <section id="goals" class="slide level2">
 <h2>Goals</h2>
 <ol type="1">
-<li><strong>Create a <em>webpage</em></strong></li>
+<li>Create a <em>webpage</em></li>
+<li><strong>Make it <em>well-formed</em></strong></li>
 <li>Make it <em>stylish</em></li>
-<li>Make it <em>dynamic</em></li>
 <li>Make it <em>interactive</em></li>
 <li>Make it <em>graphical</em></li>
 </ol>
 </section>
-<section id="technologies" class="slide level2">
-<h2>Technologies</h2>
-<ul>
-<li>GitHub!
-<ul>
-<li>The worlds #1 online collaboration platform!</li>
-</ul></li>
-<li>Three languages.
-<ul>
-<li>HTML - for text.</li>
-<li>CSS - for style.</li>
-<li>JavaScript - for action.</li>
-</ul></li>
-</ul>
-</section>
 <section id="today" class="slide level2">
 <h2>Today</h2>
 <ul class="task-list">
-<li><label><input type="checkbox">Github!</label></li>
-<li><label><input type="checkbox">HTML!</label></li>
-<li><label><input type="checkbox">Create a 📄 webpage</label></li>
+<li><label><input type="checkbox">Content!</label></li>
+<li><label><input type="checkbox">Nesting!</label></li>
+<li><label><input type="checkbox">Headings!</label></li>
 </ul>
 </section></section>
 <section>
-<section id="account" class="title-slide slide level1 center">
-<h1>📒 Account</h1>
+<section id="standards" class="title-slide slide level1 center">
+<h1>🌐 Standards</h1>
 
 </section>
 <section id="what" class="slide level2">
 <h2>What?</h2>
 <ul>
-<li>Create a GitHub account!
+<li>HTML5 is the latest, greatest, and <strong>final</strong> version of “HTML”
 <ul>
-<li>Use whatever name and password you want…
+<li>Hypertext
 <ul>
-<li>But make sure you remember them!</li>
+<li>Text for the internet</li>
 </ul></li>
-<li>I really recommend using your <code>.edu</code> email address!
+<li>Markup
 <ul>
-<li>You get extra goodies!</li>
+<li>Text that describes how it should be displayed</li>
+</ul></li>
+<li>Language
+<ul>
+<li>A consistent grammar for the above</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -489,48 +453,77 @@ They/Them
 <section id="how" class="slide level2">
 <h2>How?</h2>
 <ul>
-<li><a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">Creating an account on GitHub</a></li>
-<li>Or:
+<li><a href="https://html.spec.whatwg.org/">HTML Living Standard</a></li>
+<li>Check it out!
 <ul class="task-list">
-<li><label><input type="checkbox">Go to <a href="https://github.com/">GitHub.com</a></label></li>
-<li><label><input type="checkbox">Enter your email.</label></li>
-<li><label><input type="checkbox">Click <span style="background-color:green;color:white">Sign up for GitHub</span></label></li>
-<li><label><input type="checkbox">Follow the steps!</label></li>
+<li><label><input type="checkbox">Search (via <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1249182868"><kbd class="keyboard-key nowrap">Ctrl</kbd>+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1249182868"><kbd class="keyboard-key nowrap">f</kbd></label></li>
+<li><label><input type="checkbox">Look for <code>&lt;head&gt;</code></label></li>
+<li><label><input type="checkbox">The first “hit” will be the <em>most basic</em> HTML page that is <em>well-formed</em></label>
+<ul>
+<li>That is, doesn’t break any rules.</li>
+</ul></li>
 </ul></li>
 </ul>
+</section>
+<section id="visually" class="slide level2">
+<h2>👀 Visually</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb1" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
+<span id="cb1-2"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="ot"> lang</span><span class="op">=</span><span class="st">"en"</span><span class="dt">&gt;</span></span>
+<span id="cb1-3"><a></a> <span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb1-4"><a></a>  <span class="dt">&lt;</span><span class="kw">title</span><span class="dt">&gt;</span>Sample page<span class="dt">&lt;/</span><span class="kw">title</span><span class="dt">&gt;</span></span>
+<span id="cb1-5"><a></a> <span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb1-6"><a></a> <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb1-7"><a></a>  <span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>Sample page<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb1-8"><a></a>  <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>This is a <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"demo.html"</span><span class="dt">&gt;</span>simple<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span> sample.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb1-9"><a></a>  <span class="co">&lt;!-- this is a comment --&gt;</span></span>
+<span id="cb1-10"><a></a> <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb1-11"><a></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="why" class="slide level2">
 <h2>Why?</h2>
 <ul>
-<li>GitHub is a great tool for:
+<li>Thus far we relied on <em>default</em> behavior.</li>
+<li><code>Hello, world</code> was assumed to be:
 <ul>
-<li>Learning new technologies.</li>
-<li>Sharing your projects.</li>
-<li>Working on projects together.</li>
-<li>Creating websites or portfolios.</li>
+<li>The content of</li>
+<li>A paragraph in</li>
+<li>The body of</li>
+<li>A website with</li>
+<li>No name or</li>
+<li>Special formatting</li>
 </ul></li>
-<li>I wish I’d learned about it sooner!</li>
 </ul>
 </section></section>
 <section>
-<section id="repository" class="title-slide slide level1 center">
-<h1>🗃️ Repository</h1>
+<section id="refresh" class="title-slide slide level1 center">
+<h1>🔄 Refresh</h1>
 
 </section>
 <section id="what-1" class="slide level2">
 <h2>What?</h2>
 <ul>
-<li>Create a GitHub <em>repository</em>!
+<li>We recall last time we:
 <ul>
-<li>Repositories are how GitHub stores the information in a website</li>
-<li>Use whatever name you want…
+<li>Followed these instructions”
 <ul>
-<li>But make sure you remember it!</li>
+<li><a href="https://cd-public.github.io/summer/02_html.html">Coding Camp</a></li>
 </ul></li>
-<li>(Someday) it will live at:
+<li>Created a GitHub repository
 <ul>
-<li><code>&lt;account name&gt;.github.io/&lt;repository name&gt;</code></li>
-<li>Check out <a href="https://cd-example.github.io/bug-free-sniffle/">cd-example.github.io/bug-free-sniffle/</a></li>
+<li><code>github.com/&lt;account&gt;/&lt;repository&gt;</code></li>
+</ul></li>
+<li>Worked in GitHub Codespaces
+<ul>
+<li>Clicked on <span style="background-color:green;color:white"> &lt;&gt; Code 🔽</span></li>
+</ul></li>
+<li>Created a corresponding GitHub page:
+<ul>
+<li><code>&lt;account&gt;.github.io/&lt;repository&gt;</code></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -538,327 +531,556 @@ They/Them
 <section id="how-1" class="slide level2">
 <h2>How?</h2>
 <ul>
-<li><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories">Quickstart for repositories</a></li>
-<li>Or:
+<li>I recommend having <em>exactly</em> these four websites open in tabs.
 <ul>
-<li>Go to <a href="https://github.com/">GitHub.com</a>
-<ul>
-<li>It should look different now that you’re logged in!</li>
-</ul></li>
-<li>Click <span style="background-color:green;color:white"><svg style="filter:invert(1);display:inline-block" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" width="1em" height="1em"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path></svg> New</span>
-<ul class="task-list">
-<li><label><input type="checkbox">Give it a name</label></li>
-<li><label><input type="checkbox">Add a README file</label></li>
-<li><label><input type="checkbox">Click <span style="background-color:green;color:white">Create Repositry</span></label></li>
-</ul></li>
+<li>Read these instructions</li>
+<li>Make changes in the Codespace</li>
+<li>Verify them in the repository</li>
+<li>After a few minutes, see them on the webpage</li>
 </ul></li>
 </ul>
 </section>
 <section id="why-1" class="slide level2">
 <h2>Why?</h2>
-<div class="columns">
-<div class="column" style="width:65%;">
 <ul>
-<li>Store files that make up a webpage:
-<ul>
-<li>“HTML” page “content”.</li>
-<li>“CSS” page “formatting”.</li>
-<li>“JS” (JavaScript) “interactivity”.</li>
-<li>We can use images, like PNGs or SVGs.</li>
-</ul></li>
+<li>It is a <em>little to easy</em> to give up and do nothing.</li>
+<li>That is no fun!</li>
+<li>Check that everything works, every time.</li>
+<li>It’s good practice!</li>
 </ul>
-</div><div class="column" style="width:35%;">
-<p><a title="Asylum, Atlantic and Warner UK, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Charli_XCX_-_Brat_(album_cover).png"><img width="256" alt="Charli XCX - Brat (album cover)" src="https://upload.wikimedia.org/wikipedia/commons/6/60/Charli_XCX_-_Brat_%28album_cover%29.png?20250318202344"></a></p>
-<p>
-<em>An image</em>
-</p>
-</div></div>
 </section></section>
 <section>
-<section id="codespaces" class="title-slide slide level1 center">
-<h1>🌌 Codespaces</h1>
+<section id="content" class="title-slide slide level1 center">
+<h1>🖺 Content</h1>
 
 </section>
 <section id="what-2" class="slide level2">
 <h2>What?</h2>
 <ul>
-<li>Open a GitHub <em>codespace</em>!
+<li>The part of HTML we see is the <em>content</em>
 <ul>
-<li>Online code editor
-<ul>
-<li>Google Docs for code.</li>
-</ul></li>
-<li>Has <em>a lot</em> of options.
-<ul>
-<li>We won’t use most of them.</li>
-<li>There’s plenty of room to grow!</li>
-</ul></li>
+<li>Usually text (like this)</li>
+<li>Sometimes images, like below:</li>
 </ul></li>
 </ul>
+
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png" class="r-stretch"><p><em>An image of an image of an image</em></p>
 </section>
 <section id="how-2" class="slide level2">
 <h2>How?</h2>
 <ul>
-<li><a href="https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository">Creating a codespace for a repository</a></li>
-<li>Or:
-<ul>
-<li>On the page for the respository you created…
-<ul>
-<li><code>github.com/&lt;account name&gt;/&lt;repository name&gt;</code></li>
-</ul></li>
-<li>Click <span style="background-color:green;color:white"> &lt;&gt; Code 🔽</span></li>
-<li>Click the “Codespaces” tab.</li>
-<li>Click <span style="background-color:green;color:white">Create codespace on main</span></li>
-<li>A new window will open… slowly.</li>
-</ul></li>
+<li>Let’s update <code>index.html</code></li>
+<li>We’ll specify that our text is a <em>paragraph</em>.</li>
+<li>We prefix with <code>&lt;p&gt;</code> and suffix with <code>&lt;/p&gt;</code></li>
 </ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Old:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb2" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb2-1"><a></a>Hello world, or some such.</span>
+<span id="cb2-2"><a></a></span>
+<span id="cb2-3"><a></a>Maybe a second line?</span>
+<span id="cb2-4"><a></a></span>
+<span id="cb2-5"><a></a>But these all show up on one line.</span>
+<span id="cb2-6"><a></a></span>
+<span id="cb2-7"><a></a>Ew!</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:50%;">
+<p>New:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb3" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb3-1"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Hello world, or some such.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb3-2"><a></a></span>
+<span id="cb3-3"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Maybe a second line?<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb3-4"><a></a></span>
+<span id="cb3-5"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>But these all show up on one line.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb3-6"><a></a></span>
+<span id="cb3-7"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Ew!<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div></div>
+</section>
+<section id="alert" class="slide level2">
+<h2>🚨 Alert!</h2>
+<ul>
+<li>Codespaces will automatically “close” <code>&lt;p&gt;</code> when you type them!
+<ul>
+<li>This is meant to help you, and will help in time!</li>
+</ul></li>
+<li>It is not uncommon to use line breaks:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb4" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb4-1"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb4-2"><a></a>    Like this!</span>
+<span id="cb4-3"><a></a><span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb4-4"><a></a></span>
+<span id="cb4-5"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb4-6"><a></a>    It's easier to read!</span>
+<span id="cb4-7"><a></a><span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="caution" class="slide level2">
+<h2>⚠️ Caution</h2>
+<ul>
+<li>Usually nothing breaks if you omit the closing tag <code>&lt;/p&gt;</code></li>
+<li>It is considered poor form because it <em>can</em> cause problems in more complicated cases.</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb5" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb5-1"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>This will work but is sketchy.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="why-2" class="slide level2">
 <h2>Why?</h2>
 <ul>
-<li>Edit files that make up a webpages:
-<ul>
-<li>“HTML” page “content”.
-<ul>
-<li>We’ll do this one first!</li>
-<li>It is the foundation of all webpages!</li>
-</ul></li>
-</ul></li>
+<li>Until now, we had no way to tell HTML when to start a new line.</li>
+<li>This looked dreadful!</li>
+<li>Now we can!</li>
 </ul>
+</section>
+<section id="bonus" class="slide level2">
+<h2>🏆 Bonus!</h2>
+<ul>
+<li>You don’t only have to use <code>&lt;p&gt;</code>, of course!</li>
+<li>The next most common are headings - <code>&lt;h1&gt;</code> is the biggest.</li>
+<li>Try giving your webpage a heading perhaps saying it’s mine.</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb6" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb6-1"><a></a><span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>My Rad Page 🏍️<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb6-2"><a></a></span>
+<span id="cb6-3"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>I have interesting thoughts to share!<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section></section>
 <section>
-<section id="hello-world" class="title-slide slide level1 center">
-<h1>👋 Hello, World!</h1>
+<section id="nesting" class="title-slide slide level1 center">
+<h1>🪆 Nesting</h1>
 
 </section>
 <section id="what-3" class="slide level2">
 <h2>What?</h2>
 <ul>
-<li>Now: The first achievement when coding!</li>
-<li>“Hello, world!”</li>
-<li>Within GitHub codespaces, create a new file.
-<ul>
-<li>It <strong>must</strong> be called <code>index.html</code></li>
-<li>HTML for “hypertext markup language”</li>
-<li>The language of the internet!</li>
-</ul></li>
+<li>We can include one kind of HTML content in another kind of HTML content.</li>
+<li>I term this “nesting”</li>
 </ul>
-</section>
+
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/4/41/Floral_matryoshka_set_2_smallest_doll_nested.JPG" class="r-stretch"></section>
 <section id="how-3" class="slide level2">
 <h2>How?</h2>
 <ul>
-<li>On the left side of the screen, ensure “Explorer” is opened.</li>
-<li>Two overlapping files <svg style="filter:invert(1)" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="1em" height="1em"><path d="M17.5 0h-9L7 1.5V6H2.5L1 7.5v15.07L2.5 24h12.07L16 22.57V18h4.7l1.3-1.43V4.5L17.5 0zm0 2.12l2.38 2.38H17.5V2.12zm-3 20.38h-12v-15H7v9.07L8.5 18h6v4.5zm6-6h-12v-15H16V6h4.5v10.5z"></path></svg></li>
-<li>A bar will pop out and at the top there will be a few icons.
+<li>We’ll use a new element - <code>&lt;a&gt;</code>, for links.</li>
+<li>Add link from your GitHub page to your GitHub repository.
 <ul>
-<li>Click the file with a <code>+</code> on it.</li>
-<li>If missing, “mouseover” repository name!</li>
-</ul></li>
-<li>Type <code>index.html</code> as the name and press enter.</li>
-<li>A new file will open up, type “Hello, world!”</li>
-</ul>
-</section>
-<section id="visually" class="slide level2">
-<h2>👀 Visually</h2>
-
-<img data-src="imgs/hw.png" class="r-stretch"></section>
-<section id="why-3" class="slide level2">
-<h2>Why?</h2>
+<li>Choose some link text, like “My Repository”</li>
+<li>Enclose in <code>&lt;a&gt;</code> and <code>&lt;/a&gt;</code></li>
+<li>In the opening tag <code>&lt;a&gt;</code>, add
 <ul>
-<li>We want to be able to determine what appears on our webpage.</li>
-<li>For now, it matters less <em>what</em> we change than <em>that</em> we can change the content.</li>
-<li>We’ll learn more soon!</li>
-</ul>
-</section></section>
-<section>
-<section id="save-your-work" class="title-slide slide level1 center">
-<h1>💾 Save your work!</h1>
-
-</section>
-<section id="what-4" class="slide level2">
-<h2>What?</h2>
-<ul>
-<li>We need changes made in codespaces to become changes in the repository.
-<ul>
-<li>You may wonder why this isn’t automatic: I’m not sure!</li>
-</ul></li>
-<li>To do so we will change from the “Explorer” activity to the “Source Control” activity
-<ul>
-<li>It’s the technical term for “keeping track of code”</li>
-</ul></li>
-<li>Lots of paperwork!</li>
-</ul>
-</section>
-<section id="how-4" class="slide level2">
-<h2>How?</h2>
-<ul>
-<li>Click the <svg style="filter:invert(1)" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" width="1em" height="1em"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"></path></svg></li>
-<li>Click <span style="background-color:blue;color:white"> ✓ Commit </span>
-<ul>
-<li>I get a box pop-up and say <span style="border: 2px solid black;background-color:gray;color:black;">Always</span></li>
-</ul></li>
-</ul>
-</section>
-<section id="alert" class="slide level2">
-<h2>🚨 Alert!</h2>
-<ul>
-<li>This pops up :</li>
-</ul>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>COMMIT_EDITMSG</strong></pre>
-</div>
-<div class="sourceCode" id="cb1" data-filename="COMMIT_EDITMSG"><pre class="sourceCode numberSource email number-lines code-with-copy"><code class="sourceCode email"><span id="cb1-1"><a></a></span>
-<span id="cb1-2"><a></a># Please enter the commit message for your changes. Lines starting</span>
-<span id="cb1-3"><a></a># with '#' will be ignored, and an empty message aborts the commit.</span>
-<span id="cb1-4"><a></a>#</span>
-<span id="cb1-5"><a></a># On branch main</span>
-<span id="cb1-6"><a></a># Your branch is up to date with 'origin/main'.</span>
-<span id="cb1-7"><a></a>#</span>
-<span id="cb1-8"><a></a># Changes to be committed:</span>
-<span id="cb1-9"><a></a>#   new file:   index.html</span>
-<span id="cb1-10"><a></a>#</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="callout callout-caution callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Caution</strong></p>
-</div>
-<div class="callout-content">
-<p>We must <em>name our changes</em>.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="resolve" class="slide level2">
-<h2>🤝 Resolve</h2>
-<ul>
-<li>Add any message to the first line:</li>
-</ul>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>COMMIT_EDITMSG</strong></pre>
-</div>
-<div class="sourceCode" id="cb2" data-filename="COMMIT_EDITMSG"><pre class="sourceCode numberSource email number-lines code-with-copy"><code class="sourceCode email"><span id="cb2-1"><a></a>Hi it's me :)</span>
-<span id="cb2-2"><a></a>### Please enter...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>Click the <code>✓</code> on the top right.</li>
-<li>Click <span style="background-color:blue;color:white"><svg style="filter:invert(1)" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" width="1em" height="1em"><path d="M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z"></path></svg> Sync Changes 1 ↑ </span></li>
-<li>Now <em>go back</em> to the <em>repository</em> page.
-<ul>
-<li>There should now be an <code>index.html</code> there!</li>
-<li>You may need to refresh/reload.</li>
-</ul></li>
-</ul>
-</section>
-<section id="why-4" class="slide level2">
-<h2>Why?</h2>
-<ul>
-<li>We don’t want just <em>anyone</em> or <em>anything</em> publish to a website we administer.
-<ul>
-<li>Spam, broken links, stale memes, etc.</li>
-<li>Mostly <em>GitHub</em> doesn’t want that and won’t leave it up to us!</li>
-</ul></li>
-<li>This process requires every change to be intentional.
-<ul>
-<li>I would rather it be easier, but that’s okay!</li>
-<li>It gets better every year!</li>
-</ul></li>
-</ul>
-</section></section>
-<section>
-<section id="publish" class="title-slide slide level1 center">
-<h1>📺 Publish</h1>
-
-</section>
-<section id="what-5" class="slide level2">
-<h2>What?</h2>
-<ul>
-<li>Let’s take <code>index.html</code> and make it a webpage!</li>
-<li>We’ll use “GitHub Pages”
-<ul>
-<li>Not too hard to set up…</li>
-<li>I use it a lot for fun 😬</li>
-</ul></li>
-<li>You’ll be able to show anything you do to friends and family!</li>
-</ul>
-</section>
-<section id="how-5" class="slide level2">
-<h2>How?</h2>
-<ul>
-<li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">Creating a GitHub Pages site</a></li>
-<li>Or:
-<ul>
-<li>Back on the <em>repository</em> page… - <code>&lt;account name&gt;.github.io/&lt;repository name&gt;</code></li>
-<li>We’ll change repository settings.
-<ul>
-<li>On the top, click on <span style="background-color:white;color:black;"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" width="1em" height="1em"><path d="M8 0a8.2 8.2 0 0 1 .701.031C9.444.095 9.99.645 10.16 1.29l.288 1.107c.018.066.079.158.212.224.231.114.454.243.668.386.123.082.233.09.299.071l1.103-.303c.644-.176 1.392.021 1.82.63.27.385.506.792.704 1.218.315.675.111 1.422-.364 1.891l-.814.806c-.049.048-.098.147-.088.294.016.257.016.515 0 .772-.01.147.038.246.088.294l.814.806c.475.469.679 1.216.364 1.891a7.977 7.977 0 0 1-.704 1.217c-.428.61-1.176.807-1.82.63l-1.102-.302c-.067-.019-.177-.011-.3.071a5.909 5.909 0 0 1-.668.386c-.133.066-.194.158-.211.224l-.29 1.106c-.168.646-.715 1.196-1.458 1.26a8.006 8.006 0 0 1-1.402 0c-.743-.064-1.289-.614-1.458-1.26l-.289-1.106c-.018-.066-.079-.158-.212-.224a5.738 5.738 0 0 1-.668-.386c-.123-.082-.233-.09-.299-.071l-1.103.303c-.644.176-1.392-.021-1.82-.63a8.12 8.12 0 0 1-.704-1.218c-.315-.675-.111-1.422.363-1.891l.815-.806c.05-.048.098-.147.088-.294a6.214 6.214 0 0 1 0-.772c.01-.147-.038-.246-.088-.294l-.815-.806C.635 6.045.431 5.298.746 4.623a7.92 7.92 0 0 1 .704-1.217c.428-.61 1.176-.807 1.82-.63l1.102.302c.067.019.177.011.3-.071.214-.143.437-.272.668-.386.133-.066.194-.158.211-.224l.29-1.106C6.009.645 6.556.095 7.299.03 7.53.01 7.764 0 8 0Zm-.571 1.525c-.036.003-.108.036-.137.146l-.289 1.105c-.147.561-.549.967-.998 1.189-.173.086-.34.183-.5.29-.417.278-.97.423-1.529.27l-1.103-.303c-.109-.03-.175.016-.195.045-.22.312-.412.644-.573.99-.014.031-.021.11.059.19l.815.806c.411.406.562.957.53 1.456a4.709 4.709 0 0 0 0 .582c.032.499-.119 1.05-.53 1.456l-.815.806c-.081.08-.073.159-.059.19.162.346.353.677.573.989.02.03.085.076.195.046l1.102-.303c.56-.153 1.113-.008 1.53.27.161.107.328.204.501.29.447.222.85.629.997 1.189l.289 1.105c.029.109.101.143.137.146a6.6 6.6 0 0 0 1.142 0c.036-.003.108-.036.137-.146l.289-1.105c.147-.561.549-.967.998-1.189.173-.086.34-.183.5-.29.417-.278.97-.423 1.529-.27l1.103.303c.109.029.175-.016.195-.045.22-.313.411-.644.573-.99.014-.031.021-.11-.059-.19l-.815-.806c-.411-.406-.562-.957-.53-1.456a4.709 4.709 0 0 0 0-.582c-.032-.499.119-1.05.53-1.456l.815-.806c.081-.08.073-.159.059-.19a6.464 6.464 0 0 0-.573-.989c-.02-.03-.085-.076-.195-.046l-1.102.303c-.56.153-1.113.008-1.53-.27a4.44 4.44 0 0 0-.501-.29c-.447-.222-.85-.629-.997-1.189l-.289-1.105c-.029-.11-.101-.143-.137-.146a6.6 6.6 0 0 0-1.142 0ZM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM9.5 8a1.5 1.5 0 1 0-3.001.001A1.5 1.5 0 0 0 9.5 8Z"></path></svg> Settings</span></li>
-<li>On the left, click on <span style="background-color:white;color:black;"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" width="1em" height="1em"><path d="M0 2.75C0 1.784.784 1 1.75 1h12.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25ZM14.5 6h-13v7.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Zm-6-3.5v2h6V2.75a.25.25 0 0 0-.25-.25ZM5 2.5v2h2v-2Zm-3.25 0a.25.25 0 0 0-.25.25V4.5h2v-2Z"></path></svg> Pages</span></li>
-<li>In the middle, under branch, change “None” to “Main” via the drop-down menu.</li>
+<li><code>href=&lt;the address of your repository&gt;</code></li>
+<li>Mine would be <code>&lt;a href="https://cd-example.github.io/bug-free-sniffle/"&gt;</code></li>
 </ul></li>
 </ul></li>
 </ul>
 </section>
 <section id="visually-1" class="slide level2">
-<h2>Visually</h2>
-
-<img data-src="imgs/page.png" class="r-stretch"></section>
-<section id="why-5" class="slide level2">
+<h2>👀 Visually</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb7" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb7-1"><a></a><span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb7-2"><a></a>    My Rad Page 🏍️</span>
+<span id="cb7-3"><a></a><span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb7-4"><a></a></span>
+<span id="cb7-5"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb7-6"><a></a>    I have interesting thoughts to share!</span>
+<span id="cb7-7"><a></a><span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb7-8"><a></a></span>
+<span id="cb7-9"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb7-10"><a></a>    Visit</span>
+<span id="cb7-11"><a></a>    <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://cd-example.github.io/bug-free-sniffle/"</span><span class="dt">&gt;</span></span>
+<span id="cb7-12"><a></a>        my repository!</span>
+<span id="cb7-13"><a></a>    <span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb7-14"><a></a><span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="why-3" class="slide level2">
 <h2>Why?</h2>
 <ul>
-<li>We get to examine what we did!</li>
+<li>This sort of nesting is a natural way to arrange information.
+<ul>
+<li>Letters in words.</li>
+<li>Words in sentences.</li>
+<li>Sentences in paragraphs.</li>
+<li>Paragraphs in essays.</li>
+<li>Etc.</li>
+</ul></li>
+</ul>
+</section>
+<section id="caution-1" class="slide level2">
+<h2>⚠️ Caution</h2>
+<ul>
+<li>We can nest but <em>not</em> overlap.</li>
+<li>Consider the example using <strong>bold</strong> and <em>italics</em></li>
+<li>Try this:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>bad</strong></pre>
+</div>
+<div class="sourceCode" id="cb8" data-filename="bad"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb8-1"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>This is <span class="dt">&lt;</span><span class="kw">em</span><span class="dt">&gt;</span>very <span class="dt">&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>wrong<span class="dt">&lt;/</span><span class="kw">em</span><span class="dt">&gt;</span>!<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>
+This is <em>very <strong>wrong</strong></em><strong>!</strong>
+</p>
+<ul>
+<li>And this:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>good</strong></pre>
+</div>
+<div class="sourceCode" id="cb9" data-filename="good"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb9-1"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>This <span class="dt">&lt;</span><span class="kw">em</span><span class="dt">&gt;</span>is <span class="dt">&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>correct<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;</span>.<span class="dt">&lt;/</span><span class="kw">em</span><span class="dt">&gt;&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>
+This <em>is <strong>correct</strong>.</em>
+</p>
+</section></section>
+<section>
+<section id="bodies" class="title-slide slide level1 center">
+<h1>💪 Bodies</h1>
+
+</section>
+<section id="what-4" class="slide level2">
+<h2>What?</h2>
+<ul>
+<li>Not <em>every</em> part of a webpage is content.</li>
+<li>To specify just the page content, we place it within a <code>&lt;body&gt;</code>.</li>
+</ul>
+</section>
+<section id="an-aside" class="slide level2">
+<h2>🥷 An Aside</h2>
+<ul>
+<li>Content is enclosed in “tags”, like <code>&lt;p&gt;</code></li>
+<li>Content and tag is called an element.</li>
+</ul>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Thing</th>
+<th style="text-align: left;">Term</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>Hello</code></td>
+<td style="text-align: left;">Content</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>&lt;p&gt;</code></td>
+<td style="text-align: left;">Tag</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>&lt;p&gt;Hello&lt;/p&gt;</code></td>
+<td style="text-align: left;">Element</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Most useful to look up how to do things.
+<ul>
+<li>E.g. center text with the <code>&lt;center&gt;</code> tag.</li>
+</ul></li>
+</ul>
+</section>
+<section id="how-4" class="slide level2">
+<h2>How?</h2>
+<ul>
+<li>We’ll use a new element - <code>&lt;body&gt;</code></li>
+<li>We’ll buy <em>everything</em> so far inside it.
+<ul>
+<li>For me, this meant indenting everything again.</li>
+</ul></li>
+</ul>
+</section>
+<section id="visually-2" class="slide level2">
+<h2>👀 Visually</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb10" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb10-1"><a></a><span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb10-2"><a></a>    <span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb10-3"><a></a>        My Rad Page 🏍️</span>
+<span id="cb10-4"><a></a>    <span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb10-5"><a></a></span>
+<span id="cb10-6"><a></a>    <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb10-7"><a></a>        I have interesting thoughts to share!</span>
+<span id="cb10-8"><a></a>    <span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb10-9"><a></a></span>
+<span id="cb10-10"><a></a>    <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb10-11"><a></a>        Visit</span>
+<span id="cb10-12"><a></a>        <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://cd-example.github.io/bug-free-sniffle/"</span><span class="dt">&gt;</span></span>
+<span id="cb10-13"><a></a>            my repository!</span>
+<span id="cb10-14"><a></a>        <span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb10-15"><a></a>    <span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb10-16"><a></a><span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="why-4" class="slide level2">
+<h2>Why?</h2>
+<ul>
+<li>This doesn’t do <em>anything</em> yet.</li>
+<li>But will allow us to add headers:
+<ul>
+<li>Ways to change how the page is understood…</li>
+</ul></li>
 </ul>
 </section></section>
 <section>
-<section id="examine" class="title-slide slide level1 center">
-<h1>🔬 Examine</h1>
+<section id="heads" class="title-slide slide level1 center">
+<h1>🤯 Heads</h1>
+
+</section>
+<section id="what-5" class="slide level2">
+<h2>What?</h2>
+<ul>
+<li>Take a look at either the:
+<ul>
+<li>Name of the <em>window</em> you are looking at, or</li>
+<li>Name of the <em>tab</em> you are looking at</li>
+</ul></li>
+<li>It is probably “Coding Camp - 🌐 HTML!”
+<ul>
+<li>How did that get there?</li>
+</ul></li>
+</ul>
+</section>
+<section id="how-5" class="slide level2">
+<h2>How?</h2>
+<ul>
+<li>We can specify:
+<ul>
+<li>Page title</li>
+<li>Style using CSS (latter)</li>
+<li>Scripts using JS (latter)</li>
+</ul></li>
+<li>Add to the beginning of your page:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb11" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb11-1"><a></a><span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb11-2"><a></a>    <span class="dt">&lt;</span><span class="kw">title</span><span class="dt">&gt;</span></span>
+<span id="cb11-3"><a></a>        Title of your choice!</span>
+<span id="cb11-4"><a></a>    <span class="dt">&lt;/</span><span class="kw">title</span><span class="dt">&gt;</span></span>
+<span id="cb11-5"><a></a><span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb11-6"><a></a>    ...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="why-5" class="slide level2">
+<h2>Why?</h2>
+<ul>
+<li>Less important than it used to be, though still looks sharp.</li>
+<li>Historically important for search engines!</li>
+</ul>
+</section></section>
+<section>
+<section id="html" class="title-slide slide level1 center">
+<h1>🌐 HTML</h1>
 
 </section>
 <section id="what-6" class="slide level2">
 <h2>What?</h2>
-<ul class="task-list">
-<li><label><input type="checkbox">Check our work.</label></li>
-<li><label><input type="checkbox">Learn how to see where updates will show up.</label>
 <ul>
-<li>A few minutes after “Commit+Sync”</li>
-</ul></li>
-<li><label><input type="checkbox">Tell ourselves we did a good job!</label></li>
+<li>In the <em>very</em> early days there were (maybe?) formats other than HTML.</li>
+<li>I don’t know what they would be!</li>
+<li>But there were at least other versions (namely 1-4)</li>
+<li>So HTML pages should specify they are… HTML!</li>
 </ul>
 </section>
 <section id="how-6" class="slide level2">
 <h2>How?</h2>
 <ul>
-<li><code>&lt;account name&gt;.github.io/&lt;repository name&gt;</code></li>
-<li>Or:
+<li>Enclose everything within an <code>&lt;html&gt;</code> element.
 <ul>
-<li>Back to <span style="background-color:white;color:black;">&lt;&gt; Code</span></li>
-<li>Bottom right, under “Deployments”, click <code>github-pages</code></li>
-<li>There will be a link on this page under the heading <code>github-pages</code></li>
+<li>If in English, usually <code>&lt;html lang="en"&gt;</code></li>
 </ul></li>
+<li>Add a file header for ducment type
+<ul>
+<li>For HTML, this is <code>&lt;!DOCTYPE html&gt;</code></li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb12" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb12-1"><a></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
+<span id="cb12-2"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="ot"> lang</span><span class="op">=</span><span class="st">"en"</span><span class="dt">&gt;</span></span>
+<span id="cb12-3"><a></a>  <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb12-4"><a></a>      ...</span>
+<span id="cb12-5"><a></a>  <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb12-6"><a></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></li>
 </ul>
 </section>
 <section id="why-6" class="slide level2">
 <h2>Why?</h2>
 <ul>
-<li>There’s many ways to publish online but this is…
+<li>Makes things easier (and therefore faster) for web browsers.</li>
+<li>Mark of professionalism.</li>
+</ul>
+</section></section>
+<section>
+<section id="comments" class="title-slide slide level1 center">
+<h1>💬 Comments</h1>
+
+</section>
+<section id="what-7" class="slide level2">
+<h2>What?</h2>
 <ul>
-<li>Free.</li>
-<li><em>Relatively</em> quick (minutes, not hours).</li>
-<li>Powerful enough for interactive, public webpages.</li>
+<li>Sometimes we want to leave notes to ourselves or other web developers.</li>
+<li>We don’t need everyone visiting our page to see them.</li>
+<li>We do this using the special “comment” element.</li>
+</ul>
+</section>
+<section id="how-7" class="slide level2">
+<h2>How?</h2>
+<ul>
+<li>Take some content you don’t want to display.</li>
+<li>Enclose in <code>&lt;!--</code> and <code>--&gt;</code></li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>comment_example.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb13" data-filename="comment_example.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb13-1"><a></a><span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb13-2"><a></a>    <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb13-3"><a></a>        This is visible.</span>
+<span id="cb13-4"><a></a>        <span class="co">&lt;!-- This isn't. --&gt;</span></span>
+<span id="cb13-5"><a></a>    <span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb13-6"><a></a><span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="why-7" class="slide level2">
+<h2>Why?</h2>
+<ul>
+<li>I most usually it to keep track of notes.</li>
+<li>Many of my pages have the following:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb14" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb14-1"><a></a><span class="co">&lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section></section>
+<section>
+<section id="altogether" class="title-slide slide level1 center">
+<h1>🤝 Altogether</h1>
+
+</section>
+<section id="what-8" class="slide level2">
+<h2>What?</h2>
+<ul>
+<li>We have now covered all the requirements to make a well-formed HTML page!</li>
+</ul>
+</section>
+<section id="how-8" class="slide level2">
+<h2>How?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Example:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>example.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb15" data-filename="example.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb15-1"><a></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
+<span id="cb15-2"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="ot"> lang</span><span class="op">=</span><span class="st">"en"</span><span class="dt">&gt;</span></span>
+<span id="cb15-3"><a></a> <span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb15-4"><a></a>  <span class="dt">&lt;</span><span class="kw">title</span><span class="dt">&gt;</span>Sample page<span class="dt">&lt;/</span><span class="kw">title</span><span class="dt">&gt;</span></span>
+<span id="cb15-5"><a></a> <span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb15-6"><a></a> <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb15-7"><a></a>  <span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>Sample page<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb15-8"><a></a>  <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>This is a <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"demo.html"</span><span class="dt">&gt;</span>simple<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span> sample.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb15-9"><a></a>  <span class="co">&lt;!-- this is a comment --&gt;</span></span>
+<span id="cb15-10"><a></a> <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb15-11"><a></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:50%;">
+<p>Ours:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb16" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb16-1"><a></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
+<span id="cb16-2"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="ot"> lang</span><span class="op">=</span><span class="st">"en"</span><span class="dt">&gt;</span></span>
+<span id="cb16-3"><a></a> <span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb16-4"><a></a>  <span class="dt">&lt;</span><span class="kw">title</span><span class="dt">&gt;</span>Title of your choice!<span class="dt">&lt;/</span><span class="kw">title</span><span class="dt">&gt;</span></span>
+<span id="cb16-5"><a></a> <span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb16-6"><a></a> <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb16-7"><a></a>  <span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>My Rad Page 🏍️<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb16-8"><a></a>  <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Visit <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://cd-example.github.io/bug-free-sniffle/"</span><span class="dt">&gt;</span>my repository!<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb16-9"><a></a>  <span class="co">&lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;</span></span>
+<span id="cb16-10"><a></a> <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb16-11"><a></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div></div>
+</section>
+<section id="why-8" class="slide level2">
+<h2>Why?</h2>
+<ul>
+<li>Per “indeed.com” (maybe don’t <em>just</em> trust them).
+<ul>
+<li>100+ jobs</li>
+<li>Most around $40+/hr</li>
 </ul></li>
-<li>It also builds <em>a lot</em> of valuable skills!</li>
+<li>🤑</li>
+<li>Also its fun!</li>
+</ul>
+</section></section>
+<section>
+<section id="sync" class="title-slide slide level1 center">
+<h1>🔄 Sync</h1>
+
+</section>
+<section id="what-9" class="slide level2">
+<h2>What?</h2>
+<ul>
+<li>Make sure you sync your Codespace to your repository.</li>
+<li>GitHub Pages will update automatically.</li>
+<li>Show off your work!</li>
+</ul>
+</section>
+<section id="how-9" class="slide level2">
+<h2>How?</h2>
+<ul>
+<li>You can <a href="./01_webpage.html#save-your-work">review from last time</a></li>
+</ul>
+</section>
+<section id="why-9" class="slide level2">
+<h2>Why?</h2>
+<ul>
+<li>We learn by doing!</li>
+<li>A little bit every day!</li>
 </ul>
 </section>
 <section id="today-1" class="slide level2">
 <h2>Today</h2>
 <ul class="task-list">
-<li><label><input type="checkbox" checked="">Github!</label></li>
-<li><label><input type="checkbox" checked="">HTML!</label></li>
-<li><label><input type="checkbox" checked="">Create a 📄 webpage</label></li>
+<li><label><input type="checkbox" checked="">Content!</label></li>
+<li><label><input type="checkbox" checked="">Nesting!</label></li>
+<li><label><input type="checkbox" checked="">Headings!</label></li>
 </ul>
 
 

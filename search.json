@@ -1,5 +1,684 @@
 [
   {
+    "objectID": "02_html.html",
+    "href": "02_html.html",
+    "title": "🌐 HTML!",
+    "section": "",
+    "text": "Create a webpage\nMake it well-formed\nMake it stylish\nMake it interactive\nMake it graphical\n\n\n\n\n\nContent!\nNesting!\nHeadings!",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#goals",
+    "href": "02_html.html#goals",
+    "title": "🌐 HTML!",
+    "section": "",
+    "text": "Create a webpage\nMake it well-formed\nMake it stylish\nMake it interactive\nMake it graphical",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#what",
+    "href": "02_html.html#what",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nHTML5 is the latest, greatest, and final version of “HTML”\n\nHypertext\n\nText for the internet\n\nMarkup\n\nText that describes how it should be displayed\n\nLanguage\n\nA consistent grammar for the above",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#how",
+    "href": "02_html.html#how",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nHTML Living Standard\nCheck it out!\n\nSearch (via Ctrl+f\nLook for &lt;head&gt;\nThe first “hit” will be the most basic HTML page that is well-formed\n\nThat is, doesn’t break any rules.",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#why",
+    "href": "02_html.html#why",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nThus far we relied on default behavior.\nHello, world was assumed to be:\n\nThe content of\nA paragraph in\nThe body of\nA website with\nNo name or\nSpecial formatting",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#what-1",
+    "href": "02_html.html#what-1",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nWe recall last time we:\n\nFollowed these instructions”\n\nCoding Camp\n\nCreated a GitHub repository\n\ngithub.com/&lt;account&gt;/&lt;repository&gt;\n\nWorked in GitHub Codespaces\n\nClicked on  &lt;&gt; Code 🔽\n\nCreated a corresponding GitHub page:\n\n&lt;account&gt;.github.io/&lt;repository&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#how-1",
+    "href": "02_html.html#how-1",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nI recommend having exactly these four websites open in tabs.\n\nRead these instructions\nMake changes in the Codespace\nVerify them in the repository\nAfter a few minutes, see them on the webpage",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#why-1",
+    "href": "02_html.html#why-1",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nIt is a little to easy to give up and do nothing.\nThat is no fun!\nCheck that everything works, every time.\nIt’s good practice!",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#what-2",
+    "href": "02_html.html#what-2",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nThe part of HTML we see is the content\n\nUsually text (like this)\nSometimes images, like below:\n\n\n\nAn image of an image of an image",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#how-2",
+    "href": "02_html.html#how-2",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nLet’s update index.html\nWe’ll specify that our text is a paragraph.\nWe prefix with &lt;p&gt; and suffix with &lt;/p&gt;\n\n\n\nOld:\n\n\nindex.html\n\nHello world, or some such.\n\nMaybe a second line?\n\nBut these all show up on one line.\n\nEw!\n\n\nNew:\n\n\nindex.html\n\n&lt;p&gt;Hello world, or some such.&lt;/p&gt;\n\n&lt;p&gt;Maybe a second line?&lt;/p&gt;\n\n&lt;p&gt;But these all show up on one line.&lt;/p&gt;\n\n&lt;p&gt;Ew!&lt;/p&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#why-2",
+    "href": "02_html.html#why-2",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nUntil now, we had no way to tell HTML when to start a new line.\nThis looked dreadful!\nNow we can!",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#what-3",
+    "href": "02_html.html#what-3",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nWe can include one kind of HTML content in another kind of HTML content.\nI term this “nesting”",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#how-3",
+    "href": "02_html.html#how-3",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nWe’ll use a new element - &lt;a&gt;, for links.\nAdd link from your GitHub page to your GitHub repository.\n\nChoose some link text, like “My Repository”\nEnclose in &lt;a&gt; and &lt;/a&gt;\nIn the opening tag &lt;a&gt;, add\n\nhref=&lt;the address of your repository&gt;\nMine would be &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#visually",
+    "href": "02_html.html#visually",
+    "title": "🌐 HTML!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Sample page&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;Sample page&lt;/h1&gt;\n  &lt;p&gt;This is a &lt;a href=\"demo.html\"&gt;simple&lt;/a&gt; sample.&lt;/p&gt;\n  &lt;!-- this is a comment --&gt;\n &lt;/body&gt;\n&lt;/html&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#why-3",
+    "href": "02_html.html#why-3",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nThis sort of nesting is a natural way to arrange information.\n\nLetters in words.\nWords in sentences.\nSentences in paragraphs.\nParagraphs in essays.\nEtc.",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#what-4",
+    "href": "02_html.html#what-4",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nNot every part of a webpage is content.\nTo specify just the page content, we place it within a &lt;body&gt;.",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#how-4",
+    "href": "02_html.html#how-4",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nWe’ll use a new element - &lt;body&gt;\nWe’ll buy everything so far inside it.\n\nFor me, this meant indenting everything again.",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#alert",
+    "href": "02_html.html#alert",
+    "title": "🌐 HTML!",
+    "section": "🚨 Alert!",
+    "text": "🚨 Alert!\n\nCodespaces will automatically “close” &lt;p&gt; when you type them!\n\nThis is meant to help you, and will help in time!\n\nIt is not uncommon to use line breaks:\n\n\n\nindex.html\n\n&lt;p&gt;\n    Like this!\n&lt;/p&gt;\n\n&lt;p&gt;\n    It's easier to read!\n&lt;/p&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#resolve",
+    "href": "02_html.html#resolve",
+    "title": "🌐 HTML!",
+    "section": "🤝 Resolve",
+    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an index.html there!\nYou may need to refresh/reload.",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#why-4",
+    "href": "02_html.html#why-4",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nThis doesn’t do anything yet.\nBut will allow us to add headers:\n\nWays to change how the page is understood…",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#what-5",
+    "href": "02_html.html#what-5",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nTake a look at either the:\n\nName of the window you are looking at, or\nName of the tab you are looking at\n\nIt is probably “Coding Camp - 🌐 HTML!”\n\nHow did that get there?",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#how-5",
+    "href": "02_html.html#how-5",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nWe can specify:\n\nPage title\nStyle using CSS (latter)\nScripts using JS (latter)\n\nAdd to the beginning of your page:\n\n\n\nindex.html\n\n&lt;head&gt;\n    &lt;title&gt;\n        Title of your choice!\n    &lt;/title&gt;\n&lt;body&gt;\n    ...",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#visually-1",
+    "href": "02_html.html#visually-1",
+    "title": "🌐 HTML!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\n\nindex.html\n\n&lt;h1&gt;\n    My Rad Page 🏍️\n&lt;/h1&gt;\n\n&lt;p&gt;\n    I have interesting thoughts to share!\n&lt;/p&gt;\n\n&lt;p&gt;\n    Visit\n    &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;\n        my repository!\n    &lt;/a&gt;\n&lt;/p&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#why-5",
+    "href": "02_html.html#why-5",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nLess important than it used to be, though still looks sharp.\nHistorically important for search engines!",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#what-6",
+    "href": "02_html.html#what-6",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nIn the very early days there were (maybe?) formats other than HTML.\nI don’t know what they would be!\nBut there were at least other versions (namely 1-4)\nSo HTML pages should specify they are… HTML!",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#how-6",
+    "href": "02_html.html#how-6",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nEnclose everything within an &lt;html&gt; element.\n\nIf in English, usually &lt;html lang=\"en\"&gt;\n\nAdd a file header for ducment type\n\nFor HTML, this is &lt;!DOCTYPE html&gt;\n\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n  &lt;body&gt;\n      ...\n  &lt;/body&gt;\n&lt;/html&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#why-6",
+    "href": "02_html.html#why-6",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nMakes things easier (and therefore faster) for web browsers.\nMark of professionalism.",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#today",
+    "href": "02_html.html#today",
+    "title": "🌐 HTML!",
+    "section": "",
+    "text": "Content!\nNesting!\nHeadings!",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.rjs.html#goals",
+    "href": "02_html.rjs.html#goals",
+    "title": "🌐 HTML!",
+    "section": "Goals",
+    "text": "Goals\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it interactive\nMake it graphical"
+  },
+  {
+    "objectID": "02_html.rjs.html#what",
+    "href": "02_html.rjs.html#what",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nHTML5 is the latest, greatest, and final version of “HTML”\n\nHypertext\n\nText for the internet\n\nMarkup\n\nText that describes how it should be displayed\n\nLanguage\n\nA consistent grammar for the above"
+  },
+  {
+    "objectID": "02_html.rjs.html#how",
+    "href": "02_html.rjs.html#how",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nHTML Living Standard\nCheck it out!\n\nSearch (via Ctrl+f\nLook for &lt;head&gt;\nThe first “hit” will be the most basic HTML page that is well-formed\n\nThat is, doesn’t break any rules."
+  },
+  {
+    "objectID": "02_html.rjs.html#why",
+    "href": "02_html.rjs.html#why",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nThus far we relied on default behavior.\nHello, world was assumed to be:\n\nThe content of\nA paragraph in\nThe body of\nA website with\nNo name or\nSpecial formatting"
+  },
+  {
+    "objectID": "02_html.rjs.html#what-1",
+    "href": "02_html.rjs.html#what-1",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nWe recall last time we:\n\nFollowed these instructions”\n\nCoding Camp\n\nCreated a GitHub repository\n\ngithub.com/&lt;account&gt;/&lt;repository&gt;\n\nWorked in GitHub Codespaces\n\nClicked on  &lt;&gt; Code 🔽\n\nCreated a corresponding GitHub page:\n\n&lt;account&gt;.github.io/&lt;repository&gt;"
+  },
+  {
+    "objectID": "02_html.rjs.html#how-1",
+    "href": "02_html.rjs.html#how-1",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nI recommend having exactly these four websites open in tabs.\n\nRead these instructions\nMake changes in the Codespace\nVerify them in the repository\nAfter a few minutes, see them on the webpage"
+  },
+  {
+    "objectID": "02_html.rjs.html#why-1",
+    "href": "02_html.rjs.html#why-1",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nIt is a little to easy to give up and do nothing.\nThat is no fun!\nCheck that everything works, every time.\nIt’s good practice!"
+  },
+  {
+    "objectID": "02_html.rjs.html#what-2",
+    "href": "02_html.rjs.html#what-2",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nThe part of HTML we see is the content\n\nUsually text (like this)\nSometimes images, like below:\n\n\n\nAn image of an image of an image"
+  },
+  {
+    "objectID": "02_html.rjs.html#how-2",
+    "href": "02_html.rjs.html#how-2",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nLet’s update index.html\nWe’ll specify that our text is a paragraph.\nWe prefix with &lt;p&gt; and suffix with &lt;/p&gt;\n\n\n\nOld:\n\n\nindex.html\n\nHello world, or some such.\n\nMaybe a second line?\n\nBut these all show up on one line.\n\nEw!\n\n\nNew:\n\n\nindex.html\n\n&lt;p&gt;Hello world, or some such.&lt;/p&gt;\n\n&lt;p&gt;Maybe a second line?&lt;/p&gt;\n\n&lt;p&gt;But these all show up on one line.&lt;/p&gt;\n\n&lt;p&gt;Ew!&lt;/p&gt;"
+  },
+  {
+    "objectID": "02_html.rjs.html#why-2",
+    "href": "02_html.rjs.html#why-2",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nUntil now, we had no way to tell HTML when to start a new line.\nThis looked dreadful!\nNow we can!"
+  },
+  {
+    "objectID": "02_html.rjs.html#what-3",
+    "href": "02_html.rjs.html#what-3",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nWe can include one kind of HTML content in another kind of HTML content.\nI term this “nesting”"
+  },
+  {
+    "objectID": "02_html.rjs.html#how-3",
+    "href": "02_html.rjs.html#how-3",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nWe’ll use a new element - &lt;a&gt;, for links.\nAdd link from your GitHub page to your GitHub repository.\n\nChoose some link text, like “My Repository”\nEnclose in &lt;a&gt; and &lt;/a&gt;\nIn the opening tag &lt;a&gt;, add\n\nhref=&lt;the address of your repository&gt;\nMine would be &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;"
+  },
+  {
+    "objectID": "02_html.rjs.html#visually",
+    "href": "02_html.rjs.html#visually",
+    "title": "🌐 HTML!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Sample page&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;Sample page&lt;/h1&gt;\n  &lt;p&gt;This is a &lt;a href=\"demo.html\"&gt;simple&lt;/a&gt; sample.&lt;/p&gt;\n  &lt;!-- this is a comment --&gt;\n &lt;/body&gt;\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "02_html.rjs.html#why-3",
+    "href": "02_html.rjs.html#why-3",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nThis sort of nesting is a natural way to arrange information.\n\nLetters in words.\nWords in sentences.\nSentences in paragraphs.\nParagraphs in essays.\nEtc."
+  },
+  {
+    "objectID": "02_html.rjs.html#what-4",
+    "href": "02_html.rjs.html#what-4",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nNot every part of a webpage is content.\nTo specify just the page content, we place it within a &lt;body&gt;."
+  },
+  {
+    "objectID": "02_html.rjs.html#how-4",
+    "href": "02_html.rjs.html#how-4",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nWe’ll use a new element - &lt;body&gt;\nWe’ll buy everything so far inside it.\n\nFor me, this meant indenting everything again."
+  },
+  {
+    "objectID": "02_html.rjs.html#alert",
+    "href": "02_html.rjs.html#alert",
+    "title": "🌐 HTML!",
+    "section": "🚨 Alert!",
+    "text": "🚨 Alert!\n\nCodespaces will automatically “close” &lt;p&gt; when you type them!\n\nThis is meant to help you, and will help in time!\n\nIt is not uncommon to use line breaks:\n\n\n\nindex.html\n\n&lt;p&gt;\n    Like this!\n&lt;/p&gt;\n\n&lt;p&gt;\n    It's easier to read!\n&lt;/p&gt;"
+  },
+  {
+    "objectID": "02_html.rjs.html#resolve",
+    "href": "02_html.rjs.html#resolve",
+    "title": "🌐 HTML!",
+    "section": "🤝 Resolve",
+    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an index.html there!\nYou may need to refresh/reload."
+  },
+  {
+    "objectID": "02_html.rjs.html#why-4",
+    "href": "02_html.rjs.html#why-4",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nThis doesn’t do anything yet.\nBut will allow us to add headers:\n\nWays to change how the page is understood…"
+  },
+  {
+    "objectID": "02_html.rjs.html#what-5",
+    "href": "02_html.rjs.html#what-5",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nTake a look at either the:\n\nName of the window you are looking at, or\nName of the tab you are looking at\n\nIt is probably “Coding Camp - 🌐 HTML!”\n\nHow did that get there?"
+  },
+  {
+    "objectID": "02_html.rjs.html#how-5",
+    "href": "02_html.rjs.html#how-5",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nWe can specify:\n\nPage title\nStyle using CSS (latter)\nScripts using JS (latter)\n\nAdd to the beginning of your page:\n\n\n\nindex.html\n\n&lt;head&gt;\n    &lt;title&gt;\n        Title of your choice!\n    &lt;/title&gt;\n&lt;body&gt;\n    ..."
+  },
+  {
+    "objectID": "02_html.rjs.html#visually-1",
+    "href": "02_html.rjs.html#visually-1",
+    "title": "🌐 HTML!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\n\nindex.html\n\n&lt;h1&gt;\n    My Rad Page 🏍️\n&lt;/h1&gt;\n\n&lt;p&gt;\n    I have interesting thoughts to share!\n&lt;/p&gt;\n\n&lt;p&gt;\n    Visit\n    &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;\n        my repository!\n    &lt;/a&gt;\n&lt;/p&gt;"
+  },
+  {
+    "objectID": "02_html.rjs.html#why-5",
+    "href": "02_html.rjs.html#why-5",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nLess important than it used to be, though still looks sharp.\nHistorically important for search engines!"
+  },
+  {
+    "objectID": "02_html.rjs.html#what-6",
+    "href": "02_html.rjs.html#what-6",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nIn the very early days there were (maybe?) formats other than HTML.\nI don’t know what they would be!\nBut there were at least other versions (namely 1-4)\nSo HTML pages should specify they are… HTML!"
+  },
+  {
+    "objectID": "02_html.rjs.html#how-6",
+    "href": "02_html.rjs.html#how-6",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nEnclose everything within an &lt;html&gt; element.\n\nIf in English, usually &lt;html lang=\"en\"&gt;\n\nAdd a file header for ducment type\n\nFor HTML, this is &lt;!DOCTYPE html&gt;\n\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n  &lt;body&gt;\n      ...\n  &lt;/body&gt;\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "02_html.rjs.html#why-6",
+    "href": "02_html.rjs.html#why-6",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nMakes things easier (and therefore faster) for web browsers.\nMark of professionalism."
+  },
+  {
+    "objectID": "02_html.rjs.html#today",
+    "href": "02_html.rjs.html#today",
+    "title": "🌐 HTML!",
+    "section": "Today",
+    "text": "Today\n\nContent!\nNesting!\nHeadings!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#about-me",
+    "href": "01_webpage.rjs.html#about-me",
+    "title": "📄 Webpages!",
+    "section": "About Me",
+    "text": "About Me\n\nName\n\n(Prof.) Calvin (Deutschbein)\n\nEmail\n\nckdeutschbein\n\nWebsite\n\ncd-public.github.io\n\nField\n\nHardware Security, Computer Systems\n\nPronouns\n\nThey/Them"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#goals",
+    "href": "01_webpage.rjs.html#goals",
+    "title": "📄 Webpages!",
+    "section": "Goals",
+    "text": "Goals\n\nCreate a webpage\nMake it stylish\nMake it dynamic\nMake it interactive\nMake it graphical"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#technologies",
+    "href": "01_webpage.rjs.html#technologies",
+    "title": "📄 Webpages!",
+    "section": "Technologies",
+    "text": "Technologies\n\nGitHub!\n\nThe worlds #1 online collaboration platform!\n\nThree languages.\n\nHTML - for text.\nCSS - for style.\nJavaScript - for action."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#today",
+    "href": "01_webpage.rjs.html#today",
+    "title": "📄 Webpages!",
+    "section": "Today",
+    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what",
+    "href": "01_webpage.rjs.html#what",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCreate a GitHub account!\n\nUse whatever name and password you want…\n\nBut make sure you remember them!\n\nI really recommend using your .edu email address!\n\nYou get extra goodies!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how",
+    "href": "01_webpage.rjs.html#how",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating an account on GitHub\nOr:\n\nGo to GitHub.com\nEnter your email.\nClick Sign up for GitHub\nFollow the steps!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why",
+    "href": "01_webpage.rjs.html#why",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nGitHub is a great tool for:\n\nLearning new technologies.\nSharing your projects.\nWorking on projects together.\nCreating websites or portfolios.\n\nI wish I’d learned about it sooner!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-1",
+    "href": "01_webpage.rjs.html#what-1",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCreate a GitHub repository!\n\nRepositories are how GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-1",
+    "href": "01_webpage.rjs.html#how-1",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nQuickstart for repositories\nOr:\n\nGo to GitHub.com\n\nIt should look different now that you’re logged in!\n\nClick  New\n\nGive it a name\nAdd a README file\nClick Create Repositry"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-1",
+    "href": "01_webpage.rjs.html#why-1",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\n\n\nStore files that make up a webpage:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-2",
+    "href": "01_webpage.rjs.html#what-2",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nOpen a GitHub codespace!\n\nOnline code editor\n\nGoogle Docs for code.\n\nHas a lot of options.\n\nWe won’t use most of them.\nThere’s plenty of room to grow!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-2",
+    "href": "01_webpage.rjs.html#how-2",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating a codespace for a repository\nOr:\n\nOn the page for the respository you created…\n\ngithub.com/&lt;account name&gt;/&lt;repository name&gt;\n\nClick  &lt;&gt; Code 🔽\nClick the “Codespaces” tab.\nClick Create codespace on main\nA new window will open… slowly."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-2",
+    "href": "01_webpage.rjs.html#why-2",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nEdit files that make up a webpages:\n\n“HTML” page “content”.\n\nWe’ll do this one first!\nIt is the foundation of all webpages!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-3",
+    "href": "01_webpage.rjs.html#what-3",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nNow: The first achievement when coding!\n“Hello, world!”\nWithin GitHub codespaces, create a new file.\n\nIt must be called index.html\nHTML for “hypertext markup language”\nThe language of the internet!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-3",
+    "href": "01_webpage.rjs.html#how-3",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\nTwo overlapping files \nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#visually",
+    "href": "01_webpage.rjs.html#visually",
+    "title": "📄 Webpages!",
+    "section": "👀 Visually",
+    "text": "👀 Visually"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-3",
+    "href": "01_webpage.rjs.html#why-3",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe want to be able to determine what appears on our webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-4",
+    "href": "01_webpage.rjs.html#what-4",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nWe need changes made in codespaces to become changes in the repository.\n\nYou may wonder why this isn’t automatic: I’m not sure!\n\nTo do so we will change from the “Explorer” activity to the “Source Control” activity\n\nIt’s the technical term for “keeping track of code”\n\nLots of paperwork!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-4",
+    "href": "01_webpage.rjs.html#how-4",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nClick the \nClick  ✓ Commit \n\nI get a box pop-up and say Always"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#alert",
+    "href": "01_webpage.rjs.html#alert",
+    "title": "📄 Webpages!",
+    "section": "🚨 Alert!",
+    "text": "🚨 Alert!\n\nThis pops up :\n\n\n\nCOMMIT_EDITMSG\n\n\n# Please enter the commit message for your changes. Lines starting\n# with '#' will be ignored, and an empty message aborts the commit.\n#\n# On branch main\n# Your branch is up to date with 'origin/main'.\n#\n# Changes to be committed:\n#   new file:   index.html\n#\n\n\n\n\n\n\n\nCaution\n\n\nWe must name our changes."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#resolve",
+    "href": "01_webpage.rjs.html#resolve",
+    "title": "📄 Webpages!",
+    "section": "🤝 Resolve",
+    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an index.html there!\nYou may need to refresh/reload."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-4",
+    "href": "01_webpage.rjs.html#why-4",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it be easier, but that’s okay!\nIt gets better every year!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-5",
+    "href": "01_webpage.rjs.html#what-5",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nLet’s take index.html and make it a webpage!\nWe’ll use “GitHub Pages”\n\nNot too hard to set up…\nI use it a lot for fun 😬\n\nYou’ll be able to show anything you do to friends and family!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-5",
+    "href": "01_webpage.rjs.html#how-5",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating a GitHub Pages site\nOr:\n\nBack on the repository page… - &lt;account name&gt;.github.io/&lt;repository name&gt;\nWe’ll change repository settings.\n\nOn the top, click on  Settings\nOn the left, click on  Pages\nIn the middle, under branch, change “None” to “Main” via the drop-down menu."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#visually-1",
+    "href": "01_webpage.rjs.html#visually-1",
+    "title": "📄 Webpages!",
+    "section": "Visually",
+    "text": "Visually"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-5",
+    "href": "01_webpage.rjs.html#why-5",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe get to examine what we did!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-6",
+    "href": "01_webpage.rjs.html#what-6",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCheck our work.\nLearn how to see where updates will show up.\n\nA few minutes after “Commit+Sync”\n\nTell ourselves we did a good job!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-6",
+    "href": "01_webpage.rjs.html#how-6",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nOr:\n\nBack to &lt;&gt; Code\nBottom right, under “Deployments”, click github-pages\nThere will be a link on this page under the heading github-pages"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-6",
+    "href": "01_webpage.rjs.html#why-6",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nThere’s many ways to publish online but this is…\n\nFree.\nRelatively quick (minutes, not hours).\nPowerful enough for interactive, public webpages.\n\nIt also builds a lot of valuable skills!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#today-1",
+    "href": "01_webpage.rjs.html#today-1",
+    "title": "📄 Webpages!",
+    "section": "Today",
+    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage"
+  },
+  {
     "objectID": "01_webpage.html",
     "href": "01_webpage.html",
     "title": "📄 Webpages!",
@@ -310,213 +989,292 @@
     ]
   },
   {
-    "objectID": "01_webpage.rjs.html#about-me",
-    "href": "01_webpage.rjs.html#about-me",
-    "title": "📄 Webpages!",
-    "section": "About Me",
-    "text": "About Me\n\nName\n\n(Prof.) Calvin (Deutschbein)\n\nEmail\n\nckdeutschbein\n\nWebsite\n\ncd-public.github.io\n\nField\n\nHardware Security, Computer Systems\n\nPronouns\n\nThey/Them"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#goals",
-    "href": "01_webpage.rjs.html#goals",
-    "title": "📄 Webpages!",
-    "section": "Goals",
-    "text": "Goals\n\nCreate a webpage\nMake it stylish\nMake it dynamic\nMake it interactive\nMake it graphical"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#technologies",
-    "href": "01_webpage.rjs.html#technologies",
-    "title": "📄 Webpages!",
-    "section": "Technologies",
-    "text": "Technologies\n\nGitHub!\n\nThe worlds #1 online collaboration platform!\n\nThree languages.\n\nHTML - for text.\nCSS - for style.\nJavaScript - for action."
-  },
-  {
-    "objectID": "01_webpage.rjs.html#today",
-    "href": "01_webpage.rjs.html#today",
-    "title": "📄 Webpages!",
-    "section": "Today",
-    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#what",
-    "href": "01_webpage.rjs.html#what",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nCreate a GitHub account!\n\nUse whatever name and password you want…\n\nBut make sure you remember them!\n\nI really recommend using your .edu email address!\n\nYou get extra goodies!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how",
-    "href": "01_webpage.rjs.html#how",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nCreating an account on GitHub\nOr:\n\nGo to GitHub.com\nEnter your email.\nClick Sign up for GitHub\nFollow the steps!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#why",
-    "href": "01_webpage.rjs.html#why",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nGitHub is a great tool for:\n\nLearning new technologies.\nSharing your projects.\nWorking on projects together.\nCreating websites or portfolios.\n\nI wish I’d learned about it sooner!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#what-1",
-    "href": "01_webpage.rjs.html#what-1",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nCreate a GitHub repository!\n\nRepositories are how GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how-1",
-    "href": "01_webpage.rjs.html#how-1",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nQuickstart for repositories\nOr:\n\nGo to GitHub.com\n\nIt should look different now that you’re logged in!\n\nClick  New\n\nGive it a name\nAdd a README file\nClick Create Repositry"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#why-1",
-    "href": "01_webpage.rjs.html#why-1",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\n\n\nStore files that make up a webpage:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#what-2",
-    "href": "01_webpage.rjs.html#what-2",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nOpen a GitHub codespace!\n\nOnline code editor\n\nGoogle Docs for code.\n\nHas a lot of options.\n\nWe won’t use most of them.\nThere’s plenty of room to grow!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how-2",
-    "href": "01_webpage.rjs.html#how-2",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nCreating a codespace for a repository\nOr:\n\nOn the page for the respository you created…\n\ngithub.com/&lt;account name&gt;/&lt;repository name&gt;\n\nClick  &lt;&gt; Code 🔽\nClick the “Codespaces” tab.\nClick Create codespace on main\nA new window will open… slowly."
-  },
-  {
-    "objectID": "01_webpage.rjs.html#why-2",
-    "href": "01_webpage.rjs.html#why-2",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nEdit files that make up a webpages:\n\n“HTML” page “content”.\n\nWe’ll do this one first!\nIt is the foundation of all webpages!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#what-3",
-    "href": "01_webpage.rjs.html#what-3",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nNow: The first achievement when coding!\n“Hello, world!”\nWithin GitHub codespaces, create a new file.\n\nIt must be called index.html\nHTML for “hypertext markup language”\nThe language of the internet!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how-3",
-    "href": "01_webpage.rjs.html#how-3",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\nTwo overlapping files \nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#visually",
-    "href": "01_webpage.rjs.html#visually",
-    "title": "📄 Webpages!",
+    "objectID": "02_html.html#visually-2",
+    "href": "02_html.html#visually-2",
+    "title": "🌐 HTML!",
     "section": "👀 Visually",
-    "text": "👀 Visually"
+    "text": "👀 Visually\n\n\nindex.html\n\n&lt;body&gt;\n    &lt;h1&gt;\n        My Rad Page 🏍️\n    &lt;/h1&gt;\n\n    &lt;p&gt;\n        I have interesting thoughts to share!\n    &lt;/p&gt;\n\n    &lt;p&gt;\n        Visit\n        &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;\n            my repository!\n        &lt;/a&gt;\n    &lt;/p&gt;\n&lt;/body&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
   },
   {
-    "objectID": "01_webpage.rjs.html#why-3",
-    "href": "01_webpage.rjs.html#why-3",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nWe want to be able to determine what appears on our webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!"
+    "objectID": "02_html.rjs.html#visually-2",
+    "href": "02_html.rjs.html#visually-2",
+    "title": "🌐 HTML!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\n\nindex.html\n\n&lt;body&gt;\n    &lt;h1&gt;\n        My Rad Page 🏍️\n    &lt;/h1&gt;\n\n    &lt;p&gt;\n        I have interesting thoughts to share!\n    &lt;/p&gt;\n\n    &lt;p&gt;\n        Visit\n        &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;\n            my repository!\n        &lt;/a&gt;\n    &lt;/p&gt;\n&lt;/body&gt;"
   },
   {
-    "objectID": "01_webpage.rjs.html#what-4",
-    "href": "01_webpage.rjs.html#what-4",
-    "title": "📄 Webpages!",
+    "objectID": "02_html.html#what-7",
+    "href": "02_html.html#what-7",
+    "title": "🌐 HTML!",
     "section": "What?",
-    "text": "What?\n\nWe need changes made in codespaces to become changes in the repository.\n\nYou may wonder why this isn’t automatic: I’m not sure!\n\nTo do so we will change from the “Explorer” activity to the “Source Control” activity\n\nIt’s the technical term for “keeping track of code”\n\nLots of paperwork!"
+    "text": "What?\n\nSometimes we want to leave notes to ourselves or other web developers.\nWe don’t need everyone visiting our page to see them.\nWe do this using the special “comment” element.",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
   },
   {
-    "objectID": "01_webpage.rjs.html#how-4",
-    "href": "01_webpage.rjs.html#how-4",
-    "title": "📄 Webpages!",
+    "objectID": "02_html.rjs.html#what-7",
+    "href": "02_html.rjs.html#what-7",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nSometimes we want to leave notes to ourselves or other web developers.\nWe don’t need everyone visiting our page to see them.\nWe do this using the special “comment” element."
+  },
+  {
+    "objectID": "02_html.html#alert-1",
+    "href": "02_html.html#alert-1",
+    "title": "🌐 HTML!",
+    "section": "🚨 Alert!",
+    "text": "🚨 Alert!\n\nThis pops up :\n\n\n\nCOMMIT_EDITMSG\n\n\n# Please enter the commit message for your changes. Lines starting\n# with '#' will be ignored, and an empty message aborts the commit.\n#\n# On branch main\n# Your branch is up to date with 'origin/main'.\n#\n# Changes to be committed:\n#   new file:   index.html\n#\n\n\n\n\n\n\n\nCaution\n\n\n\nWe must name our changes.",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#how-7",
+    "href": "02_html.html#how-7",
+    "title": "🌐 HTML!",
     "section": "How?",
-    "text": "How?\n\nClick the \nClick  ✓ Commit \n\nI get a box pop-up and say Always"
+    "text": "How?\n\nTake some content you don’t want to display.\nEnclose in &lt;!-- and --&gt;\n\n\n\ncomment_example.html\n\n&lt;body&gt;\n    &lt;p&gt;\n        This is visible.\n        &lt;!-- This isn't. --&gt;\n    &lt;/p&gt;\n&lt;/body&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
   },
   {
-    "objectID": "01_webpage.rjs.html#alert",
-    "href": "01_webpage.rjs.html#alert",
-    "title": "📄 Webpages!",
+    "objectID": "02_html.html#why-7",
+    "href": "02_html.html#why-7",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nI most usually it to keep track of notes.\nMany of my pages have the following:\n\n\n\nindex.html\n\n&lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.rjs.html#alert-1",
+    "href": "02_html.rjs.html#alert-1",
+    "title": "🌐 HTML!",
     "section": "🚨 Alert!",
     "text": "🚨 Alert!\n\nThis pops up :\n\n\n\nCOMMIT_EDITMSG\n\n\n# Please enter the commit message for your changes. Lines starting\n# with '#' will be ignored, and an empty message aborts the commit.\n#\n# On branch main\n# Your branch is up to date with 'origin/main'.\n#\n# Changes to be committed:\n#   new file:   index.html\n#\n\n\n\n\n\n\n\nCaution\n\n\nWe must name our changes."
   },
   {
-    "objectID": "01_webpage.rjs.html#resolve",
-    "href": "01_webpage.rjs.html#resolve",
-    "title": "📄 Webpages!",
-    "section": "🤝 Resolve",
-    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an index.html there!\nYou may need to refresh/reload."
-  },
-  {
-    "objectID": "01_webpage.rjs.html#why-4",
-    "href": "01_webpage.rjs.html#why-4",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it be easier, but that’s okay!\nIt gets better every year!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#what-5",
-    "href": "01_webpage.rjs.html#what-5",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nLet’s take index.html and make it a webpage!\nWe’ll use “GitHub Pages”\n\nNot too hard to set up…\nI use it a lot for fun 😬\n\nYou’ll be able to show anything you do to friends and family!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how-5",
-    "href": "01_webpage.rjs.html#how-5",
-    "title": "📄 Webpages!",
+    "objectID": "02_html.rjs.html#how-7",
+    "href": "02_html.rjs.html#how-7",
+    "title": "🌐 HTML!",
     "section": "How?",
-    "text": "How?\n\nCreating a GitHub Pages site\nOr:\n\nBack on the repository page… - &lt;account name&gt;.github.io/&lt;repository name&gt;\nWe’ll change repository settings.\n\nOn the top, click on  Settings\nOn the left, click on  Pages\nIn the middle, under branch, change “None” to “Main” via the drop-down menu."
+    "text": "How?\n\nTake some content you don’t want to display.\nEnclose in &lt;!-- and --&gt;\n\n\n\ncomment_example.html\n\n&lt;body&gt;\n    &lt;p&gt;\n        This is visible.\n        &lt;!-- This isn't. --&gt;\n    &lt;/p&gt;\n&lt;/body&gt;"
   },
   {
-    "objectID": "01_webpage.rjs.html#visually-1",
-    "href": "01_webpage.rjs.html#visually-1",
-    "title": "📄 Webpages!",
+    "objectID": "02_html.rjs.html#why-7",
+    "href": "02_html.rjs.html#why-7",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nI most usually it to keep track of notes.\nMany of my pages have the following:\n\n\n\nindex.html\n\n&lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;"
+  },
+  {
+    "objectID": "02_html.html#caution",
+    "href": "02_html.html#caution",
+    "title": "🌐 HTML!",
+    "section": "⚠️ Caution",
+    "text": "⚠️ Caution\n\nUsually nothing breaks if you omit the closing tag &lt;/p&gt;\nIt is considered poor form because it can cause problems in more complicated cases.\n\n\n\nindex.html\n\n&lt;p&gt;This will work but is sketchy.",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#bonus",
+    "href": "02_html.html#bonus",
+    "title": "🌐 HTML!",
+    "section": "🏆 Bonus!",
+    "text": "🏆 Bonus!\n\nYou don’t only have to use &lt;p&gt;, of course!\nThe next most common are headings - &lt;h1&gt; is the biggest.\nTry giving your webpage a heading perhaps saying it’s mine.\n\n\n\nindex.html\n\n&lt;h1&gt;My Rad Page 🏍️&lt;/h1&gt;\n\n&lt;p&gt;I have interesting thoughts to share!&lt;/p&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.rjs.html#caution",
+    "href": "02_html.rjs.html#caution",
+    "title": "🌐 HTML!",
+    "section": "⚠️ Caution",
+    "text": "⚠️ Caution\n\nUsually nothing breaks if you omit the closing tag &lt;/p&gt;\nIt is considered poor form because it can cause problems in more complicated cases.\n\n\n\nindex.html\n\n&lt;p&gt;This will work but is sketchy."
+  },
+  {
+    "objectID": "02_html.rjs.html#bonus",
+    "href": "02_html.rjs.html#bonus",
+    "title": "🌐 HTML!",
+    "section": "🏆 Bonus!",
+    "text": "🏆 Bonus!\n\nYou don’t only have to use &lt;p&gt;, of course!\nThe next most common are headings - &lt;h1&gt; is the biggest.\nTry giving your webpage a heading perhaps saying it’s mine.\n\n\n\nindex.html\n\n&lt;h1&gt;My Rad Page 🏍️&lt;/h1&gt;\n\n&lt;p&gt;I have interesting thoughts to share!&lt;/p&gt;"
+  },
+  {
+    "objectID": "02_html.html#visually-3",
+    "href": "02_html.html#visually-3",
+    "title": "🌐 HTML!",
+    "section": "Visually",
+    "text": "Visually",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.rjs.html#visually-3",
+    "href": "02_html.rjs.html#visually-3",
+    "title": "🌐 HTML!",
     "section": "Visually",
     "text": "Visually"
   },
   {
-    "objectID": "01_webpage.rjs.html#why-5",
-    "href": "01_webpage.rjs.html#why-5",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nWe get to examine what we did!"
+    "objectID": "02_html.html#an-aside",
+    "href": "02_html.html#an-aside",
+    "title": "🌐 HTML!",
+    "section": "🥷 An Aside",
+    "text": "🥷 An Aside\n\nContent is enclosed in “tags”, like &lt;p&gt;\nContent and tag is called an element.\n\n\n\n\nThing\nTerm\n\n\n\n\nHello\nContent\n\n\n&lt;p&gt;\nTag\n\n\n&lt;p&gt;Hello&lt;/p&gt;\nElement\n\n\n\n\nMost useful to look up how to do things.\n\nE.g. center text with the &lt;center&gt; tag.",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
   },
   {
-    "objectID": "01_webpage.rjs.html#what-6",
-    "href": "01_webpage.rjs.html#what-6",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nCheck our work.\nLearn how to see where updates will show up.\n\nA few minutes after “Commit+Sync”\n\nTell ourselves we did a good job!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how-6",
-    "href": "01_webpage.rjs.html#how-6",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nOr:\n\nBack to &lt;&gt; Code\nBottom right, under “Deployments”, click github-pages\nThere will be a link on this page under the heading github-pages"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#why-6",
-    "href": "01_webpage.rjs.html#why-6",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nThere’s many ways to publish online but this is…\n\nFree.\nRelatively quick (minutes, not hours).\nPowerful enough for interactive, public webpages.\n\nIt also builds a lot of valuable skills!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#today-1",
-    "href": "01_webpage.rjs.html#today-1",
-    "title": "📄 Webpages!",
+    "objectID": "02_html.html#today-1",
+    "href": "02_html.html#today-1",
+    "title": "🌐 HTML!",
     "section": "Today",
-    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage"
+    "text": "Today\n\nContent!\nNesting!\nHeadings!",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.rjs.html#an-aside",
+    "href": "02_html.rjs.html#an-aside",
+    "title": "🌐 HTML!",
+    "section": "🥷 An Aside",
+    "text": "🥷 An Aside\n\nContent is enclosed in “tags”, like &lt;p&gt;\nContent and tag is called an element.\n\n\n\n\nThing\nTerm\n\n\n\n\nHello\nContent\n\n\n&lt;p&gt;\nTag\n\n\n&lt;p&gt;Hello&lt;/p&gt;\nElement\n\n\n\n\nMost useful to look up how to do things.\n\nE.g. center text with the &lt;center&gt; tag."
+  },
+  {
+    "objectID": "02_html.rjs.html#today-1",
+    "href": "02_html.rjs.html#today-1",
+    "title": "🌐 HTML!",
+    "section": "Today",
+    "text": "Today\n\nContent!\nNesting!\nHeadings!"
+  },
+  {
+    "objectID": "02_html.html#caution-1",
+    "href": "02_html.html#caution-1",
+    "title": "🌐 HTML!",
+    "section": "⚠️ Caution",
+    "text": "⚠️ Caution\n\nWe can nest but not overlap.\nConsider the example using bold and italics\nTry this:\n\n\n\nbad\n\n&lt;p&gt;This is &lt;em&gt;very &lt;strong&gt;wrong&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;\n\n\nThis is very wrong!\n\n\nAnd this:\n\n\n\ngood\n\n&lt;p&gt;This &lt;em&gt;is &lt;strong&gt;correct&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;\n\n\nThis is correct.",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.rjs.html#caution-1",
+    "href": "02_html.rjs.html#caution-1",
+    "title": "🌐 HTML!",
+    "section": "⚠️ Caution",
+    "text": "⚠️ Caution\n\nWe can nest but not overlap.\nConsider the example using bold and italics\nTry this:\n\n\n\nbad\n\n&lt;p&gt;This is &lt;em&gt;very &lt;strong&gt;wrong&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;\n\n\nThis is very wrong!\n\n\nAnd this:\n\n\n\ngood\n\n&lt;p&gt;This &lt;em&gt;is &lt;strong&gt;correct&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;\n\n\nThis is correct."
+  },
+  {
+    "objectID": "02_html.html#what-8",
+    "href": "02_html.html#what-8",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nWe have now covered all the requirements to make a well-formed HTML page!",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#how-8",
+    "href": "02_html.html#how-8",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\n\nExample:\n\n\nexample.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Sample page&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;Sample page&lt;/h1&gt;\n  &lt;p&gt;This is a &lt;a href=\"demo.html\"&gt;simple&lt;/a&gt; sample.&lt;/p&gt;\n  &lt;!-- this is a comment --&gt;\n &lt;/body&gt;\n&lt;/html&gt;\n\n\nOurs:\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Title of your choice!&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;My Rad Page 🏍️&lt;/h1&gt;\n  &lt;p&gt;Visit &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;my repository!&lt;/a&gt;&lt;/p&gt;\n  &lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;\n &lt;/body&gt;\n&lt;/html&gt;",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#why-8",
+    "href": "02_html.html#why-8",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nPer “indeed.com” (maybe don’t just trust them).\n\n100+ jobs\nMost around $40+/hr\n\n🤑\nAlso its fun!",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.rjs.html#what-8",
+    "href": "02_html.rjs.html#what-8",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nWe have now covered all the requirements to make a well-formed HTML page!"
+  },
+  {
+    "objectID": "02_html.rjs.html#how-8",
+    "href": "02_html.rjs.html#how-8",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\n\nExample:\n\n\nexample.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Sample page&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;Sample page&lt;/h1&gt;\n  &lt;p&gt;This is a &lt;a href=\"demo.html\"&gt;simple&lt;/a&gt; sample.&lt;/p&gt;\n  &lt;!-- this is a comment --&gt;\n &lt;/body&gt;\n&lt;/html&gt;\n\n\nOurs:\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Title of your choice!&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;My Rad Page 🏍️&lt;/h1&gt;\n  &lt;p&gt;Visit &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;my repository!&lt;/a&gt;&lt;/p&gt;\n  &lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;\n &lt;/body&gt;\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "02_html.rjs.html#why-8",
+    "href": "02_html.rjs.html#why-8",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nPer “indeed.com” (maybe don’t just trust them).\n\n100+ jobs\nMost around $40+/hr\n\n🤑\nAlso its fun!"
+  },
+  {
+    "objectID": "02_html.html#what-9",
+    "href": "02_html.html#what-9",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nMake sure you sync your Codespace to your repository.\nGitHub Pages will update automatically.\nShow off your work!",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#how-9",
+    "href": "02_html.html#how-9",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nYou can review from last time",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.html#why-9",
+    "href": "02_html.html#why-9",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nWe learn by doing!\nA little bit every day!",
+    "crumbs": [
+      "🌐 HTML!"
+    ]
+  },
+  {
+    "objectID": "02_html.rjs.html#what-9",
+    "href": "02_html.rjs.html#what-9",
+    "title": "🌐 HTML!",
+    "section": "What?",
+    "text": "What?\n\nMake sure you sync your Codespace to your repository.\nGitHub Pages will update automatically.\nShow off your work!"
+  },
+  {
+    "objectID": "02_html.rjs.html#how-9",
+    "href": "02_html.rjs.html#how-9",
+    "title": "🌐 HTML!",
+    "section": "How?",
+    "text": "How?\n\nYou can review from last time"
+  },
+  {
+    "objectID": "02_html.rjs.html#why-9",
+    "href": "02_html.rjs.html#why-9",
+    "title": "🌐 HTML!",
+    "section": "Why?",
+    "text": "Why?\n\nWe learn by doing!\nA little bit every day!"
   }
 ]
