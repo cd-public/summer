@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#base {
+  background: white;
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#background {
+  width: 35vmin;
+  height: 35vmin;
+  background: #e8e0ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#spookster {
+  position: relative;
+  border: 0.25vmin solid black;
+  width: 15vmin;
+  height: 15vmin;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom: 0;
+  box-sizing: border-box;
+  background: #ffdcff;
+}
+
+#feets {
+  display: flex;
+  width: 15vmin;
+}
+
+#feet {
+  width: 3.75vmin;
+  height: 3vmin;
+  border: 0.25vmin solid black;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top: 0;
+  background: #ffdcff;
+}
+
+#peepers, #peepers2 {
+  position: absolute;
+  width: 2.5vmin;
+  height: 2.5vmin;
+  background: #000;
+  border-radius: 50%;
+  top: 6.5vmin;
+  left: 2.5vmin;
+  box-shadow: 7vmin 0 black;
+}
+
+#peepers2:before{
+  content: "";
+  position: absolute;
+  background: white;
+  width: 1vmin;
+  height: 1vmin;
+  border-radius: 50%;
+  left: 1min;
+  box-shadow: 7vmin 0 white;
+}
+
+#snoot {
+  position: absolute;
+  width: 2vmin;
+  height: 1vmin;
+  border: 0.25vmin solid black;
+  border-bottom-left-radius: 2vmin;
+  border-bottom-right-radius: 2vmin;
+  border-top: 0;
+  top: 8vmin;
+  left: 6vmin;
+}
+
+/* Both wagglers (hands) have */
+/* much in common */
+#left-waggler, #right-waggler {
+  position: absolute;
+  width: 2vmin;
+  height: 2vmin;
+  border: 0.25vmin solid black;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top: 0;
+}
+
+/* But are in different */ 
+/* 1. locations and */
+/* 2. orientations */
+.left-waggler {
+  top: 11vmin;
+  left: 3vmin;
+  transform: rotate(-45deg)
+}
+.right-waggler{
+  top: 11vmin;
+  left: 9vmin;
+  transform: rotate(45deg)
+}
