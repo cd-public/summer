@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.30">
 
   <meta name="author" content="Prof.&nbsp;Calvin">
-  <title>Coding Camp – 📺 Content!</title>
+  <title>Coding Camp – 😎 Style!</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -390,7 +390,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">📺 Content!</h1>
+  <h1 class="title">😎 Style!</h1>
   <p class="subtitle">Coding Camp</p>
 
 <div class="quarto-title-authors">
@@ -402,6 +402,10 @@ Prof.&nbsp;Calvin
 </div>
 
 </section>
+<section class="slide level2">
+
+<p><link rel="stylesheet" href="css/spookster.css"></p>
+</section>
 <section>
 <section id="introduction" class="title-slide slide level1 center">
 <h1>👋 Introduction</h1>
@@ -411,676 +415,571 @@ Prof.&nbsp;Calvin
 <h2>Goals</h2>
 <ol type="1">
 <li>Create a <em>webpage</em></li>
-<li><strong>Make it <em>well-formed</em></strong></li>
+<li>Make it <em>well-formed</em></li>
 <li>Make it <em>stylish</em></li>
-<li>Make it <em>graphical</em></li>
+<li><strong>Make it <em>graphical</em></strong></li>
 <li>Make it <em>interactive</em></li>
 </ol>
 </section>
 <section id="today" class="slide level2">
 <h2>Today</h2>
 <ul class="task-list">
-<li><label><input type="checkbox">Content!</label></li>
-<li><label><input type="checkbox">Nesting!</label></li>
-<li><label><input type="checkbox">Headings!</label></li>
+<li><label><input type="checkbox">Backgrounds!</label></li>
+<li><label><input type="checkbox">Radii!</label></li>
+<li><label><input type="checkbox">Positioning!</label></li>
 </ul>
 </section></section>
 <section>
-<section id="standards" class="title-slide slide level1 center">
-<h1>🌐 Standards</h1>
+<section id="spooky" class="title-slide slide level1 center">
+<h1>👻 Spooky</h1>
 
 </section>
 <section id="what" class="slide level2">
 <h2>What?</h2>
 <ul>
-<li>HTML5 is the latest, greatest, and <strong>final</strong> version of “HTML”
-<ul>
-<li>Hypertext
-<ul>
-<li>Text for the internet</li>
-</ul></li>
-<li>Markup
-<ul>
-<li>Text that describes how it should be displayed</li>
-</ul></li>
-<li>Language
-<ul>
-<li>A consistent grammar for the above</li>
-</ul></li>
-</ul></li>
+<li><a href="https://yosracodes.hashnode.dev/how-i-make-css-art">Yosra Emad</a>, cool CSS artist/coder made this: <img data-src="https://cdn.hashnode.com/res/hashnode/image/upload/v1632681251071/9ZrLjallM.png"></li>
 </ul>
 </section>
 <section id="how" class="slide level2">
 <h2>How?</h2>
 <ul>
-<li><a href="https://html.spec.whatwg.org/">HTML Living Standard</a></li>
-<li>Check it out!
-<ul class="task-list">
-<li><label><input type="checkbox">Search (via <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1249182868"><kbd class="keyboard-key nowrap">Ctrl</kbd>+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1249182868"><kbd class="keyboard-key nowrap">f</kbd></label></li>
-<li><label><input type="checkbox">Look for <code>&lt;head&gt;</code></label></li>
-<li><label><input type="checkbox">The first “hit” will be the <em>most basic</em> HTML page that is <em>well-formed</em></label>
+<li>Yosra:
 <ul>
-<li>That is, doesn’t break any rules.</li>
-</ul></li>
+<li>Creates HTML elements for each “part” of the art.</li>
+<li>Uses CSS styling to change colors and borders.</li>
+<li>We will do the same!</li>
 </ul></li>
 </ul>
-</section>
-<section id="visually" class="slide level2">
-<h2>👀 Visually</h2>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
-</div>
-<div class="sourceCode" id="cb1" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
-<span id="cb1-2"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="ot"> lang</span><span class="op">=</span><span class="st">"en"</span><span class="dt">&gt;</span></span>
-<span id="cb1-3"><a></a> <span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
-<span id="cb1-4"><a></a>  <span class="dt">&lt;</span><span class="kw">title</span><span class="dt">&gt;</span>Sample page<span class="dt">&lt;/</span><span class="kw">title</span><span class="dt">&gt;</span></span>
-<span id="cb1-5"><a></a> <span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
-<span id="cb1-6"><a></a> <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
-<span id="cb1-7"><a></a>  <span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>Sample page<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
-<span id="cb1-8"><a></a>  <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>This is a <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"demo.html"</span><span class="dt">&gt;</span>simple<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span> sample.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb1-9"><a></a>  <span class="co">&lt;!-- this is a comment --&gt;</span></span>
-<span id="cb1-10"><a></a> <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
-<span id="cb1-11"><a></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
 <section id="why" class="slide level2">
 <h2>Why?</h2>
 <ul>
-<li>Thus far we relied on <em>default</em> behavior.</li>
-<li><code>Hello, world</code> was assumed to be:
-<ul>
-<li>The content of</li>
-<li>A paragraph in</li>
-<li>The body of</li>
-<li>A website with</li>
-<li>No name or</li>
-<li>Special formatting</li>
-</ul></li>
+<li>It’s cute!</li>
 </ul>
 </section></section>
 <section>
-<section id="refresh" class="title-slide slide level1 center">
-<h1>🔄 Refresh</h1>
+<section id="skeleton" class="title-slide slide level1 center">
+<h1>💀 Skeleton</h1>
 
 </section>
 <section id="what-1" class="slide level2">
 <h2>What?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>We recall last time we:
+<li>First, make the skeleton of the structure by looking for <em>layers</em> from <em>back</em> to front.</li>
+<li>We notice, for example, there could be a back-most circle element forming the body.</li>
+<li>Use the <code>&lt;div&gt;</code> element - a very general “division” of website content.
 <ul>
-<li>Followed these instructions”
-<ul>
-<li><a href="https://cd-public.github.io/summer/02_html.html">Coding Camp</a></li>
-</ul></li>
-<li>Created a GitHub repository
-<ul>
-<li><code>github.com/&lt;account&gt;/&lt;repository&gt;</code></li>
-</ul></li>
-<li>Worked in GitHub Codespaces
-<ul>
-<li>Clicked on <span style="background-color:green;color:white"> &lt;&gt; Code 🔽</span></li>
-</ul></li>
-<li>Created a corresponding GitHub page:
-<ul>
-<li><code>&lt;account&gt;.github.io/&lt;repository&gt;</code></li>
-</ul></li>
+<li>We will use <em>no content at all</em> - only style the <code>&lt;div&gt;</code></li>
 </ul></li>
 </ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="https://cdn.hashnode.com/res/hashnode/image/upload/v1632681251071/9ZrLjallM.png"></p>
+</div></div>
 </section>
 <section id="how-1" class="slide level2">
 <h2>How?</h2>
 <ul>
-<li>I recommend having <em>exactly</em> these four websites open in tabs.
-<ul>
-<li>Read these instructions</li>
-<li>Make changes in the Codespace</li>
-<li>Verify them in the repository</li>
-<li>After a few minutes, see them on the webpage</li>
-</ul></li>
+<li>Yosra recommends, and I follow, as:</li>
 </ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>spooky.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb1" data-filename="spooky.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"base"</span><span class="dt">&gt;</span></span>
+<span id="cb1-2"><a></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"background"</span><span class="dt">&gt;</span></span>
+<span id="cb1-3"><a></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"spookster"</span><span class="dt">&gt;</span></span>
+<span id="cb1-4"><a></a>      <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"peepers"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-5"><a></a>      <span class="co">&lt;!-- Short for booplesnoot --&gt;</span></span>
+<span id="cb1-6"><a></a>      <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"snoot"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-7"><a></a>      <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"left-waggler"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-8"><a></a>      <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"right-waggler"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-9"><a></a>    <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-10"><a></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"feets"</span><span class="dt">&gt;</span></span>
+<span id="cb1-11"><a></a>      <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"feet"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-12"><a></a>      <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"feet"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-13"><a></a>      <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"feet"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-14"><a></a>      <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"feet"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-15"><a></a>    <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-16"><a></a>  <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb1-17"><a></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:50%;">
+<p><img data-src="https://cdn.hashnode.com/res/hashnode/image/upload/v1632681251071/9ZrLjallM.png"></p>
+</div></div>
+</section>
+<section id="citation-needed" class="slide level2">
+<h2>Citation needed</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Booplesnoot and other part names are a throwback to a <a href="https://www.reddit.com/r/funny/comments/1lqfi8/my_new_bunny_doesnt_have_a_name_but_these_are/">legendary meme</a> of a bunny.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="https://i.imgur.com/BkwzKJQ.png"></p>
+</div></div>
 </section>
 <section id="why-1" class="slide level2">
 <h2>Why?</h2>
 <ul>
-<li>It is a <em>little to easy</em> to give up and do nothing.</li>
-<li>That is no fun!</li>
-<li>Check that everything works, every time.</li>
-<li>It’s good practice!</li>
+<li>By default, HTML styles enclosed elements on top of enclosing elements.</li>
+<li>So we can place, e.g., eyes on a smiley face like so:</li>
 </ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>smiley.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb2" data-filename="smiley.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb2-1"><a></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"face"</span><span class="dt">&gt;</span></span>
+<span id="cb2-2"><a></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"left-eye"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb2-3"><a></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"right-eye"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb2-4"><a></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"mouth"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb2-5"><a></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section></section>
 <section>
-<section id="content" class="title-slide slide level1 center">
-<h1>🖺 Content</h1>
+<section id="steps-to-spook" class="title-slide slide level1 center">
+<h1>🪜 Steps to Spook</h1>
 
 </section>
-<section id="what-2" class="slide level2">
-<h2>What?</h2>
+<section id="step-0" class="slide level2">
+<h2>Step 0 🏁</h2>
 <ul>
-<li>The part of HTML we see is the <em>content</em>
-<ul>
-<li>Usually text (like this)</li>
-<li>Sometimes images, like below:</li>
-</ul></li>
+<li>Recall we will be working with <code>spooky.html</code></li>
+<li>Recall we need to link our CSS stylesheet in the header</li>
 </ul>
-
-<img data-src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png" class="r-stretch"><p><em>An image of an image of an image</em></p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>spooky.html</strong></pre>
+</div>
+<div class="sourceCode" id="cb3" data-filename="spooky.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb3-1"><a></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
+<span id="cb3-2"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="dt">&gt;</span></span>
+<span id="cb3-3"><a></a>    <span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb3-4"><a></a>        <span class="dt">&lt;</span><span class="kw">link</span><span class="ot"> rel</span><span class="op">=</span><span class="st">"stylesheet"</span><span class="ot"> href</span><span class="op">=</span><span class="st">"styles.css"</span><span class="dt">&gt;</span></span>
+<span id="cb3-5"><a></a>    <span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb3-6"><a></a>    <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb3-7"><a></a>        <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"base"</span><span class="dt">&gt;</span></span>
+<span id="cb3-8"><a></a>            <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"background"</span><span class="dt">&gt;</span></span>
+<span id="cb3-9"><a></a>                <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"spookster"</span><span class="dt">&gt;</span></span>
+<span id="cb3-10"><a></a>                    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">"peepers"</span><span class="dt">&gt;&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-11"><a></a>        ...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="how-2" class="slide level2">
-<h2>How?</h2>
-<ul>
-<li>Let’s update <code>index.html</code></li>
-<li>We’ll specify that our text is a <em>paragraph</em>.</li>
-<li>We prefix with <code>&lt;p&gt;</code> and suffix with <code>&lt;/p&gt;</code></li>
-</ul>
+<section id="step-1-1" class="slide level2">
+<h2>Step 1 1️⃣</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>Old:</p>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
-</div>
-<div class="sourceCode" id="cb2" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb2-1"><a></a>Hello world, or some such.</span>
-<span id="cb2-2"><a></a></span>
-<span id="cb2-3"><a></a>Maybe a second line?</span>
-<span id="cb2-4"><a></a></span>
-<span id="cb2-5"><a></a>But these all show up on one line.</span>
-<span id="cb2-6"><a></a></span>
-<span id="cb2-7"><a></a>Ew!</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<ul>
+<li>We will remove all <em>margins</em> and <em>stretching</em>.
+<ul>
+<li>Once you have done more CSS, take this out and see what happens.</li>
+</ul></li>
+<li>We use the special <code>*</code> asterisk to apply the style to <em>all</em> elements.</li>
+</ul>
 </div><div class="column" style="width:50%;">
-<p>New:</p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
+<pre><strong>styles.css</strong></pre>
 </div>
-<div class="sourceCode" id="cb3" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb3-1"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Hello world, or some such.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb3-2"><a></a></span>
-<span id="cb3-3"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Maybe a second line?<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb3-4"><a></a></span>
-<span id="cb3-5"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>But these all show up on one line.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb3-6"><a></a></span>
-<span id="cb3-7"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Ew!<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4" data-filename="styles.css"><pre class="sourceCode numberSource css number-lines code-with-copy"><code class="sourceCode css"><span id="cb4-1"><a></a><span class="co">/* This is a CSS Comment */</span></span>
+<span id="cb4-2"><a></a><span class="co">/* Like &lt;!-- --&gt; HTML comments */</span></span>
+<span id="cb4-3"><a></a></span>
+<span id="cb4-4"><a></a><span class="co">/* Remove margins and stretching */</span></span>
+<span id="cb4-5"><a></a><span class="op">*</span> {</span>
+<span id="cb4-6"><a></a>  <span class="kw">margin</span><span class="ch">:</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb4-7"><a></a>  <span class="kw">padding</span><span class="ch">:</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb4-8"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div></div>
 </section>
-<section id="alert" class="slide level2">
-<h2>🚨 Alert!</h2>
+<section id="step-2" class="slide level2">
+<h2>Step 2 ⬜</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>Codespaces will automatically “close” <code>&lt;p&gt;</code> when you type them!
+<li>Style base.</li>
+<li><span style="background-color:white;color:black">This background color</span></li>
+<li>100% visible height <code>vh</code> and width <code>vw</code></li>
+<li>Flex means “not inline text”
 <ul>
-<li>This is meant to help you, and will help in time!</li>
+<li>We aren’t using text!</li>
 </ul></li>
-<li>It is not uncommon to use line breaks:</li>
+<li>We center everything relative to this div</li>
 </ul>
+</div><div class="column" style="width:50%;">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
+<pre><strong>styles.css</strong></pre>
 </div>
-<div class="sourceCode" id="cb4" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb4-1"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb4-2"><a></a>    Like this!</span>
-<span id="cb4-3"><a></a><span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb4-4"><a></a></span>
-<span id="cb4-5"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb4-6"><a></a>    It's easier to read!</span>
-<span id="cb4-7"><a></a><span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5" data-filename="styles.css"><pre class="sourceCode numberSource css number-lines code-with-copy"><code class="sourceCode css"><span id="cb5-1"><a></a><span class="co">/* Old */</span></span>
+<span id="cb5-2"><a></a><span class="op">*</span> {</span>
+<span id="cb5-3"><a></a>  <span class="kw">margin</span><span class="ch">:</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb5-4"><a></a>  <span class="kw">padding</span><span class="ch">:</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb5-5"><a></a>}</span>
+<span id="cb5-6"><a></a></span>
+<span id="cb5-7"><a></a><span class="co">/* New! */</span></span>
+<span id="cb5-8"><a></a><span class="pp">#base</span> {</span>
+<span id="cb5-9"><a></a>  <span class="kw">background</span><span class="ch">:</span> <span class="cn">white</span><span class="op">;</span></span>
+<span id="cb5-10"><a></a>  <span class="kw">height</span><span class="ch">:</span> <span class="dv">100</span><span class="dt">vh</span><span class="op">;</span></span>
+<span id="cb5-11"><a></a>  <span class="kw">width</span><span class="ch">:</span> <span class="dv">100</span><span class="dt">vw</span><span class="op">;</span></span>
+<span id="cb5-12"><a></a>  <span class="kw">display</span><span class="ch">:</span> <span class="dv">flex</span><span class="op">;</span></span>
+<span id="cb5-13"><a></a>  <span class="kw">align-items</span><span class="ch">:</span> <span class="dv">center</span><span class="op">;</span></span>
+<span id="cb5-14"><a></a>  <span class="kw">justify-content</span><span class="ch">:</span> <span class="dv">center</span><span class="op">;</span></span>
+<span id="cb5-15"><a></a>  <span class="kw">position</span><span class="ch">:</span> <span class="dv">relative</span><span class="op">;</span></span>
+<span id="cb5-16"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</div></div>
 </section>
-<section id="caution" class="slide level2">
-<h2>⚠️ Caution</h2>
+<section id="step-3" class="slide level2">
+<h2>Step 3 🟣</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>Usually nothing breaks if you omit the closing tag <code>&lt;/p&gt;</code></li>
-<li>It is considered poor form because it <em>can</em> cause problems in more complicated cases.</li>
+<li>The circle behind the spookster.</li>
+<li>70% of the SMALLER of the height and width</li>
+<li>Border radius is neat - we’ll demo it.</li>
+<li><code>#e8e0ff</code> is <span style="color:#e8e0ff;background:black">this color</span></li>
+<li>And again center everything.</li>
 </ul>
+</div><div class="column" style="width:50%;">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
+<pre><strong>styles.css</strong></pre>
 </div>
-<div class="sourceCode" id="cb5" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb5-1"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>This will work but is sketchy.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6" data-filename="styles.css"><pre class="sourceCode numberSource css number-lines code-with-copy"><code class="sourceCode css"><span id="cb6-1"><a></a><span class="co">/* Only showing new stuff... */</span></span>
+<span id="cb6-2"><a></a><span class="pp">#background</span> {</span>
+<span id="cb6-3"><a></a>  <span class="kw">width</span><span class="ch">:</span> <span class="dv">70</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb6-4"><a></a>  <span class="kw">height</span><span class="ch">:</span> <span class="dv">70</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb6-5"><a></a>  <span class="kw">background</span><span class="ch">:</span> <span class="cn">#e8e0ff</span><span class="op">;</span></span>
+<span id="cb6-6"><a></a>  <span class="kw">border-radius</span><span class="ch">:</span> <span class="dv">50</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb6-7"><a></a>  <span class="kw">display</span><span class="ch">:</span> <span class="dv">flex</span><span class="op">;</span></span>
+<span id="cb6-8"><a></a>  <span class="kw">align-items</span><span class="ch">:</span> <span class="dv">center</span><span class="op">;</span></span>
+<span id="cb6-9"><a></a>  <span class="kw">justify-content</span><span class="ch">:</span> <span class="dv">center</span><span class="op">;</span></span>
+<span id="cb6-10"><a></a>  <span class="kw">flex-direction</span><span class="ch">:</span> <span class="dv">column</span><span class="op">;</span></span>
+<span id="cb6-11"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</div></div>
 </section>
-<section id="why-2" class="slide level2">
-<h2>Why?</h2>
+<section id="aside-border-radius" class="slide level2">
+<h2>Aside: Border Radius</h2>
 <ul>
-<li>Until now, we had no way to tell HTML when to start a new line.</li>
-<li>This looked dreadful!</li>
-<li>Now we can!</li>
+<li>We can clip the borders of elements with backgrounds to be round instead of square with a radius.</li>
 </ul>
+<div class="columns">
+<div class="column" style="width:25%;">
+<ul>
+<li>0%</li>
+</ul>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb7-1"><a></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> style</span><span class="op">=</span><span class="st">"background:red;border-radius:0%;text-align:center"</span><span class="dt">&gt;</span>Text<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div style="background:red;border-radius:0%;text-align:center">
+Text
+</div>
+</div><div class="column" style="width:25%;">
+<ul>
+<li>10%</li>
+</ul>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb8-1"><a></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> style</span><span class="op">=</span><span class="st">"background:red;border-radius:10%;text-align:center"</span><span class="dt">&gt;</span>Text<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div style="background:red;border-radius:10%;text-align:center">
+Text
+</div>
+</div><div class="column" style="width:25%;">
+<ul>
+<li>25%</li>
+</ul>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb9-1"><a></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> style</span><span class="op">=</span><span class="st">"background:red;border-radius:25%;text-align:center"</span><span class="dt">&gt;</span>Text<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div style="background:red;border-radius:25%;text-align:center">
+Text
+</div>
+</div><div class="column" style="width:25%;">
+<ul>
+<li>50%</li>
+</ul>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb10-1"><a></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> style</span><span class="op">=</span><span class="st">"background:red;border-radius:50%;text-align:center"</span><span class="dt">&gt;</span>Text<span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div style="background:red;border-radius:50%;text-align:center">
+Text
+</div>
+</div></div>
 </section>
-<section id="bonus" class="slide level2">
-<h2>🏆 Bonus!</h2>
+<section id="step-4" class="slide level2">
+<h2>Step 4 🧢</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>You don’t only have to use <code>&lt;p&gt;</code>, of course!</li>
-<li>The next most common are headings - <code>&lt;h1&gt;</code> is the biggest.</li>
-<li>Try giving your webpage a heading perhaps saying it’s mine.</li>
+<li>The spookster herself.</li>
+<li>30% of the SMALLER of the height and width</li>
+<li>Border radius but only on top!</li>
+<li>Black border but not one the bottom!</li>
+<li><code>#e8e0ff</code> is <span style="color:#ffdcff;background:black">this color</span></li>
 </ul>
+</div><div class="column" style="width:50%;">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
+<pre><strong>styles.css</strong></pre>
 </div>
-<div class="sourceCode" id="cb6" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb6-1"><a></a><span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>My Rad Page 🏍️<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
-<span id="cb6-2"><a></a></span>
-<span id="cb6-3"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>I have interesting thoughts to share!<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb11" data-filename="styles.css"><pre class="sourceCode numberSource css number-lines code-with-copy"><code class="sourceCode css"><span id="cb11-1"><a></a><span class="co">/* Only showing new stuff... */</span></span>
+<span id="cb11-2"><a></a><span class="pp">#spookster</span> {</span>
+<span id="cb11-3"><a></a>  <span class="kw">position</span><span class="ch">:</span> <span class="dv">relative</span><span class="op">;</span></span>
+<span id="cb11-4"><a></a>  <span class="kw">border</span><span class="ch">:</span> <span class="dv">0.5</span><span class="dt">vmin</span> <span class="dv">solid</span> <span class="cn">black</span><span class="op">;</span></span>
+<span id="cb11-5"><a></a>  <span class="kw">width</span><span class="ch">:</span> <span class="dv">30</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb11-6"><a></a>  <span class="kw">height</span><span class="ch">:</span> <span class="dv">30</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb11-7"><a></a>  <span class="kw">border-top-left-radius</span><span class="ch">:</span> <span class="dv">50</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb11-8"><a></a>  <span class="kw">border-top-right-radius</span><span class="ch">:</span> <span class="dv">50</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb11-9"><a></a>  <span class="kw">border-bottom</span><span class="ch">:</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb11-10"><a></a>  <span class="kw">box-sizing</span><span class="ch">:</span> <span class="dv">border-box</span><span class="op">;</span></span>
+<span id="cb11-11"><a></a>  <span class="kw">background</span><span class="ch">:</span> <span class="cn">#ffdcff</span><span class="op">;</span></span>
+<span id="cb11-12"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section></section>
-<section>
-<section id="nesting" class="title-slide slide level1 center">
-<h1>🪆 Nesting</h1>
-
+</div></div>
 </section>
-<section id="what-3" class="slide level2">
-<h2>What?</h2>
+<section id="visually" class="slide level2">
+<h2>👀 Visually</h2>
 <ul>
-<li>We can include one kind of HTML content in another kind of HTML content.</li>
-<li>I term this “nesting”</li>
+<li>It will mostly look like this:</li>
 </ul>
-
-<img data-src="https://upload.wikimedia.org/wikipedia/commons/4/41/Floral_matryoshka_set_2_smallest_doll_nested.JPG" class="r-stretch"></section>
-<section id="how-3" class="slide level2">
-<h2>How?</h2>
+<div id="base">
+  <div id="background">
+    <div id="spookster"></div>
+  </div>
+</div>
+</section>
+<section id="aside-border-radius-1" class="slide level2">
+<h2>Aside: Border Radius</h2>
 <ul>
-<li>We’ll use a new element - <code>&lt;a&gt;</code>, for links.</li>
-<li>Add link from your GitHub page to your GitHub repository.
-<ul>
-<li>Choose some link text, like “My Repository”</li>
-<li>Enclose in <code>&lt;a&gt;</code> and <code>&lt;/a&gt;</code></li>
-<li>In the opening tag <code>&lt;a&gt;</code>, add
-<ul>
-<li><code>href=&lt;the address of your repository&gt;</code></li>
-<li>Mine would be <code>&lt;a href="https://cd-example.github.io/bug-free-sniffle/"&gt;</code></li>
-</ul></li>
-</ul></li>
+<li>Here it is without the border radius set.</li>
 </ul>
+<div id="base">
+  <div id="background">
+    <div id="spookster" style="border-radius:0%"></div>
+  </div>
+</div>
+</section>
+<section id="step-5" class="slide level2">
+<h2>Step 5 🐾</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>We create a <code>&lt;div&gt;</code> to hold for 4 feet and also those 4 feet</li>
+<li>Each foot is 1/4 of ghost width.</li>
+<li>Rounded and outlined on the bottom.</li>
+<li>There are four of these!</li>
+<li>Black border except top!</li>
+<li><code>#e8e0ff</code> is <span style="color:#ffdcff;background:black">this color</span></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>styles.css</strong></pre>
+</div>
+<div class="sourceCode" id="cb12" data-filename="styles.css"><pre class="sourceCode numberSource css number-lines code-with-copy"><code class="sourceCode css"><span id="cb12-1"><a></a><span class="co">/* Only showing new stuff... */</span></span>
+<span id="cb12-2"><a></a><span class="pp">#feets</span> {</span>
+<span id="cb12-3"><a></a>  <span class="kw">display</span><span class="ch">:</span> <span class="dv">flex</span><span class="op">;</span></span>
+<span id="cb12-4"><a></a>  <span class="kw">width</span><span class="ch">:</span> <span class="dv">30</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb12-5"><a></a>}</span>
+<span id="cb12-6"><a></a></span>
+<span id="cb12-7"><a></a><span class="pp">#feet</span> {</span>
+<span id="cb12-8"><a></a>  <span class="kw">width</span><span class="ch">:</span> <span class="dv">7.5</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb12-9"><a></a>  <span class="kw">height</span><span class="ch">:</span> <span class="dv">6</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb12-10"><a></a>  <span class="kw">border</span><span class="ch">:</span> <span class="dv">0.5</span><span class="dt">vmin</span> <span class="dv">solid</span> <span class="cn">black</span><span class="op">;</span></span>
+<span id="cb12-11"><a></a>  <span class="kw">border-bottom-left-radius</span><span class="ch">:</span> <span class="dv">50</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb12-12"><a></a>  <span class="kw">border-bottom-right-radius</span><span class="ch">:</span> <span class="dv">50</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb12-13"><a></a>  <span class="kw">border-top</span><span class="ch">:</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb12-14"><a></a>  <span class="kw">background</span><span class="ch">:</span> <span class="cn">#ffdcff</span><span class="op">;</span></span>
+<span id="cb12-15"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div></div>
 </section>
 <section id="visually-1" class="slide level2">
 <h2>👀 Visually</h2>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
-</div>
-<div class="sourceCode" id="cb7" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb7-1"><a></a><span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
-<span id="cb7-2"><a></a>    My Rad Page 🏍️</span>
-<span id="cb7-3"><a></a><span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
-<span id="cb7-4"><a></a></span>
-<span id="cb7-5"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb7-6"><a></a>    I have interesting thoughts to share!</span>
-<span id="cb7-7"><a></a><span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb7-8"><a></a></span>
-<span id="cb7-9"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb7-10"><a></a>    Visit</span>
-<span id="cb7-11"><a></a>    <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://cd-example.github.io/bug-free-sniffle/"</span><span class="dt">&gt;</span></span>
-<span id="cb7-12"><a></a>        my repository!</span>
-<span id="cb7-13"><a></a>    <span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
-<span id="cb7-14"><a></a><span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>It will mostly look like this:</li>
+</ul>
+<div id="base">
+  <div id="background">
+    <div id="spookster"></div>
+    <div id="feets">
+      <div id="feet"></div>
+      <div id="feet"></div>
+      <div id="feet"></div>
+      <div id="feet"></div>
+    </div>
+  </div>
 </div>
 </section>
-<section id="why-3" class="slide level2">
-<h2>Why?</h2>
+<section id="aside-partial-borders" class="slide level2">
+<h2>Aside: Partial Borders</h2>
 <ul>
-<li>This sort of nesting is a natural way to arrange information.
-<ul>
-<li>Letters in words.</li>
-<li>Words in sentences.</li>
-<li>Sentences in paragraphs.</li>
-<li>Paragraphs in essays.</li>
-<li>Etc.</li>
-</ul></li>
+<li>If we <em>don’t</em> set <code>border-top: 0</code>:</li>
 </ul>
-</section>
-<section id="caution-1" class="slide level2">
-<h2>⚠️ Caution</h2>
-<ul>
-<li>We can nest but <em>not</em> overlap.</li>
-<li>Consider the example using <strong>bold</strong> and <em>italics</em></li>
-<li>Try this:</li>
-</ul>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>bad</strong></pre>
-</div>
-<div class="sourceCode" id="cb8" data-filename="bad"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb8-1"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>This is <span class="dt">&lt;</span><span class="kw">em</span><span class="dt">&gt;</span>very <span class="dt">&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>wrong<span class="dt">&lt;/</span><span class="kw">em</span><span class="dt">&gt;</span>!<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>
-This is <em>very <strong>wrong</strong></em><strong>!</strong>
-</p>
-<ul>
-<li>And this:</li>
-</ul>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>good</strong></pre>
-</div>
-<div class="sourceCode" id="cb9" data-filename="good"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb9-1"><a></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>This <span class="dt">&lt;</span><span class="kw">em</span><span class="dt">&gt;</span>is <span class="dt">&lt;</span><span class="kw">strong</span><span class="dt">&gt;</span>correct<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;</span>.<span class="dt">&lt;/</span><span class="kw">em</span><span class="dt">&gt;&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>
-This <em>is <strong>correct</strong>.</em>
-</p>
-</section></section>
-<section>
-<section id="bodies" class="title-slide slide level1 center">
-<h1>💪 Bodies</h1>
-
-</section>
-<section id="what-4" class="slide level2">
-<h2>What?</h2>
-<ul>
-<li>Not <em>every</em> part of a webpage is content.</li>
-<li>To specify just the page content, we place it within a <code>&lt;body&gt;</code>.</li>
-</ul>
-</section>
-<section id="an-aside" class="slide level2">
-<h2>🥷 An Aside</h2>
-<ul>
-<li>Content is enclosed in “tags”, like <code>&lt;p&gt;</code></li>
-<li>Content and tag is called an element.</li>
-</ul>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Thing</th>
-<th style="text-align: left;">Term</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><code>Hello</code></td>
-<td style="text-align: left;">Content</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><code>&lt;p&gt;</code></td>
-<td style="text-align: left;">Tag</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><code>&lt;p&gt;Hello&lt;/p&gt;</code></td>
-<td style="text-align: left;">Element</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>Most useful to look up how to do things.
-<ul>
-<li>E.g. center text with the <code>&lt;center&gt;</code> tag.</li>
-</ul></li>
-</ul>
-</section>
-<section id="how-4" class="slide level2">
-<h2>How?</h2>
-<ul>
-<li>We’ll use a new element - <code>&lt;body&gt;</code></li>
-<li>We’ll buy <em>everything</em> so far inside it.
-<ul>
-<li>For me, this meant indenting everything again.</li>
-</ul></li>
-</ul>
-</section>
-<section id="visually-2" class="slide level2">
-<h2>👀 Visually</h2>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
-</div>
-<div class="sourceCode" id="cb10" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb10-1"><a></a><span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
-<span id="cb10-2"><a></a>    <span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
-<span id="cb10-3"><a></a>        My Rad Page 🏍️</span>
-<span id="cb10-4"><a></a>    <span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
-<span id="cb10-5"><a></a></span>
-<span id="cb10-6"><a></a>    <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb10-7"><a></a>        I have interesting thoughts to share!</span>
-<span id="cb10-8"><a></a>    <span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb10-9"><a></a></span>
-<span id="cb10-10"><a></a>    <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb10-11"><a></a>        Visit</span>
-<span id="cb10-12"><a></a>        <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://cd-example.github.io/bug-free-sniffle/"</span><span class="dt">&gt;</span></span>
-<span id="cb10-13"><a></a>            my repository!</span>
-<span id="cb10-14"><a></a>        <span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
-<span id="cb10-15"><a></a>    <span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb10-16"><a></a><span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="base">
+  <div id="background">
+    <div id="spookster"></div>
+    <div id="feets">
+      <div id="feet" style="border: 0.25vmin solid black;"></div>
+      <div id="feet" style="border: 0.25vmin solid black;"></div>
+      <div id="feet" style="border: 0.25vmin solid black;"></div>
+      <div id="feet" style="border: 0.25vmin solid black;"></div>
+    </div>
+  </div>
 </div>
 </section>
-<section id="why-4" class="slide level2">
-<h2>Why?</h2>
-<ul>
-<li>This doesn’t do <em>anything</em> yet.</li>
-<li>But will allow us to add headers:
-<ul>
-<li>Ways to change how the page is understood…</li>
-</ul></li>
-</ul>
-</section></section>
-<section>
-<section id="heads" class="title-slide slide level1 center">
-<h1>🤯 Heads</h1>
-
-</section>
-<section id="what-5" class="slide level2">
-<h2>What?</h2>
-<ul>
-<li>Take a look at either the:
-<ul>
-<li>Name of the <em>window</em> you are looking at, or</li>
-<li>Name of the <em>tab</em> you are looking at</li>
-</ul></li>
-<li>It is probably “Coding Camp - 🌐 HTML!”
-<ul>
-<li>How did that get there?</li>
-</ul></li>
-</ul>
-</section>
-<section id="how-5" class="slide level2">
-<h2>How?</h2>
-<ul>
-<li>We can specify:
-<ul>
-<li>Page title</li>
-<li>Style using CSS (latter)</li>
-<li>Scripts using JS (latter)</li>
-</ul></li>
-<li>Add to the beginning of your page:</li>
-</ul>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
-</div>
-<div class="sourceCode" id="cb11" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb11-1"><a></a><span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
-<span id="cb11-2"><a></a>    <span class="dt">&lt;</span><span class="kw">title</span><span class="dt">&gt;</span></span>
-<span id="cb11-3"><a></a>        Title of your choice!</span>
-<span id="cb11-4"><a></a>    <span class="dt">&lt;/</span><span class="kw">title</span><span class="dt">&gt;</span></span>
-<span id="cb11-5"><a></a><span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
-<span id="cb11-6"><a></a>    ...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="why-5" class="slide level2">
-<h2>Why?</h2>
-<ul>
-<li>Less important than it used to be, though still looks sharp.</li>
-<li>Historically important for search engines!</li>
-</ul>
-</section></section>
-<section>
-<section id="html" class="title-slide slide level1 center">
-<h1>🌐 HTML</h1>
-
-</section>
-<section id="what-6" class="slide level2">
-<h2>What?</h2>
-<ul>
-<li>In the <em>very</em> early days there were (maybe?) formats other than HTML.</li>
-<li>I don’t know what they would be!</li>
-<li>But there were at least other versions (namely 1-4)</li>
-<li>So HTML pages should specify they are… HTML!</li>
-</ul>
-</section>
-<section id="how-6" class="slide level2">
-<h2>How?</h2>
-<ul>
-<li>Enclose everything within an <code>&lt;html&gt;</code> element.
-<ul>
-<li>If in English, usually <code>&lt;html lang="en"&gt;</code></li>
-</ul></li>
-<li>Add a file header for ducment type
-<ul>
-<li>For HTML, this is <code>&lt;!DOCTYPE html&gt;</code></li>
-</ul>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
-</div>
-<div class="sourceCode" id="cb12" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb12-1"><a></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
-<span id="cb12-2"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="ot"> lang</span><span class="op">=</span><span class="st">"en"</span><span class="dt">&gt;</span></span>
-<span id="cb12-3"><a></a>  <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
-<span id="cb12-4"><a></a>      ...</span>
-<span id="cb12-5"><a></a>  <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
-<span id="cb12-6"><a></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></li>
-</ul>
-</section>
-<section id="why-6" class="slide level2">
-<h2>Why?</h2>
-<ul>
-<li>Makes things easier (and therefore faster) for web browsers.</li>
-<li>Mark of professionalism.</li>
-</ul>
-</section></section>
-<section>
-<section id="comments" class="title-slide slide level1 center">
-<h1>💬 Comments</h1>
-
-</section>
-<section id="what-7" class="slide level2">
-<h2>What?</h2>
-<ul>
-<li>Sometimes we want to leave notes to ourselves or other web developers.</li>
-<li>We don’t need everyone visiting our page to see them.</li>
-<li>We do this using the special “comment” element.</li>
-</ul>
-</section>
-<section id="how-7" class="slide level2">
-<h2>How?</h2>
-<ul>
-<li>Take some content you don’t want to display.</li>
-<li>Enclose in <code>&lt;!--</code> and <code>--&gt;</code></li>
-</ul>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>comment_example.html</strong></pre>
-</div>
-<div class="sourceCode" id="cb13" data-filename="comment_example.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb13-1"><a></a><span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
-<span id="cb13-2"><a></a>    <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb13-3"><a></a>        This is visible.</span>
-<span id="cb13-4"><a></a>        <span class="co">&lt;!-- This isn't. --&gt;</span></span>
-<span id="cb13-5"><a></a>    <span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb13-6"><a></a><span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="why-7" class="slide level2">
-<h2>Why?</h2>
-<ul>
-<li>I most usually it to keep track of notes.</li>
-<li>Many of my pages have the following:</li>
-</ul>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
-</div>
-<div class="sourceCode" id="cb14" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb14-1"><a></a><span class="co">&lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section></section>
-<section>
-<section id="altogether" class="title-slide slide level1 center">
-<h1>🤝 Altogether</h1>
-
-</section>
-<section id="what-8" class="slide level2">
-<h2>What?</h2>
-<ul>
-<li>We have now covered all the requirements to make a well-formed HTML page!</li>
-</ul>
-</section>
-<section id="how-8" class="slide level2">
-<h2>How?</h2>
+<section id="step-6" class="slide level2">
+<h2>Step 6 👁️</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>Example:</p>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>example.html</strong></pre>
-</div>
-<div class="sourceCode" id="cb15" data-filename="example.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb15-1"><a></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
-<span id="cb15-2"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="ot"> lang</span><span class="op">=</span><span class="st">"en"</span><span class="dt">&gt;</span></span>
-<span id="cb15-3"><a></a> <span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
-<span id="cb15-4"><a></a>  <span class="dt">&lt;</span><span class="kw">title</span><span class="dt">&gt;</span>Sample page<span class="dt">&lt;/</span><span class="kw">title</span><span class="dt">&gt;</span></span>
-<span id="cb15-5"><a></a> <span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
-<span id="cb15-6"><a></a> <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
-<span id="cb15-7"><a></a>  <span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>Sample page<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
-<span id="cb15-8"><a></a>  <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>This is a <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"demo.html"</span><span class="dt">&gt;</span>simple<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span> sample.<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb15-9"><a></a>  <span class="co">&lt;!-- this is a comment --&gt;</span></span>
-<span id="cb15-10"><a></a> <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
-<span id="cb15-11"><a></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<ul>
+<li>Peepers are just two circles at a fixed location.</li>
+<li>5% (1/6 of ghost) radius</li>
+<li>A lot down (13%) and a little bit to the left (5%)</li>
+<li>Then add a shadow (the other eye) 14% to the right.</li>
+<li><em>Phew!</em></li>
+</ul>
 </div><div class="column" style="width:50%;">
-<p>Ours:</p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
-<pre><strong>index.html</strong></pre>
+<pre><strong>styles.css</strong></pre>
 </div>
-<div class="sourceCode" id="cb16" data-filename="index.html"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb16-1"><a></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
-<span id="cb16-2"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="ot"> lang</span><span class="op">=</span><span class="st">"en"</span><span class="dt">&gt;</span></span>
-<span id="cb16-3"><a></a> <span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
-<span id="cb16-4"><a></a>  <span class="dt">&lt;</span><span class="kw">title</span><span class="dt">&gt;</span>Title of your choice!<span class="dt">&lt;/</span><span class="kw">title</span><span class="dt">&gt;</span></span>
-<span id="cb16-5"><a></a> <span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
-<span id="cb16-6"><a></a> <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
-<span id="cb16-7"><a></a>  <span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>My Rad Page 🏍️<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
-<span id="cb16-8"><a></a>  <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Visit <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://cd-example.github.io/bug-free-sniffle/"</span><span class="dt">&gt;</span>my repository!<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
-<span id="cb16-9"><a></a>  <span class="co">&lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;</span></span>
-<span id="cb16-10"><a></a> <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
-<span id="cb16-11"><a></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb13" data-filename="styles.css"><pre class="sourceCode numberSource css number-lines code-with-copy"><code class="sourceCode css"><span id="cb13-1"><a></a><span class="co">/* Only showing new stuff... */</span></span>
+<span id="cb13-2"><a></a><span class="pp">#peepers</span> {</span>
+<span id="cb13-3"><a></a>  <span class="kw">position</span><span class="ch">:</span> <span class="dv">absolute</span><span class="op">;</span></span>
+<span id="cb13-4"><a></a>  <span class="kw">width</span><span class="ch">:</span> <span class="dv">5</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb13-5"><a></a>  <span class="kw">height</span><span class="ch">:</span> <span class="dv">5</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb13-6"><a></a>  <span class="kw">background</span><span class="ch">:</span> <span class="cn">#000</span><span class="op">;</span></span>
+<span id="cb13-7"><a></a>  <span class="kw">border-radius</span><span class="ch">:</span> <span class="dv">50</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb13-8"><a></a>  <span class="kw">top</span><span class="ch">:</span> <span class="dv">13</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb13-9"><a></a>  <span class="kw">left</span><span class="ch">:</span> <span class="dv">5</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb13-10"><a></a>  <span class="kw">box-shadow</span><span class="ch">:</span> <span class="dv">14</span><span class="dt">vmin</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb13-11"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div></div>
 </section>
-<section id="why-8" class="slide level2">
-<h2>Why?</h2>
+<section id="visually-2" class="slide level2">
+<h2>👀 Visually</h2>
 <ul>
-<li>Per “indeed.com” (maybe don’t <em>just</em> trust them).
+<li>It will mostly look like this:</li>
+</ul>
+<div id="base">
+  <div id="background">
+    <div id="spookster">
+      <div id="peepers"></div>
+    </div>
+    <div id="feets">
+      <div id="feet"></div>
+      <div id="feet"></div>
+      <div id="feet"></div>
+      <div id="feet"></div>
+    </div>
+  </div>
+</div>
+</section>
+<section id="step-n" class="slide level2">
+<h2>Step <span class="math inline">\(n\)</span> 🎨</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>100+ jobs</li>
-<li>Most around $40+/hr</li>
+<li>I’ll simply provide the rest for you to play with!</li>
+<li>You can scroll!</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>styles.css</strong></pre>
+</div>
+<div class="sourceCode" id="cb14" data-filename="styles.css" data-code-block-height="5em"><pre class="sourceCode numberSource css number-lines code-with-copy"><code class="sourceCode css"><span id="cb14-1"><a></a><span class="co">/* the :before allows */</span></span>
+<span id="cb14-2"><a></a><span class="co">/* 2 styles to one div */</span></span>
+<span id="cb14-3"><a></a></span>
+<span id="cb14-4"><a></a><span class="co">/* Whites of the eyes */</span></span>
+<span id="cb14-5"><a></a><span class="pp">#peepers</span><span class="in">:before</span>{</span>
+<span id="cb14-6"><a></a>  <span class="kw">content</span><span class="ch">:</span> <span class="st">""</span><span class="op">;</span></span>
+<span id="cb14-7"><a></a>  <span class="kw">position</span><span class="ch">:</span> <span class="dv">absolute</span><span class="op">;</span></span>
+<span id="cb14-8"><a></a>  <span class="kw">background</span><span class="ch">:</span> <span class="cn">white</span><span class="op">;</span></span>
+<span id="cb14-9"><a></a>  <span class="kw">width</span><span class="ch">:</span> <span class="dv">2.5</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-10"><a></a>  <span class="kw">height</span><span class="ch">:</span> <span class="dv">2.5</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-11"><a></a>  <span class="kw">border-radius</span><span class="ch">:</span> <span class="dv">50</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb14-12"><a></a>  <span class="kw">left</span><span class="ch">:</span> <span class="dv">2</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-13"><a></a>  <span class="kw">box-shadow</span><span class="ch">:</span> <span class="dv">14</span><span class="dt">vmin</span> <span class="dv">0</span> <span class="cn">white</span><span class="op">;</span></span>
+<span id="cb14-14"><a></a>}</span>
+<span id="cb14-15"><a></a></span>
+<span id="cb14-16"><a></a><span class="pp">#snoot</span> {</span>
+<span id="cb14-17"><a></a>  <span class="kw">position</span><span class="ch">:</span> <span class="dv">absolute</span><span class="op">;</span></span>
+<span id="cb14-18"><a></a>  <span class="kw">width</span><span class="ch">:</span> <span class="dv">4</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-19"><a></a>  <span class="kw">height</span><span class="ch">:</span> <span class="dv">2</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-20"><a></a>  <span class="kw">border</span><span class="ch">:</span> <span class="dv">0.7</span><span class="dt">vmin</span> <span class="dv">solid</span> <span class="cn">black</span><span class="op">;</span></span>
+<span id="cb14-21"><a></a>  <span class="kw">border-bottom-left-radius</span><span class="ch">:</span> <span class="dv">4</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-22"><a></a>  <span class="kw">border-bottom-right-radius</span><span class="ch">:</span> <span class="dv">4</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-23"><a></a>  <span class="kw">border-top</span><span class="ch">:</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb14-24"><a></a>  <span class="kw">top</span><span class="ch">:</span> <span class="dv">16</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-25"><a></a>  <span class="kw">left</span><span class="ch">:</span> <span class="dv">12</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-26"><a></a>}</span>
+<span id="cb14-27"><a></a></span>
+<span id="cb14-28"><a></a><span class="co">/* Both wagglers (hands) have */</span></span>
+<span id="cb14-29"><a></a><span class="co">/* much in common */</span></span>
+<span id="cb14-30"><a></a><span class="pp">#left-waggler</span><span class="op">,</span> <span class="pp">#right-waggler</span> {</span>
+<span id="cb14-31"><a></a>  <span class="kw">position</span><span class="ch">:</span> <span class="dv">absolute</span><span class="op">;</span></span>
+<span id="cb14-32"><a></a>  <span class="kw">width</span><span class="ch">:</span> <span class="dv">4</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-33"><a></a>  <span class="kw">height</span><span class="ch">:</span> <span class="dv">4</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-34"><a></a>  <span class="kw">border</span><span class="ch">:</span> <span class="dv">0.5</span><span class="dt">vmin</span> <span class="dv">solid</span> <span class="cn">black</span><span class="op">;</span></span>
+<span id="cb14-35"><a></a>  <span class="kw">border-bottom-left-radius</span><span class="ch">:</span> <span class="dv">50</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb14-36"><a></a>  <span class="kw">border-bottom-right-radius</span><span class="ch">:</span> <span class="dv">50</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb14-37"><a></a>  <span class="kw">border-top</span><span class="ch">:</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb14-38"><a></a>}</span>
+<span id="cb14-39"><a></a></span>
+<span id="cb14-40"><a></a><span class="co">/* But are in different */</span> </span>
+<span id="cb14-41"><a></a><span class="co">/* 1. locations and */</span></span>
+<span id="cb14-42"><a></a><span class="co">/* 2. orientations */</span></span>
+<span id="cb14-43"><a></a><span class="pp">#left-waggler</span> {</span>
+<span id="cb14-44"><a></a>  <span class="kw">top</span><span class="ch">:</span> <span class="dv">22</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-45"><a></a>  <span class="kw">left</span><span class="ch">:</span> <span class="dv">6</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-46"><a></a>  <span class="kw">transform</span><span class="ch">:</span> <span class="fu">rotate(</span><span class="dv">-45</span><span class="dt">deg</span><span class="fu">)</span></span>
+<span id="cb14-47"><a></a>}</span>
+<span id="cb14-48"><a></a><span class="pp">#right-waggler</span>{</span>
+<span id="cb14-49"><a></a>  <span class="kw">top</span><span class="ch">:</span> <span class="dv">22</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-50"><a></a>  <span class="kw">left</span><span class="ch">:</span> <span class="dv">18</span><span class="dt">vmin</span><span class="op">;</span></span>
+<span id="cb14-51"><a></a>  <span class="kw">transform</span><span class="ch">:</span> <span class="fu">rotate(</span><span class="dv">45</span><span class="dt">deg</span><span class="fu">)</span></span>
+<span id="cb14-52"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div></div>
+<ul>
+<li>Try it out all at once or piece-by-piece!</li>
+</ul>
+</section>
+<section id="visually-3" class="slide level2">
+<h2>👀 Visually</h2>
+<div id="base">
+  <div id="background">
+    <div id="spookster">
+      <div id="peepers2"></div>
+      <!-- Short for booplesnoot -->
+      <div id="snoot"></div>
+      <div id="left-waggler"></div>
+      <div id="right-waggler"></div>
+    </div>
+    <div id="feets">
+      <div id="feet"></div>
+      <div id="feet"></div>
+      <div id="feet"></div>
+      <div id="feet"></div>
+    </div>
+  </div>
+</div>
+</section>
+<section id="demo-repo" class="slide level2">
+<h2>Demo Repo</h2>
+<ul>
+<li>Check it out here:
+<ul>
+<li><a href="https://cd-public.github.io/spookster">Page</a></li>
+<li><a href="https://github.com/cd-public/spookster">Repo</a></li>
 </ul></li>
-<li>🤑</li>
-<li>Also its fun!</li>
-</ul>
-</section></section>
-<section>
-<section id="sync" class="title-slide slide level1 center">
-<h1>🔄 Sync</h1>
-
-</section>
-<section id="what-9" class="slide level2">
-<h2>What?</h2>
-<ul>
-<li>Make sure you sync your Codespace to your repository.</li>
-<li>GitHub Pages will update automatically.</li>
-<li>Show off your work!</li>
-</ul>
-</section>
-<section id="how-9" class="slide level2">
-<h2>How?</h2>
-<ul>
-<li>You can <a href="./01_webpage.html#save-your-work">review from last time</a></li>
-</ul>
-</section>
-<section id="why-9" class="slide level2">
-<h2>Why?</h2>
-<ul>
-<li>We learn by doing!</li>
-<li>A little bit every day!</li>
 </ul>
 </section>
 <section id="today-1" class="slide level2">
 <h2>Today</h2>
 <ul class="task-list">
-<li><label><input type="checkbox" checked="">Content!</label></li>
-<li><label><input type="checkbox" checked="">Nesting!</label></li>
-<li><label><input type="checkbox" checked="">Headings!</label></li>
+<li><label><input type="checkbox" checked="">Backgrounds!</label></li>
+<li><label><input type="checkbox" checked="">Radii!</label></li>
+<li><label><input type="checkbox" checked="">Positioning!</label></li>
 </ul>
 
 
