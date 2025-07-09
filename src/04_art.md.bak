@@ -1,5 +1,5 @@
 ---
-title: 😎 Style!
+title: 🖼 Art!
 ---
 
 
@@ -12,7 +12,7 @@ title: 😎 Style!
 1. Create a *webpage*
 2. Make it *well-formed*
 3. Make it *stylish*
-4. Make it ***graphical***
+4. **Make it *graphical***
 5. Make it *interactive*
 
 ## Today
@@ -367,6 +367,10 @@ title: 😎 Style!
 
 - It will mostly look like this:
 
+::::{.columns}
+
+:::{.column width="100%"}
+
 ```{=html}
 <div id="base">
   <div id="background">
@@ -374,6 +378,10 @@ title: 😎 Style!
   </div>
 </div>
 ```
+
+:::
+
+::::
 
 
 ## Aside: Border Radius

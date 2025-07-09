@@ -100,12 +100,12 @@
 /* But are in different */ 
 /* 1. locations and */
 /* 2. orientations */
-.left-waggler {
+#left-waggler {
   top: 11vmin;
   left: 3vmin;
   transform: rotate(-45deg)
 }
-.right-waggler{
+#right-waggler{
   top: 11vmin;
   left: 9vmin;
   transform: rotate(45deg)

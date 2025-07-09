@@ -5,8 +5,8 @@
 
 #base {
   background: white;
-  height: 50vh;
-  width: 50vw;
+  height: 50vmin;
+  width: 50vmin;
   display: flex;
   align-items: center;
   justify-content: center;

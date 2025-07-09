@@ -1,445 +1,1493 @@
 [
   {
-    "objectID": "04_art.html#goals",
-    "href": "04_art.html#goals",
-    "title": "😎 Style!",
+    "objectID": "05_script.html",
+    "href": "05_script.html",
+    "title": "🎭 Scripts!",
+    "section": "",
+    "text": "Create a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive\n\n\n\n\n\nEvents!\nListeners!\nFunctions!\n\n\n\n\n\nWe’ll animate an “eye”.\nYou can animate the spooky ghost, and I provide an example!\nCheck it out!\n\nLink\n\nI made a number of changes to the eyes to get this to work.\n\nJust check out the .html and .css files!\n\n\n\n\n\n\nWe will use our third language - JavaScript\nWe can use the &lt;script&gt; element or include a .js file.\nI always start my files as:\n\n\n\nanything_calvin_does.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n    &lt;script type=\"text/javascript\" src=\"script.js\"&gt;&lt;/script&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    ...\n\n\n\n\n\nThe most used coding language of all time.\nRuns on every computer in the world that has a webbrowser.\n\nEven if the internet is out!",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#goals",
+    "href": "05_script.html#goals",
+    "title": "🎭 Scripts!",
+    "section": "",
+    "text": "Create a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#today",
+    "href": "05_script.html#today",
+    "title": "🎭 Scripts!",
+    "section": "",
+    "text": "Events!\nListeners!\nFunctions!",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#what",
+    "href": "05_script.html#what",
+    "title": "🎭 Scripts!",
+    "section": "",
+    "text": "We’ll animate an “eye”.\nYou can animate the spooky ghost, and I provide an example!\nCheck it out!\n\nLink\n\nI made a number of changes to the eyes to get this to work.\n\nJust check out the .html and .css files!",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#how",
+    "href": "05_script.html#how",
+    "title": "🎭 Scripts!",
+    "section": "",
+    "text": "We will use our third language - JavaScript\nWe can use the &lt;script&gt; element or include a .js file.\nI always start my files as:\n\n\n\nanything_calvin_does.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n    &lt;script type=\"text/javascript\" src=\"script.js\"&gt;&lt;/script&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    ...",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#why",
+    "href": "05_script.html#why",
+    "title": "🎭 Scripts!",
+    "section": "",
+    "text": "The most used coding language of all time.\nRuns on every computer in the world that has a webbrowser.\n\nEven if the internet is out!",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#what-1",
+    "href": "05_script.html#what-1",
+    "title": "🎭 Scripts!",
+    "section": "What?",
+    "text": "What?\n\nNew language, new “Hello, world!”\nBut this time, it is interactive!\nWe will say “hello” when someone clicks.",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#how-1",
+    "href": "05_script.html#how-1",
+    "title": "🎭 Scripts!",
+    "section": "How?",
+    "text": "How?\n\n\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;script type=\"text/javascript\" \n            src=\"script.js\"&gt;\n     &lt;/script&gt;\n  &lt;/head&gt;\n  &lt;!-- \n  The `()` means \"take an action.\" \n  --&gt;\n  &lt;body onclick=\"hello()\"&gt;\n    Text.\n  &lt;/body&gt;\n&lt;/html&gt;\n\n\n\n\nscript.js\n\n/* A function is a named action. */\nfunction hello() {\n\n    /* An alert is a text pop-up */\n    alert(\"Hello, world!\")\n    \n} /* Enclose the action in {} */",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#visually",
+    "href": "05_script.html#visually",
+    "title": "🎭 Scripts!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nClick anywhere green…\n\n&lt;div style=\"background:green;\" onclick=\"hello()\"&gt;\n    Text\n&lt;/div&gt;\nText",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#code",
+    "href": "05_script.html#code",
+    "title": "🎭 Scripts!",
+    "section": "👩‍💻 Code",
+    "text": "👩‍💻 Code\n\nWe’ll animate an “eye”.\n\n\n\n\n\neye.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" \n              href=\"eye.css\"&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;div id=\"eye\"&gt;\n            &lt;div id=\"pupil\"&gt;&lt;/div&gt;\n        &lt;/div&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n\n\n\n\neye.css\n\n#eye {\n    position: absolute;\n    border-radius: 50%;\n    top: 50%;\n    left: 50%;\n    width: 6vmin;\n    height: 6vmin;\n    background: blue;\n}\n#pupil {\n    position: absolute;\n    border-radius: 50%;\n    width: 3vmin;\n    height: 3vmin;\n    background: white;\n}",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#visually-1",
+    "href": "05_script.html#visually-1",
+    "title": "🎭 Scripts!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nIt will mostly look like this (or animate the eyes of your ghost for a challenge!):",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#idea",
+    "href": "05_script.html#idea",
+    "title": "🎭 Scripts!",
+    "section": "💡 Idea",
+    "text": "💡 Idea\n\nWe will move the pupil\nThe pupil was position within the eye on the ghost using the left and top styles.\nFor example, we can move the 10vmin left and top.\n\nThis moves the “pupil” off the “eye” as the “eye” is only “6vmin” in radius.",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#geometry",
+    "href": "05_script.html#geometry",
+    "title": "🎭 Scripts!",
+    "section": "📐 Geometry",
+    "text": "📐 Geometry\n\nThe eye is 6x6\nThe pupil is 3x3\nSo to move the pupil all the way across the eye, move it by 3 from top and left, each.",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#display",
+    "href": "05_script.html#display",
+    "title": "🎭 Scripts!",
+    "section": "📺 Display",
+    "text": "📺 Display\n\nWe can follow the mouse\nIf the mouse is leftmost, the pupil should be at left:0vmin\nIf the mouse is rightmost, the pupil should be at left:3vmin\nHelpfully:\n\nJavaScript will tell us where the mouse is, and\nJavaScript will let us easily update the style of an element.",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#step-0",
+    "href": "05_script.html#step-0",
+    "title": "🎭 Scripts!",
+    "section": "Step 0",
+    "text": "Step 0\n\nLet’s start making eye.js\nWe’ll start with the “Hello, world!” example.\n\n\n\nscript.js\n\nfunction hello() {\n    alert(\"Hello, world!\")\n}",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#step-1",
+    "href": "05_script.html#step-1",
+    "title": "🎭 Scripts!",
+    "section": "Step 1 👂",
+    "text": "Step 1 👂\n\nWe set the function to be performed on mouse clicks.\nWe do so using an event listener\n\nA special JavaScript way to do an action whenever something happens.\n\n\n\n\nscript.js\n\nfunction hello() {\n    alert(\"Hello, world!\")\n}\n\ndocument.addEventListener('click', hello);\n/* \"document\" refers the website, \n   \"click\" to what you do, \n   \"hello\" to what JavaScript does. */",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#step-2",
+    "href": "05_script.html#step-2",
+    "title": "🎭 Scripts!",
+    "section": "Step 2 🗺",
+    "text": "Step 2 🗺\n\nLet’s see where the click occured.\nA mouseclick is an event, so let’s “give” that event to hello by placing it within the ()\n\n\n\nscript.js\n\nfunction hello(event) {\n    alert(event)\n}\n\ndocument.addEventListener('click', hello(event));",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#visually-2",
+    "href": "05_script.html#visually-2",
+    "title": "🎭 Scripts!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nClick anywhere green…\n\n&lt;div style=\"background:green;\" onclick=\"hello()\"&gt;\n    Text\n&lt;/div&gt;\nText",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#step-3",
+    "href": "05_script.html#step-3",
+    "title": "🎭 Scripts!",
+    "section": "Step 3 🎁",
+    "text": "Step 3 🎁\n\nWe have to unwrap the event.\n\nLots of nonsense in there.\n\nLet’s look at just the x coordinate within the webpage\n\nIt’s called pageX\n\nfunction hello(event) {\n  alert(event.pageX)\n}\n\nText",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#alert",
+    "href": "05_script.html#alert",
+    "title": "🎭 Scripts!",
+    "section": "Alert 🚨",
+    "text": "Alert 🚨\n\nYou may notice clicking toward the left gives smaller numbers and to the right gives bigger numbers.\n\nIf you didn’t try it below!\n\nWe can use these numbers to move the pupil!\n\nText",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#step-4",
+    "href": "05_script.html#step-4",
+    "title": "🎭 Scripts!",
+    "section": "Step 4 🚶‍♀️",
+    "text": "Step 4 🚶‍♀️\n\nRather than an alert, we can change the location of some HTML element.\n\nGive it a name.\nAsk JavaScript to find it.\nUse JavaScript to change its left value to the clicked value.\n\nfunction hello(event) {\n  /* Find the element by id */\n  const element = document.getElementById(\"name\");\n  /* Change the \"left\" value of the element's style */\n  element.style[\"left\"] = event.pageX + \"px\"; /* x is given in \"px\" */\n  alert(event.pageX + \"px\"); /* So we can see it */\n}",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#visually-3",
+    "href": "05_script.html#visually-3",
+    "title": "🎭 Scripts!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nClick anywhere green…\n\nThis should work in most browsers…\n\n&lt;div style=\"background:green;\" onclick=\"hello()\"&gt;\n  &lt;div id=\"name\"&gt;\n      Text\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\nText",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#step-5",
+    "href": "05_script.html#step-5",
+    "title": "🎭 Scripts!",
+    "section": "Step 5 📐",
+    "text": "Step 5 📐\n\nWe wanted our maximum pupil movement to be 3\nJavaScript helpful knows the maximum value for x - it is window.innerWidth\n\nI just looked it up I never would’ve guessed.\n\nWe divide the x value by the maximum, then multiply by 3.\n\nfunction hello(event) {\n    alert(3 * event.pageX / window.innerWidth)\n}\nText",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#step-6-on-the",
+    "href": "05_script.html#step-6-on-the",
+    "title": "🎭 Scripts!",
+    "section": "Step 6 👁 on the 🏆",
+    "text": "Step 6 👁 on the 🏆\n\nBack to the eye (and remember the CSS file!)\nUpdate “pupil” not an arbitrary element.\n\n\n\n\n\neye.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" \n              href=\"eye.css\"&gt;\n              \n    &lt;script type=\"text/javascript\" \n            src=\"eye.js\"&gt;&lt;/script&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;div id=\"eye\"&gt;\n            &lt;div id=\"pupil\"&gt;\n            &lt;/div&gt;\n        &lt;/div&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n\n\n\n\neye.js\n\nfunction hello(event) {\n    /* Find the element by id */\n    const element = document.getElementById(\"pupil\");\n    /* Find the new \"left\" value*/\n    const new = 3 * event.pageX / window.innerWidth;\n    /* Update */\n    element.style[\"left\"] = new + \"vmin\";\n}\n\ndocument.addEventListener('click', hello(event));",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#step-7",
+    "href": "05_script.html#step-7",
+    "title": "🎭 Scripts!",
+    "section": "Step 7 ↕",
+    "text": "Step 7 ↕\n\nAlso do vertical movement.\n\n\n\neye.js\n\nfunction hello(event) {\n    /* Find the element by id */\n    const element = document.getElementById(\"pupil\");\n    /* Find the new \"x\" value*/\n    const x = 3 * event.pageX / window.innerWidth;\n    /* Find the new \"y\" value*/\n    const y = 3 * event.pageY / window.innerHeight;\n    /* Update */\n    element.style[\"left\"] = x + \"vmin\";\n    element.style[\"top\"] = y + \"vmin\";\n}\n\ndocument.addEventListener('click', hello(event));",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#visually-4",
+    "href": "05_script.html#visually-4",
+    "title": "🎭 Scripts!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nIt will mostly look like this (or animate the eyes of your ghost for a challenge!):",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.html#altogether",
+    "href": "05_script.html#altogether",
+    "title": "🎭 Scripts!",
+    "section": "Altogether",
+    "text": "Altogether\n\nThis is a bit confusing.\nTry this out altogether like so.\nThis uses mousemove rather than click (it’s more fun).\n\nLink\n\n\n\n\naltogether.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;style&gt;\n        #eye {\n          position: absolute;\n          border-radius: 50%;\n          top: 50%;\n          left: 50%;\n          width: 6vmin;\n          height: 6vmin;\n          background: black;\n        }\n        #pupil {\n          position: absolute;\n          border-radius: 50%;\n          width: 3vmin;\n          height: 3vmin;\n          background: white;\n        }\n    &lt;/style&gt;\n    &lt;script&gt;\n        function peep(e) {\n            const p = document.getElementById(\"pupil\");\n            p.style[\"left\"] = (3 * e.pageX / window.innerWidth).toString() + \"vmin\";\n            p.style[\"top\"] = (3 * e.pageY / window.innerHeight).toString() + \"vmin\";\n        }\n        \n        document.addEventListener('mousemove', peep);\n    &lt;/script&gt;\n        \n  &lt;/head&gt;\n  &lt;body&gt;\n      &lt;div id=\"eye\"&gt;\n        &lt;div id=\"pupil\"&gt;&lt;/div&gt;\n      &lt;/div&gt;\n  &lt;/body&gt;\n&lt;/html&gt;",
+    "crumbs": [
+      "🎭 Scripts!"
+    ]
+  },
+  {
+    "objectID": "05_script.rjs.html#goals",
+    "href": "05_script.rjs.html#goals",
+    "title": "🎭 Scripts!",
     "section": "Goals",
-    "text": "Goals\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive",
-    "crumbs": [
-      "😎 Style!"
-    ]
+    "text": "Goals\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive"
   },
   {
-    "objectID": "04_art.html#today",
-    "href": "04_art.html#today",
-    "title": "😎 Style!",
+    "objectID": "05_script.rjs.html#today",
+    "href": "05_script.rjs.html#today",
+    "title": "🎭 Scripts!",
     "section": "Today",
-    "text": "Today\n\nBackgrounds!\nRadii!\nPositioning!",
+    "text": "Today\n\nEvents!\nListeners!\nFunctions!"
+  },
+  {
+    "objectID": "05_script.rjs.html#what",
+    "href": "05_script.rjs.html#what",
+    "title": "🎭 Scripts!",
+    "section": "What?",
+    "text": "What?\n\nWe’ll animate an “eye”.\nYou can animate the spooky ghost, and I provide an example!\nCheck it out!\n\nLink\n\nI made a number of changes to the eyes to get this to work.\n\nJust check out the .html and .css files!"
+  },
+  {
+    "objectID": "05_script.rjs.html#how",
+    "href": "05_script.rjs.html#how",
+    "title": "🎭 Scripts!",
+    "section": "How?",
+    "text": "How?\n\nWe will use our third language - JavaScript\nWe can use the &lt;script&gt; element or include a .js file.\nI always start my files as:\n\n\n\nanything_calvin_does.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n    &lt;script type=\"text/javascript\" src=\"script.js\"&gt;&lt;/script&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    ..."
+  },
+  {
+    "objectID": "05_script.rjs.html#why",
+    "href": "05_script.rjs.html#why",
+    "title": "🎭 Scripts!",
+    "section": "Why?",
+    "text": "Why?\n\nThe most used coding language of all time.\nRuns on every computer in the world that has a webbrowser.\n\nEven if the internet is out!"
+  },
+  {
+    "objectID": "05_script.rjs.html#what-1",
+    "href": "05_script.rjs.html#what-1",
+    "title": "🎭 Scripts!",
+    "section": "What?",
+    "text": "What?\n\nNew language, new “Hello, world!”\nBut this time, it is interactive!\nWe will say “hello” when someone clicks."
+  },
+  {
+    "objectID": "05_script.rjs.html#how-1",
+    "href": "05_script.rjs.html#how-1",
+    "title": "🎭 Scripts!",
+    "section": "How?",
+    "text": "How?\n\n\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;script type=\"text/javascript\" \n            src=\"script.js\"&gt;\n     &lt;/script&gt;\n  &lt;/head&gt;\n  &lt;!-- \n  The `()` means \"take an action.\" \n  --&gt;\n  &lt;body onclick=\"hello()\"&gt;\n    Text.\n  &lt;/body&gt;\n&lt;/html&gt;\n\n\n\n\nscript.js\n\n/* A function is a named action. */\nfunction hello() {\n\n    /* An alert is a text pop-up */\n    alert(\"Hello, world!\")\n    \n} /* Enclose the action in {} */"
+  },
+  {
+    "objectID": "05_script.rjs.html#visually",
+    "href": "05_script.rjs.html#visually",
+    "title": "🎭 Scripts!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nClick anywhere green…\n\n&lt;div style=\"background:green;\" onclick=\"hello()\"&gt;\n    Text\n&lt;/div&gt;\nText"
+  },
+  {
+    "objectID": "05_script.rjs.html#code",
+    "href": "05_script.rjs.html#code",
+    "title": "🎭 Scripts!",
+    "section": "👩‍💻 Code",
+    "text": "👩‍💻 Code\n\nWe’ll animate an “eye”.\n\n\n\n\n\neye.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" \n              href=\"eye.css\"&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;div id=\"eye\"&gt;\n            &lt;div id=\"pupil\"&gt;&lt;/div&gt;\n        &lt;/div&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n\n\n\n\neye.css\n\n#eye {\n    position: absolute;\n    border-radius: 50%;\n    top: 50%;\n    left: 50%;\n    width: 6vmin;\n    height: 6vmin;\n    background: blue;\n}\n#pupil {\n    position: absolute;\n    border-radius: 50%;\n    width: 3vmin;\n    height: 3vmin;\n    background: white;\n}"
+  },
+  {
+    "objectID": "05_script.rjs.html#visually-1",
+    "href": "05_script.rjs.html#visually-1",
+    "title": "🎭 Scripts!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nIt will mostly look like this (or animate the eyes of your ghost for a challenge!):"
+  },
+  {
+    "objectID": "05_script.rjs.html#idea",
+    "href": "05_script.rjs.html#idea",
+    "title": "🎭 Scripts!",
+    "section": "💡 Idea",
+    "text": "💡 Idea\n\nWe will move the pupil\nThe pupil was position within the eye on the ghost using the left and top styles.\nFor example, we can move the 10vmin left and top.\n\nThis moves the “pupil” off the “eye” as the “eye” is only “6vmin” in radius."
+  },
+  {
+    "objectID": "05_script.rjs.html#geometry",
+    "href": "05_script.rjs.html#geometry",
+    "title": "🎭 Scripts!",
+    "section": "📐 Geometry",
+    "text": "📐 Geometry\n\nThe eye is 6x6\nThe pupil is 3x3\nSo to move the pupil all the way across the eye, move it by 3 from top and left, each."
+  },
+  {
+    "objectID": "05_script.rjs.html#display",
+    "href": "05_script.rjs.html#display",
+    "title": "🎭 Scripts!",
+    "section": "📺 Display",
+    "text": "📺 Display\n\nWe can follow the mouse\nIf the mouse is leftmost, the pupil should be at left:0vmin\nIf the mouse is rightmost, the pupil should be at left:3vmin\nHelpfully:\n\nJavaScript will tell us where the mouse is, and\nJavaScript will let us easily update the style of an element."
+  },
+  {
+    "objectID": "05_script.rjs.html#step-0",
+    "href": "05_script.rjs.html#step-0",
+    "title": "🎭 Scripts!",
+    "section": "Step 0",
+    "text": "Step 0\n\nLet’s start making eye.js\nWe’ll start with the “Hello, world!” example.\n\n\n\nscript.js\n\nfunction hello() {\n    alert(\"Hello, world!\")\n}"
+  },
+  {
+    "objectID": "05_script.rjs.html#step-1",
+    "href": "05_script.rjs.html#step-1",
+    "title": "🎭 Scripts!",
+    "section": "Step 1 👂",
+    "text": "Step 1 👂\n\nWe set the function to be performed on mouse clicks.\nWe do so using an event listener\n\nA special JavaScript way to do an action whenever something happens.\n\n\n\n\nscript.js\n\nfunction hello() {\n    alert(\"Hello, world!\")\n}\n\ndocument.addEventListener('click', hello);\n/* \"document\" refers the website, \n   \"click\" to what you do, \n   \"hello\" to what JavaScript does. */"
+  },
+  {
+    "objectID": "05_script.rjs.html#step-2",
+    "href": "05_script.rjs.html#step-2",
+    "title": "🎭 Scripts!",
+    "section": "Step 2 🗺",
+    "text": "Step 2 🗺\n\nLet’s see where the click occured.\nA mouseclick is an event, so let’s “give” that event to hello by placing it within the ()\n\n\n\nscript.js\n\nfunction hello(event) {\n    alert(event)\n}\n\ndocument.addEventListener('click', hello(event));"
+  },
+  {
+    "objectID": "05_script.rjs.html#visually-2",
+    "href": "05_script.rjs.html#visually-2",
+    "title": "🎭 Scripts!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nClick anywhere green…\n\n&lt;div style=\"background:green;\" onclick=\"hello()\"&gt;\n    Text\n&lt;/div&gt;\nText"
+  },
+  {
+    "objectID": "05_script.rjs.html#step-3",
+    "href": "05_script.rjs.html#step-3",
+    "title": "🎭 Scripts!",
+    "section": "Step 3 🎁",
+    "text": "Step 3 🎁\n\nWe have to unwrap the event.\n\nLots of nonsense in there.\n\nLet’s look at just the x coordinate within the webpage\n\nIt’s called pageX\n\nfunction hello(event) {\n  alert(event.pageX)\n}\n\nText"
+  },
+  {
+    "objectID": "05_script.rjs.html#alert",
+    "href": "05_script.rjs.html#alert",
+    "title": "🎭 Scripts!",
+    "section": "Alert 🚨",
+    "text": "Alert 🚨\n\nYou may notice clicking toward the left gives smaller numbers and to the right gives bigger numbers.\n\nIf you didn’t try it below!\n\nWe can use these numbers to move the pupil!\n\nText"
+  },
+  {
+    "objectID": "05_script.rjs.html#step-4",
+    "href": "05_script.rjs.html#step-4",
+    "title": "🎭 Scripts!",
+    "section": "Step 4 🚶‍♀️",
+    "text": "Step 4 🚶‍♀️\n\nRather than an alert, we can change the location of some HTML element.\n\nGive it a name.\nAsk JavaScript to find it.\nUse JavaScript to change its left value to the clicked value.\n\nfunction hello(event) {\n  /* Find the element by id */\n  const element = document.getElementById(\"name\");\n  /* Change the \"left\" value of the element's style */\n  element.style[\"left\"] = event.pageX + \"px\"; /* x is given in \"px\" */\n  alert(event.pageX + \"px\"); /* So we can see it */\n}"
+  },
+  {
+    "objectID": "05_script.rjs.html#visually-3",
+    "href": "05_script.rjs.html#visually-3",
+    "title": "🎭 Scripts!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nClick anywhere green…\n\nThis should work in most browsers…\n\n&lt;div style=\"background:green;\" onclick=\"hello()\"&gt;\n  &lt;div id=\"name\"&gt;\n      Text\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\nText"
+  },
+  {
+    "objectID": "05_script.rjs.html#step-5",
+    "href": "05_script.rjs.html#step-5",
+    "title": "🎭 Scripts!",
+    "section": "Step 5 📐",
+    "text": "Step 5 📐\n\nWe wanted our maximum pupil movement to be 3\nJavaScript helpful knows the maximum value for x - it is window.innerWidth\n\nI just looked it up I never would’ve guessed.\n\nWe divide the x value by the maximum, then multiply by 3.\n\nfunction hello(event) {\n    alert(3 * event.pageX / window.innerWidth)\n}\nText"
+  },
+  {
+    "objectID": "05_script.rjs.html#step-6-on-the",
+    "href": "05_script.rjs.html#step-6-on-the",
+    "title": "🎭 Scripts!",
+    "section": "Step 6 👁 on the 🏆",
+    "text": "Step 6 👁 on the 🏆\n\nBack to the eye (and remember the CSS file!)\nUpdate “pupil” not an arbitrary element.\n\n\n\n\n\neye.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" \n              href=\"eye.css\"&gt;\n              \n    &lt;script type=\"text/javascript\" \n            src=\"eye.js\"&gt;&lt;/script&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;div id=\"eye\"&gt;\n            &lt;div id=\"pupil\"&gt;\n            &lt;/div&gt;\n        &lt;/div&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n\n\n\n\neye.js\n\nfunction hello(event) {\n    /* Find the element by id */\n    const element = document.getElementById(\"pupil\");\n    /* Find the new \"left\" value*/\n    const new = 3 * event.pageX / window.innerWidth;\n    /* Update */\n    element.style[\"left\"] = new + \"vmin\";\n}\n\ndocument.addEventListener('click', hello(event));"
+  },
+  {
+    "objectID": "05_script.rjs.html#step-7",
+    "href": "05_script.rjs.html#step-7",
+    "title": "🎭 Scripts!",
+    "section": "Step 7 ↕",
+    "text": "Step 7 ↕\n\nAlso do vertical movement.\n\n\n\neye.js\n\nfunction hello(event) {\n    /* Find the element by id */\n    const element = document.getElementById(\"pupil\");\n    /* Find the new \"x\" value*/\n    const x = 3 * event.pageX / window.innerWidth;\n    /* Find the new \"y\" value*/\n    const y = 3 * event.pageY / window.innerHeight;\n    /* Update */\n    element.style[\"left\"] = x + \"vmin\";\n    element.style[\"top\"] = y + \"vmin\";\n}\n\ndocument.addEventListener('click', hello(event));"
+  },
+  {
+    "objectID": "05_script.rjs.html#visually-4",
+    "href": "05_script.rjs.html#visually-4",
+    "title": "🎭 Scripts!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nIt will mostly look like this (or animate the eyes of your ghost for a challenge!):"
+  },
+  {
+    "objectID": "05_script.rjs.html#altogether",
+    "href": "05_script.rjs.html#altogether",
+    "title": "🎭 Scripts!",
+    "section": "Altogether",
+    "text": "Altogether\n\nThis is a bit confusing.\nTry this out altogether like so.\nThis uses mousemove rather than click (it’s more fun).\n\nLink\n\n\n\n\naltogether.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;style&gt;\n        #eye {\n          position: absolute;\n          border-radius: 50%;\n          top: 50%;\n          left: 50%;\n          width: 6vmin;\n          height: 6vmin;\n          background: black;\n        }\n        #pupil {\n          position: absolute;\n          border-radius: 50%;\n          width: 3vmin;\n          height: 3vmin;\n          background: white;\n        }\n    &lt;/style&gt;\n    &lt;script&gt;\n        function peep(e) {\n            const p = document.getElementById(\"pupil\");\n            p.style[\"left\"] = (3 * e.pageX / window.innerWidth).toString() + \"vmin\";\n            p.style[\"top\"] = (3 * e.pageY / window.innerHeight).toString() + \"vmin\";\n        }\n        \n        document.addEventListener('mousemove', peep);\n    &lt;/script&gt;\n        \n  &lt;/head&gt;\n  &lt;body&gt;\n      &lt;div id=\"eye\"&gt;\n        &lt;div id=\"pupil\"&gt;&lt;/div&gt;\n      &lt;/div&gt;\n  &lt;/body&gt;\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "03_style.html",
+    "href": "03_style.html",
+    "title": "😎 Style!",
+    "section": "",
+    "text": "Create a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive\n\n\n\n\n\nStyle!\nid!\nCSS!",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.html#what",
-    "href": "04_art.html#what",
+    "objectID": "03_style.html#goals",
+    "href": "03_style.html#goals",
+    "title": "😎 Style!",
+    "section": "",
+    "text": "Create a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive",
+    "crumbs": [
+      "😎 Style!"
+    ]
+  },
+  {
+    "objectID": "03_style.html#today",
+    "href": "03_style.html#today",
+    "title": "😎 Style!",
+    "section": "",
+    "text": "Style!\nid!\nCSS!",
+    "crumbs": [
+      "😎 Style!"
+    ]
+  },
+  {
+    "objectID": "03_style.html#what",
+    "href": "03_style.html#what",
     "title": "😎 Style!",
     "section": "What?",
-    "text": "What?\n\nYosra Emad, cool CSS artist/coder made this:",
+    "text": "What?\n\nHTML can emphasize or strengthen text.\n\n&lt;p&gt;\n    This is\n    &lt;strong&gt;\n        bold\n    &lt;/strong&gt;\n    and this is \n    &lt;em&gt;\n        italicized.\n    &lt;/em&gt;\n&lt;/p&gt;\n\nThis is  bold  and this is  italicized. \n\n\nOkay, how do you make text blue?\n\nNot &lt;blue&gt; and &lt;green&gt; for every color!",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.html#how",
-    "href": "04_art.html#how",
+    "objectID": "03_style.html#how",
+    "href": "03_style.html#how",
     "title": "😎 Style!",
     "section": "How?",
-    "text": "How?\n\nYosra:\n\nCreates HTML elements for each “part” of the art.\nUses CSS styling to change colors and borders.\nWe will do the same!",
+    "text": "How?\n\nAttributes\n\nLike links &lt;a href=\"xkcd.com\"&gt;link&lt;/a&gt;\n\nWe use the style attribute.\n\nOften with &lt;span&gt; - text-without-linebreak.\n\nThis is\n&lt;span style=\"color:green\"&gt;\n  green\n&lt;/span&gt;\nand this is \n&lt;span style=\"color:pink\"&gt;\n  pink.\n&lt;/span&gt;\n\nThis is  green  and this is  pink.",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.html#why",
-    "href": "04_art.html#why",
+    "objectID": "03_style.html#why",
+    "href": "03_style.html#why",
     "title": "😎 Style!",
     "section": "Why?",
-    "text": "Why?\n\nIt’s cute!",
+    "text": "Why?\n\nWhat if you want:\n\nBold\nItalic\nUnderline\nCentered\nPink text on a green background.\n\n\n&lt;p style=\"font-weight:bold;font-style:italic;text-decoration:underline;text-align:center;color:pink;background:green\"&gt;No problem.&lt;/p&gt;\n\nNo problem.",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.html#what-1",
-    "href": "04_art.html#what-1",
+    "objectID": "03_style.html#what-1",
+    "href": "03_style.html#what-1",
     "title": "😎 Style!",
     "section": "What?",
-    "text": "What?\n\n\n\nFirst, make the skeleton of the structure by looking for layers from back to front.\nWe notice, for example, there could be a back-most circle element forming the body.\nUse the &lt;div&gt; element - a very general “division” of website content.\n\nWe will use no content at all - only style the &lt;div&gt;",
+    "text": "What?\n\nThis is annoying:\n\n&lt;p style=\"font-weight:bold;font-style:italic;text-decoration:underline;text-align:center;color:pink;background:green\"&gt;No problem.&lt;/p&gt;\n\nMust better would be:\n\n&lt;p id=\"stylish\"&gt;No problem&lt;/a&gt;\n\nAnd write the style down elsewhere.",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.html#how-1",
-    "href": "04_art.html#how-1",
+    "objectID": "03_style.html#how-1",
+    "href": "03_style.html#how-1",
     "title": "😎 Style!",
     "section": "How?",
-    "text": "How?\n\nYosra recommends, and I follow, as:\n\n\n\n\n\nspooky.html\n\n&lt;div id=\"base\"&gt;\n  &lt;div id=\"background\"&gt;\n    &lt;div id=\"spookster\"&gt;\n      &lt;div id=\"peepers\"&gt;&lt;/div&gt;\n      &lt;!-- Short for booplesnoot --&gt;\n      &lt;div id=\"snoot\"&gt;&lt;/div&gt;\n      &lt;div id=\"left-waggler\"&gt;&lt;/div&gt;\n      &lt;div id=\"right-waggler\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div id=\"feets\"&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;",
+    "text": "How?\n\nCSS (Cascading Style Sheets)\nIn your &lt;head&gt;, add a &lt;style&gt; element.\nWrite out all the styling you want!\nWe’ll show a minimal example!",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.html#citation-needed",
-    "href": "04_art.html#citation-needed",
+    "objectID": "03_style.html#visually",
+    "href": "03_style.html#visually",
     "title": "😎 Style!",
-    "section": "Citation needed",
-    "text": "Citation needed\n\n\n\nBooplesnoot and other part names are a throwback to a legendary meme of a bunny.",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\n\nstyled.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;style&gt;\n            #stylish {\n                font-weight: bold;\n                font-style: italic;\n                text-decoration: underline;\n                text-align: center;\n                color: pink;\n                background: green;\n            }\n        &lt;/style&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"stylish\"&gt;No problem&lt;/a&gt;\n    &lt;/body&gt;\n&lt;/html&gt;",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.html#why-1",
-    "href": "04_art.html#why-1",
+    "objectID": "03_style.html#why-1",
+    "href": "03_style.html#why-1",
     "title": "😎 Style!",
     "section": "Why?",
-    "text": "Why?\n\nBy default, HTML styles enclosed elements on top of enclosing elements.\nSo we can place, e.g., eyes on a smiley face like so:\n\n\n\nsmiley.html\n\n&lt;div id=\"face\"&gt;\n    &lt;div id=\"left-eye\"&gt;&lt;/div&gt;\n    &lt;div id=\"right-eye\"&gt;&lt;/div&gt;\n    &lt;div id=\"mouth\"&gt;&lt;/div&gt;\n&lt;/div&gt;",
+    "text": "Why?\n\nMore consistent.\n\nCan say “stylish” anywhere!\n\nLess messy.\n\nEasier to e.g. translate “No problem!” ⇒ “¡No hay problema!”\n\nCan be placed in a separate file…",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.html#step-0",
-    "href": "04_art.html#step-0",
+    "objectID": "03_style.html#what-2",
+    "href": "03_style.html#what-2",
     "title": "😎 Style!",
-    "section": "Step 0 🏁",
-    "text": "Step 0 🏁\n\nRecall we will be working with spooky.html\nRecall we need to link our CSS stylesheet in the header\n\n\n\nspooky.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;div id=\"base\"&gt;\n            &lt;div id=\"background\"&gt;\n                &lt;div id=\"spookster\"&gt;\n                    &lt;div id=\"peepers\"&gt;&lt;/div&gt;\n        ...",
+    "section": "What?",
+    "text": "What?\n\nMoving all the formatting to a header is nice enough…\nBut what if we have multiple pages on our website!\n\n“About me” and “Cool poems”, perhaps.\n\nWe may want to style them both the same!",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.html#step-1-1",
-    "href": "04_art.html#step-1-1",
+    "objectID": "03_style.html#how-2",
+    "href": "03_style.html#how-2",
     "title": "😎 Style!",
-    "section": "Step 1 1️⃣",
-    "text": "Step 1 1️⃣\n\n\n\nWe will remove all margins and stretching.\n\nOnce you have done more CSS, take this out and see what happens.\n\nWe use the special * asterisk to apply the style to all elements.\n\n\n\n\nstyles.css\n\n/* This is a CSS Comment */\n/* Like &lt;!-- --&gt; HTML comments */\n\n/* Remove margins and stretching */\n* {\n  margin: 0;\n  padding: 0;\n}",
+    "section": "How?",
+    "text": "How?\n\nMake a CSS file!\nInclude it in your HTML file with a &lt;link&gt;\n\n\n\n\n\nstyles.css\n\n#stylish {\n    font-weight: bold;\n    font-style: italic;\n    text-decoration: underline;\n    text-align: center;\n    color: pink;\n    background: green;\n}\n\n\n\n\nstyled.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"stylish\"&gt;No problem&lt;/p&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n\n\n\n\nEnsure files in the same repository and link name is correct (e.g. styles.css)",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.html#step-2",
-    "href": "04_art.html#step-2",
+    "objectID": "03_style.html#why-2",
+    "href": "03_style.html#why-2",
     "title": "😎 Style!",
-    "section": "Step 2 ⬜",
-    "text": "Step 2 ⬜\n\n\n\nStyle base.\nThis background color\n100% visible height vh and width vw\nFlex means “not inline text”\n\nWe aren’t using text!\n\nWe center everything relative to this div\n\n\n\n\nstyles.css\n\n/* Old */\n* {\n  margin: 0;\n  padding: 0;\n}\n\n/* New! */\n#base {\n  background: white;\n  height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n}",
+    "section": "Why?",
+    "text": "Why?\n\nWay easier when you have multiple styles.",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.html#step-3",
-    "href": "04_art.html#step-3",
-    "title": "😎 Style!",
-    "section": "Step 3 🟣",
-    "text": "Step 3 🟣\n\n\n\nThe circle behind the spookster.\n70% of the SMALLER of the height and width\nBorder radius is neat - we’ll demo it.\n#e8e0ff is this color\nAnd again center everything.\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#background {\n  width: 70vmin;\n  height: 70vmin;\n  background: #e8e0ff;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#aside-border-radius",
-    "href": "04_art.html#aside-border-radius",
-    "title": "😎 Style!",
-    "section": "Aside: Border Radius",
-    "text": "Aside: Border Radius\n\nWe can clip the borders of elements with backgrounds to be round instead of square with a radius.\n\n\n\n\n0%\n\n&lt;div style=\"background:red;border-radius:0%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n10%\n\n&lt;div style=\"background:red;border-radius:10%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n25%\n\n&lt;div style=\"background:red;border-radius:25%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n50%\n\n&lt;div style=\"background:red;border-radius:50%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#step-4",
-    "href": "04_art.html#step-4",
-    "title": "😎 Style!",
-    "section": "Step 4 🧢",
-    "text": "Step 4 🧢\n\n\n\nThe spookster herself.\n30% of the SMALLER of the height and width\nBorder radius but only on top!\nBlack border but not one the bottom!\n#e8e0ff is this color\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#spookster {\n  position: relative;\n  border: 0.5vmin solid black;\n  width: 30vmin;\n  height: 30vmin;\n  border-top-left-radius: 50%;\n  border-top-right-radius: 50%;\n  border-bottom: 0;\n  box-sizing: border-box;\n  background: #ffdcff;\n}",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#visually",
-    "href": "04_art.html#visually",
-    "title": "😎 Style!",
-    "section": "👀 Visually",
-    "text": "👀 Visually\n\nIt will mostly look like this:",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#aside-border-radius-1",
-    "href": "04_art.html#aside-border-radius-1",
-    "title": "😎 Style!",
-    "section": "Aside: Border Radius",
-    "text": "Aside: Border Radius\n\nHere it is without the border radius set.",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#step-5",
-    "href": "04_art.html#step-5",
-    "title": "😎 Style!",
-    "section": "Step 5 🐾",
-    "text": "Step 5 🐾\n\n\n\nWe create a &lt;div&gt; to hold for 4 feet and also those 4 feet\nEach foot is 1/4 of ghost width.\nRounded and outlined on the bottom.\nThere are four of these!\nBlack border except top!\n#e8e0ff is this color\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#feets {\n  display: flex;\n  width: 30vmin;\n}\n\n#feet {\n  width: 7.5vmin;\n  height: 6vmin;\n  border: 0.5vmin solid black;\n  border-bottom-left-radius: 50%;\n  border-bottom-right-radius: 50%;\n  border-top: 0;\n  background: #ffdcff;\n}",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#visually-1",
-    "href": "04_art.html#visually-1",
-    "title": "😎 Style!",
-    "section": "👀 Visually",
-    "text": "👀 Visually\n\nIt will mostly look like this:",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#aside-partial-borders",
-    "href": "04_art.html#aside-partial-borders",
-    "title": "😎 Style!",
-    "section": "Aside: Partial Borders",
-    "text": "Aside: Partial Borders\n\nIf we don’t set border-top: 0:",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#step-6",
-    "href": "04_art.html#step-6",
-    "title": "😎 Style!",
-    "section": "Step 6 👁️",
-    "text": "Step 6 👁️\n\n\n\nPeepers are just two circles at a fixed location.\n5% (1/6 of ghost) radius\nA lot down (13%) and a little bit to the left (5%)\nThen add a shadow (the other eye) 14% to the right.\nPhew!\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#peepers {\n  position: absolute;\n  width: 5vmin;\n  height: 5vmin;\n  background: #000;\n  border-radius: 50%;\n  top: 13vmin;\n  left: 5vmin;\n  box-shadow: 14vmin 0;\n}",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#visually-2",
-    "href": "04_art.html#visually-2",
-    "title": "😎 Style!",
-    "section": "👀 Visually",
-    "text": "👀 Visually\n\nIt will mostly look like this:",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#step-n",
-    "href": "04_art.html#step-n",
-    "title": "😎 Style!",
-    "section": "Step \\(n\\) 🎨",
-    "text": "Step \\(n\\) 🎨\n\n\n\nI’ll simply provide the rest for you to play with!\nYou can scroll!\n\n\n\n\nstyles.css\n\n/* the :before allows */\n/* 2 styles to one div */\n\n/* Whites of the eyes */\n#peepers:before{\n  content: \"\";\n  position: absolute;\n  background: white;\n  width: 2.5vmin;\n  height: 2.5vmin;\n  border-radius: 50%;\n  left: 2vmin;\n  box-shadow: 14vmin 0 white;\n}\n\n#snoot {\n  position: absolute;\n  width: 4vmin;\n  height: 2vmin;\n  border: 0.7vmin solid black;\n  border-bottom-left-radius: 4vmin;\n  border-bottom-right-radius: 4vmin;\n  border-top: 0;\n  top: 16vmin;\n  left: 12vmin;\n}\n\n/* Both wagglers (hands) have */\n/* much in common */\n#left-waggler, #right-waggler {\n  position: absolute;\n  width: 4vmin;\n  height: 4vmin;\n  border: 0.5vmin solid black;\n  border-bottom-left-radius: 50%;\n  border-bottom-right-radius: 50%;\n  border-top: 0;\n}\n\n/* But are in different */ \n/* 1. locations and */\n/* 2. orientations */\n#left-waggler {\n  top: 22vmin;\n  left: 6vmin;\n  transform: rotate(-45deg)\n}\n#right-waggler{\n  top: 22vmin;\n  left: 18vmin;\n  transform: rotate(45deg)\n}\n\n\n\n\nTry it out all at once or piece-by-piece!",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#visually-3",
-    "href": "04_art.html#visually-3",
-    "title": "😎 Style!",
-    "section": "👀 Visually",
-    "text": "👀 Visually",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#demo-repo",
-    "href": "04_art.html#demo-repo",
-    "title": "😎 Style!",
-    "section": "Demo Repo",
-    "text": "Demo Repo\n\nCheck it out here:\n\nPage\nRepo",
-    "crumbs": [
-      "😎 Style!"
-    ]
-  },
-  {
-    "objectID": "04_art.html#today-1",
-    "href": "04_art.html#today-1",
+    "objectID": "03_style.html#today-1",
+    "href": "03_style.html#today-1",
     "title": "😎 Style!",
     "section": "Today",
-    "text": "Today\n\nBackgrounds!\nRadii!\nPositioning!",
+    "text": "Today\n\nStyle!\nid!\nCSS!",
     "crumbs": [
       "😎 Style!"
     ]
   },
   {
-    "objectID": "04_art.rjs.html#goals",
-    "href": "04_art.rjs.html#goals",
+    "objectID": "03_style.rjs.html#goals",
+    "href": "03_style.rjs.html#goals",
     "title": "😎 Style!",
     "section": "Goals",
     "text": "Goals\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive"
   },
   {
-    "objectID": "04_art.rjs.html#today",
-    "href": "04_art.rjs.html#today",
+    "objectID": "03_style.rjs.html#today",
+    "href": "03_style.rjs.html#today",
     "title": "😎 Style!",
     "section": "Today",
-    "text": "Today\n\nBackgrounds!\nRadii!\nPositioning!"
+    "text": "Today\n\nStyle!\nid!\nCSS!"
   },
   {
-    "objectID": "04_art.rjs.html#what",
-    "href": "04_art.rjs.html#what",
+    "objectID": "03_style.rjs.html#what",
+    "href": "03_style.rjs.html#what",
     "title": "😎 Style!",
     "section": "What?",
-    "text": "What?\n\nYosra Emad, cool CSS artist/coder made this:"
+    "text": "What?\n\nHTML can emphasize or strengthen text.\n\n&lt;p&gt;\n    This is\n    &lt;strong&gt;\n        bold\n    &lt;/strong&gt;\n    and this is \n    &lt;em&gt;\n        italicized.\n    &lt;/em&gt;\n&lt;/p&gt;\n\nThis is  bold  and this is  italicized. \n\n\nOkay, how do you make text blue?\n\nNot &lt;blue&gt; and &lt;green&gt; for every color!"
   },
   {
-    "objectID": "04_art.rjs.html#how",
-    "href": "04_art.rjs.html#how",
+    "objectID": "03_style.rjs.html#how",
+    "href": "03_style.rjs.html#how",
     "title": "😎 Style!",
     "section": "How?",
-    "text": "How?\n\nYosra:\n\nCreates HTML elements for each “part” of the art.\nUses CSS styling to change colors and borders.\nWe will do the same!"
+    "text": "How?\n\nAttributes\n\nLike links &lt;a href=\"xkcd.com\"&gt;link&lt;/a&gt;\n\nWe use the style attribute.\n\nOften with &lt;span&gt; - text-without-linebreak.\n\nThis is\n&lt;span style=\"color:green\"&gt;\n  green\n&lt;/span&gt;\nand this is \n&lt;span style=\"color:pink\"&gt;\n  pink.\n&lt;/span&gt;\n\nThis is  green  and this is  pink."
   },
   {
-    "objectID": "04_art.rjs.html#why",
-    "href": "04_art.rjs.html#why",
+    "objectID": "03_style.rjs.html#why",
+    "href": "03_style.rjs.html#why",
     "title": "😎 Style!",
     "section": "Why?",
-    "text": "Why?\n\nIt’s cute!"
+    "text": "Why?\n\nWhat if you want:\n\nBold\nItalic\nUnderline\nCentered\nPink text on a green background.\n\n\n&lt;p style=\"font-weight:bold;font-style:italic;text-decoration:underline;text-align:center;color:pink;background:green\"&gt;No problem.&lt;/p&gt;\n\nNo problem."
   },
   {
-    "objectID": "04_art.rjs.html#what-1",
-    "href": "04_art.rjs.html#what-1",
+    "objectID": "03_style.rjs.html#what-1",
+    "href": "03_style.rjs.html#what-1",
     "title": "😎 Style!",
     "section": "What?",
-    "text": "What?\n\n\n\nFirst, make the skeleton of the structure by looking for layers from back to front.\nWe notice, for example, there could be a back-most circle element forming the body.\nUse the &lt;div&gt; element - a very general “division” of website content.\n\nWe will use no content at all - only style the &lt;div&gt;"
+    "text": "What?\n\nThis is annoying:\n\n&lt;p style=\"font-weight:bold;font-style:italic;text-decoration:underline;text-align:center;color:pink;background:green\"&gt;No problem.&lt;/p&gt;\n\nMust better would be:\n\n&lt;p id=\"stylish\"&gt;No problem&lt;/a&gt;\n\nAnd write the style down elsewhere."
   },
   {
-    "objectID": "04_art.rjs.html#how-1",
-    "href": "04_art.rjs.html#how-1",
+    "objectID": "03_style.rjs.html#how-1",
+    "href": "03_style.rjs.html#how-1",
     "title": "😎 Style!",
     "section": "How?",
-    "text": "How?\n\nYosra recommends, and I follow, as:\n\n\n\n\n\nspooky.html\n\n&lt;div id=\"base\"&gt;\n  &lt;div id=\"background\"&gt;\n    &lt;div id=\"spookster\"&gt;\n      &lt;div id=\"peepers\"&gt;&lt;/div&gt;\n      &lt;!-- Short for booplesnoot --&gt;\n      &lt;div id=\"snoot\"&gt;&lt;/div&gt;\n      &lt;div id=\"left-waggler\"&gt;&lt;/div&gt;\n      &lt;div id=\"right-waggler\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div id=\"feets\"&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
+    "text": "How?\n\nCSS (Cascading Style Sheets)\nIn your &lt;head&gt;, add a &lt;style&gt; element.\nWrite out all the styling you want!\nWe’ll show a minimal example!"
   },
   {
-    "objectID": "04_art.rjs.html#citation-needed",
-    "href": "04_art.rjs.html#citation-needed",
+    "objectID": "03_style.rjs.html#visually",
+    "href": "03_style.rjs.html#visually",
     "title": "😎 Style!",
-    "section": "Citation needed",
-    "text": "Citation needed\n\n\n\nBooplesnoot and other part names are a throwback to a legendary meme of a bunny."
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\n\nstyled.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;style&gt;\n            #stylish {\n                font-weight: bold;\n                font-style: italic;\n                text-decoration: underline;\n                text-align: center;\n                color: pink;\n                background: green;\n            }\n        &lt;/style&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"stylish\"&gt;No problem&lt;/a&gt;\n    &lt;/body&gt;\n&lt;/html&gt;"
   },
   {
-    "objectID": "04_art.rjs.html#why-1",
-    "href": "04_art.rjs.html#why-1",
+    "objectID": "03_style.rjs.html#why-1",
+    "href": "03_style.rjs.html#why-1",
     "title": "😎 Style!",
     "section": "Why?",
-    "text": "Why?\n\nBy default, HTML styles enclosed elements on top of enclosing elements.\nSo we can place, e.g., eyes on a smiley face like so:\n\n\n\nsmiley.html\n\n&lt;div id=\"face\"&gt;\n    &lt;div id=\"left-eye\"&gt;&lt;/div&gt;\n    &lt;div id=\"right-eye\"&gt;&lt;/div&gt;\n    &lt;div id=\"mouth\"&gt;&lt;/div&gt;\n&lt;/div&gt;"
+    "text": "Why?\n\nMore consistent.\n\nCan say “stylish” anywhere!\n\nLess messy.\n\nEasier to e.g. translate “No problem!” ⇒ “¡No hay problema!”\n\nCan be placed in a separate file…"
   },
   {
-    "objectID": "04_art.rjs.html#step-0",
-    "href": "04_art.rjs.html#step-0",
+    "objectID": "03_style.rjs.html#what-2",
+    "href": "03_style.rjs.html#what-2",
     "title": "😎 Style!",
-    "section": "Step 0 🏁",
-    "text": "Step 0 🏁\n\nRecall we will be working with spooky.html\nRecall we need to link our CSS stylesheet in the header\n\n\n\nspooky.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;div id=\"base\"&gt;\n            &lt;div id=\"background\"&gt;\n                &lt;div id=\"spookster\"&gt;\n                    &lt;div id=\"peepers\"&gt;&lt;/div&gt;\n        ..."
+    "section": "What?",
+    "text": "What?\n\nMoving all the formatting to a header is nice enough…\nBut what if we have multiple pages on our website!\n\n“About me” and “Cool poems”, perhaps.\n\nWe may want to style them both the same!"
   },
   {
-    "objectID": "04_art.rjs.html#step-1-1",
-    "href": "04_art.rjs.html#step-1-1",
+    "objectID": "03_style.rjs.html#how-2",
+    "href": "03_style.rjs.html#how-2",
     "title": "😎 Style!",
-    "section": "Step 1 1️⃣",
-    "text": "Step 1 1️⃣\n\n\n\nWe will remove all margins and stretching.\n\nOnce you have done more CSS, take this out and see what happens.\n\nWe use the special * asterisk to apply the style to all elements.\n\n\n\n\nstyles.css\n\n/* This is a CSS Comment */\n/* Like &lt;!-- --&gt; HTML comments */\n\n/* Remove margins and stretching */\n* {\n  margin: 0;\n  padding: 0;\n}"
+    "section": "How?",
+    "text": "How?\n\nMake a CSS file!\nInclude it in your HTML file with a &lt;link&gt;\n\n\n\n\n\nstyles.css\n\n#stylish {\n    font-weight: bold;\n    font-style: italic;\n    text-decoration: underline;\n    text-align: center;\n    color: pink;\n    background: green;\n}\n\n\n\n\nstyled.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"stylish\"&gt;No problem&lt;/p&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n\n\n\nEnsure files in the same repository and link name is correct (e.g. styles.css)"
   },
   {
-    "objectID": "04_art.rjs.html#step-2",
-    "href": "04_art.rjs.html#step-2",
+    "objectID": "03_style.rjs.html#why-2",
+    "href": "03_style.rjs.html#why-2",
     "title": "😎 Style!",
-    "section": "Step 2 ⬜",
-    "text": "Step 2 ⬜\n\n\n\nStyle base.\nThis background color\n100% visible height vh and width vw\nFlex means “not inline text”\n\nWe aren’t using text!\n\nWe center everything relative to this div\n\n\n\n\nstyles.css\n\n/* Old */\n* {\n  margin: 0;\n  padding: 0;\n}\n\n/* New! */\n#base {\n  background: white;\n  height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n}"
+    "section": "Why?",
+    "text": "Why?\n\nWay easier when you have multiple styles."
   },
   {
-    "objectID": "04_art.rjs.html#step-3",
-    "href": "04_art.rjs.html#step-3",
+    "objectID": "03_style.rjs.html#today-1",
+    "href": "03_style.rjs.html#today-1",
     "title": "😎 Style!",
-    "section": "Step 3 🟣",
-    "text": "Step 3 🟣\n\n\n\nThe circle behind the spookster.\n70% of the SMALLER of the height and width\nBorder radius is neat - we’ll demo it.\n#e8e0ff is this color\nAnd again center everything.\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#background {\n  width: 70vmin;\n  height: 70vmin;\n  background: #e8e0ff;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}"
+    "section": "Today",
+    "text": "Today\n\nStyle!\nid!\nCSS!"
   },
   {
-    "objectID": "04_art.rjs.html#aside-border-radius",
-    "href": "04_art.rjs.html#aside-border-radius",
-    "title": "😎 Style!",
-    "section": "Aside: Border Radius",
-    "text": "Aside: Border Radius\n\nWe can clip the borders of elements with backgrounds to be round instead of square with a radius.\n\n\n\n\n0%\n\n&lt;div style=\"background:red;border-radius:0%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n10%\n\n&lt;div style=\"background:red;border-radius:10%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n25%\n\n&lt;div style=\"background:red;border-radius:25%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n50%\n\n&lt;div style=\"background:red;border-radius:50%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText"
+    "objectID": "01_webpage.html",
+    "href": "01_webpage.html",
+    "title": "📄 Webpages!",
+    "section": "",
+    "text": "Name\n\n(Prof.) Calvin (Deutschbein)\n\nEmail\n\nckdeutschbein\n\nWebsite\n\ncd-public.github.io\n\nField\n\nHardware Security, Computer Systems\n\nPronouns\n\nThey/Them\n\n\n\n\n\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive\n\n\n\n\n\nGitHub!\n\nThe worlds #1 online collaboration platform!\n\nThree languages.\n\nHTML - for text.\nCSS - for style.\nJavaScript - for action.\n\n\n\n\n\n\nGithub!\nHTML!\nCreate a 📄 webpage",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
   },
   {
-    "objectID": "04_art.rjs.html#step-4",
-    "href": "04_art.rjs.html#step-4",
-    "title": "😎 Style!",
-    "section": "Step 4 🧢",
-    "text": "Step 4 🧢\n\n\n\nThe spookster herself.\n30% of the SMALLER of the height and width\nBorder radius but only on top!\nBlack border but not one the bottom!\n#e8e0ff is this color\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#spookster {\n  position: relative;\n  border: 0.5vmin solid black;\n  width: 30vmin;\n  height: 30vmin;\n  border-top-left-radius: 50%;\n  border-top-right-radius: 50%;\n  border-bottom: 0;\n  box-sizing: border-box;\n  background: #ffdcff;\n}"
+    "objectID": "01_webpage.html#about-me",
+    "href": "01_webpage.html#about-me",
+    "title": "📄 Webpages!",
+    "section": "",
+    "text": "Name\n\n(Prof.) Calvin (Deutschbein)\n\nEmail\n\nckdeutschbein\n\nWebsite\n\ncd-public.github.io\n\nField\n\nHardware Security, Computer Systems\n\nPronouns\n\nThey/Them",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
   },
   {
-    "objectID": "04_art.rjs.html#visually",
-    "href": "04_art.rjs.html#visually",
-    "title": "😎 Style!",
+    "objectID": "01_webpage.html#goals",
+    "href": "01_webpage.html#goals",
+    "title": "📄 Webpages!",
+    "section": "",
+    "text": "Create a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#technologies",
+    "href": "01_webpage.html#technologies",
+    "title": "📄 Webpages!",
+    "section": "",
+    "text": "GitHub!\n\nThe worlds #1 online collaboration platform!\n\nThree languages.\n\nHTML - for text.\nCSS - for style.\nJavaScript - for action.",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#today",
+    "href": "01_webpage.html#today",
+    "title": "📄 Webpages!",
+    "section": "",
+    "text": "Github!\nHTML!\nCreate a 📄 webpage",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what",
+    "href": "01_webpage.html#what",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCreate a GitHub account!\n\nUse whatever name and password you want…\n\nBut make sure you remember them!\n\nI really recommend using your .edu email address!\n\nYou get extra goodies!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how",
+    "href": "01_webpage.html#how",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating an account on GitHub\nOr:\n\nGo to GitHub.com\nEnter your email.\nClick Sign up for GitHub\nFollow the steps!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#why",
+    "href": "01_webpage.html#why",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nGitHub is a great tool for:\n\nLearning new technologies.\nSharing your projects.\nWorking on projects together.\nCreating websites or portfolios.\n\nI wish I’d learned about it sooner!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what-1",
+    "href": "01_webpage.html#what-1",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCreate a GitHub repository!\n\nRepositories are how GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how-1",
+    "href": "01_webpage.html#how-1",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nQuickstart for repositories\nOr:\n\nGo to GitHub.com\n\nIt should look different now that you’re logged in!\n\nClick  New\n\nGive it a name\nAdd a README file\nClick Create Repositry",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#why-1",
+    "href": "01_webpage.html#why-1",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\n\n\nStore files that make up a webpage:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what-2",
+    "href": "01_webpage.html#what-2",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nOpen a GitHub codespace!\n\nOnline code editor\n\nGoogle Docs for code.\n\nHas a lot of options.\n\nWe won’t use most of them.\nThere’s plenty of room to grow!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how-2",
+    "href": "01_webpage.html#how-2",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating a codespace for a repository\nOr:\n\nOn the page for the respository you created…\n\ngithub.com/&lt;account name&gt;/&lt;repository name&gt;\n\nClick  &lt;&gt; Code 🔽\nClick the “Codespaces” tab.\nClick Create codespace on main\nA new window will open… slowly.",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#why-2",
+    "href": "01_webpage.html#why-2",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nEdit files that make up a webpages:\n\n“HTML” page “content”.\n\nWe’ll do this one first!\nIt is the foundation of all webpages!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what-3",
+    "href": "01_webpage.html#what-3",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nNow: The first achievement when coding!\n“Hello, world!”\nWithin GitHub codespaces, create a new file.\n\nIt must be called index.html\nHTML for “hypertext markup language”\nThe language of the internet!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how-3",
+    "href": "01_webpage.html#how-3",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\nTwo overlapping files \nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#visually",
+    "href": "01_webpage.html#visually",
+    "title": "📄 Webpages!",
     "section": "👀 Visually",
-    "text": "👀 Visually\n\nIt will mostly look like this:"
+    "text": "👀 Visually",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
   },
   {
-    "objectID": "04_art.rjs.html#aside-border-radius-1",
-    "href": "04_art.rjs.html#aside-border-radius-1",
-    "title": "😎 Style!",
-    "section": "Aside: Border Radius",
-    "text": "Aside: Border Radius\n\nHere it is without the border radius set."
+    "objectID": "01_webpage.html#why-3",
+    "href": "01_webpage.html#why-3",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe want to be able to determine what appears on our webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
   },
   {
-    "objectID": "04_art.rjs.html#step-5",
-    "href": "04_art.rjs.html#step-5",
-    "title": "😎 Style!",
-    "section": "Step 5 🐾",
-    "text": "Step 5 🐾\n\n\n\nWe create a &lt;div&gt; to hold for 4 feet and also those 4 feet\nEach foot is 1/4 of ghost width.\nRounded and outlined on the bottom.\nThere are four of these!\nBlack border except top!\n#e8e0ff is this color\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#feets {\n  display: flex;\n  width: 30vmin;\n}\n\n#feet {\n  width: 7.5vmin;\n  height: 6vmin;\n  border: 0.5vmin solid black;\n  border-bottom-left-radius: 50%;\n  border-bottom-right-radius: 50%;\n  border-top: 0;\n  background: #ffdcff;\n}"
+    "objectID": "01_webpage.html#what-4",
+    "href": "01_webpage.html#what-4",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nWe need changes made in codespaces to become changes in the repository.\n\nYou may wonder why this isn’t automatic: I’m not sure!\n\nTo do so we will change from the “Explorer” activity to the “Source Control” activity\n\nIt’s the technical term for “keeping track of code”\n\nLots of paperwork!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
   },
   {
-    "objectID": "04_art.rjs.html#visually-1",
-    "href": "04_art.rjs.html#visually-1",
-    "title": "😎 Style!",
+    "objectID": "01_webpage.html#how-4",
+    "href": "01_webpage.html#how-4",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nClick the \nClick  ✓ Commit \n\nI get a box pop-up and say Always",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#alert",
+    "href": "01_webpage.html#alert",
+    "title": "📄 Webpages!",
+    "section": "🚨 Alert!",
+    "text": "🚨 Alert!\n\nThis pops up :\n\n\n\nCOMMIT_EDITMSG\n\n\n# Please enter the commit message for your changes. Lines starting\n# with '#' will be ignored, and an empty message aborts the commit.\n#\n# On branch main\n# Your branch is up to date with 'origin/main'.\n#\n# Changes to be committed:\n#   new file:   index.html\n#\n\n\n\n\n\n\n\nCaution\n\n\n\nWe must name our changes.",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#resolve",
+    "href": "01_webpage.html#resolve",
+    "title": "📄 Webpages!",
+    "section": "🤝 Resolve",
+    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an index.html there!\nYou may need to refresh/reload.",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#why-4",
+    "href": "01_webpage.html#why-4",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it be easier, but that’s okay!\nIt gets better every year!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#what-5",
+    "href": "01_webpage.html#what-5",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nLet’s take index.html and make it a webpage!\nWe’ll use “GitHub Pages”\n\nNot too hard to set up…\nI use it a lot for fun 😬\n\nYou’ll be able to show anything you do to friends and family!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#how-5",
+    "href": "01_webpage.html#how-5",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating a GitHub Pages site\nOr:\n\nBack on the repository page… - &lt;account name&gt;.github.io/&lt;repository name&gt;\nWe’ll change repository settings.\n\nOn the top, click on  Settings\nOn the left, click on  Pages\nIn the middle, under branch, change “None” to “Main” via the drop-down menu.",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.html#visually-1",
+    "href": "01_webpage.html#visually-1",
+    "title": "📄 Webpages!",
     "section": "👀 Visually",
-    "text": "👀 Visually\n\nIt will mostly look like this:"
+    "text": "👀 Visually",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
   },
   {
-    "objectID": "04_art.rjs.html#aside-partial-borders",
-    "href": "04_art.rjs.html#aside-partial-borders",
-    "title": "😎 Style!",
-    "section": "Aside: Partial Borders",
-    "text": "Aside: Partial Borders\n\nIf we don’t set border-top: 0:"
+    "objectID": "01_webpage.html#why-5",
+    "href": "01_webpage.html#why-5",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe get to examine what we did!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
   },
   {
-    "objectID": "04_art.rjs.html#step-6",
-    "href": "04_art.rjs.html#step-6",
-    "title": "😎 Style!",
-    "section": "Step 6 👁️",
-    "text": "Step 6 👁️\n\n\n\nPeepers are just two circles at a fixed location.\n5% (1/6 of ghost) radius\nA lot down (13%) and a little bit to the left (5%)\nThen add a shadow (the other eye) 14% to the right.\nPhew!\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#peepers {\n  position: absolute;\n  width: 5vmin;\n  height: 5vmin;\n  background: #000;\n  border-radius: 50%;\n  top: 13vmin;\n  left: 5vmin;\n  box-shadow: 14vmin 0;\n}"
+    "objectID": "01_webpage.html#what-6",
+    "href": "01_webpage.html#what-6",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCheck our work.\nLearn how to see where updates will show up.\n\nA few minutes after “Commit+Sync”\n\nTell ourselves we did a good job!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
   },
   {
-    "objectID": "04_art.rjs.html#visually-2",
-    "href": "04_art.rjs.html#visually-2",
-    "title": "😎 Style!",
-    "section": "👀 Visually",
-    "text": "👀 Visually\n\nIt will mostly look like this:"
+    "objectID": "01_webpage.html#how-6",
+    "href": "01_webpage.html#how-6",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nOr:\n\nBack to &lt;&gt; Code\nBottom right, under “Deployments”, click github-pages\nThere will be a link on this page under the heading github-pages",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
   },
   {
-    "objectID": "04_art.rjs.html#step-n",
-    "href": "04_art.rjs.html#step-n",
-    "title": "😎 Style!",
-    "section": "Step \\(n\\) 🎨",
-    "text": "Step \\(n\\) 🎨\n\n\n\nI’ll simply provide the rest for you to play with!\nYou can scroll!\n\n\n\n\nstyles.css\n\n/* the :before allows */\n/* 2 styles to one div */\n\n/* Whites of the eyes */\n#peepers:before{\n  content: \"\";\n  position: absolute;\n  background: white;\n  width: 2.5vmin;\n  height: 2.5vmin;\n  border-radius: 50%;\n  left: 2vmin;\n  box-shadow: 14vmin 0 white;\n}\n\n#snoot {\n  position: absolute;\n  width: 4vmin;\n  height: 2vmin;\n  border: 0.7vmin solid black;\n  border-bottom-left-radius: 4vmin;\n  border-bottom-right-radius: 4vmin;\n  border-top: 0;\n  top: 16vmin;\n  left: 12vmin;\n}\n\n/* Both wagglers (hands) have */\n/* much in common */\n#left-waggler, #right-waggler {\n  position: absolute;\n  width: 4vmin;\n  height: 4vmin;\n  border: 0.5vmin solid black;\n  border-bottom-left-radius: 50%;\n  border-bottom-right-radius: 50%;\n  border-top: 0;\n}\n\n/* But are in different */ \n/* 1. locations and */\n/* 2. orientations */\n#left-waggler {\n  top: 22vmin;\n  left: 6vmin;\n  transform: rotate(-45deg)\n}\n#right-waggler{\n  top: 22vmin;\n  left: 18vmin;\n  transform: rotate(45deg)\n}\n\n\n\nTry it out all at once or piece-by-piece!"
+    "objectID": "01_webpage.html#why-6",
+    "href": "01_webpage.html#why-6",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nThere’s many ways to publish online but this is…\n\nFree.\nRelatively quick (minutes, not hours).\nPowerful enough for interactive, public webpages.\n\nIt also builds a lot of valuable skills!",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
   },
   {
-    "objectID": "04_art.rjs.html#visually-3",
-    "href": "04_art.rjs.html#visually-3",
-    "title": "😎 Style!",
+    "objectID": "01_webpage.html#today-1",
+    "href": "01_webpage.html#today-1",
+    "title": "📄 Webpages!",
+    "section": "Today",
+    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage",
+    "crumbs": [
+      "📄 Webpages!"
+    ]
+  },
+  {
+    "objectID": "01_webpage.rjs.html#about-me",
+    "href": "01_webpage.rjs.html#about-me",
+    "title": "📄 Webpages!",
+    "section": "About Me",
+    "text": "About Me\n\nName\n\n(Prof.) Calvin (Deutschbein)\n\nEmail\n\nckdeutschbein\n\nWebsite\n\ncd-public.github.io\n\nField\n\nHardware Security, Computer Systems\n\nPronouns\n\nThey/Them"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#goals",
+    "href": "01_webpage.rjs.html#goals",
+    "title": "📄 Webpages!",
+    "section": "Goals",
+    "text": "Goals\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#technologies",
+    "href": "01_webpage.rjs.html#technologies",
+    "title": "📄 Webpages!",
+    "section": "Technologies",
+    "text": "Technologies\n\nGitHub!\n\nThe worlds #1 online collaboration platform!\n\nThree languages.\n\nHTML - for text.\nCSS - for style.\nJavaScript - for action."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#today",
+    "href": "01_webpage.rjs.html#today",
+    "title": "📄 Webpages!",
+    "section": "Today",
+    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what",
+    "href": "01_webpage.rjs.html#what",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCreate a GitHub account!\n\nUse whatever name and password you want…\n\nBut make sure you remember them!\n\nI really recommend using your .edu email address!\n\nYou get extra goodies!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how",
+    "href": "01_webpage.rjs.html#how",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating an account on GitHub\nOr:\n\nGo to GitHub.com\nEnter your email.\nClick Sign up for GitHub\nFollow the steps!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why",
+    "href": "01_webpage.rjs.html#why",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nGitHub is a great tool for:\n\nLearning new technologies.\nSharing your projects.\nWorking on projects together.\nCreating websites or portfolios.\n\nI wish I’d learned about it sooner!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-1",
+    "href": "01_webpage.rjs.html#what-1",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCreate a GitHub repository!\n\nRepositories are how GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-1",
+    "href": "01_webpage.rjs.html#how-1",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nQuickstart for repositories\nOr:\n\nGo to GitHub.com\n\nIt should look different now that you’re logged in!\n\nClick  New\n\nGive it a name\nAdd a README file\nClick Create Repositry"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-1",
+    "href": "01_webpage.rjs.html#why-1",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\n\n\nStore files that make up a webpage:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-2",
+    "href": "01_webpage.rjs.html#what-2",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nOpen a GitHub codespace!\n\nOnline code editor\n\nGoogle Docs for code.\n\nHas a lot of options.\n\nWe won’t use most of them.\nThere’s plenty of room to grow!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-2",
+    "href": "01_webpage.rjs.html#how-2",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating a codespace for a repository\nOr:\n\nOn the page for the respository you created…\n\ngithub.com/&lt;account name&gt;/&lt;repository name&gt;\n\nClick  &lt;&gt; Code 🔽\nClick the “Codespaces” tab.\nClick Create codespace on main\nA new window will open… slowly."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-2",
+    "href": "01_webpage.rjs.html#why-2",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nEdit files that make up a webpages:\n\n“HTML” page “content”.\n\nWe’ll do this one first!\nIt is the foundation of all webpages!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-3",
+    "href": "01_webpage.rjs.html#what-3",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nNow: The first achievement when coding!\n“Hello, world!”\nWithin GitHub codespaces, create a new file.\n\nIt must be called index.html\nHTML for “hypertext markup language”\nThe language of the internet!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-3",
+    "href": "01_webpage.rjs.html#how-3",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\nTwo overlapping files \nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#visually",
+    "href": "01_webpage.rjs.html#visually",
+    "title": "📄 Webpages!",
     "section": "👀 Visually",
     "text": "👀 Visually"
   },
   {
-    "objectID": "04_art.rjs.html#demo-repo",
-    "href": "04_art.rjs.html#demo-repo",
-    "title": "😎 Style!",
-    "section": "Demo Repo",
-    "text": "Demo Repo\n\nCheck it out here:\n\nPage\nRepo"
+    "objectID": "01_webpage.rjs.html#why-3",
+    "href": "01_webpage.rjs.html#why-3",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe want to be able to determine what appears on our webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!"
   },
   {
-    "objectID": "04_art.rjs.html#today-1",
-    "href": "04_art.rjs.html#today-1",
-    "title": "😎 Style!",
+    "objectID": "01_webpage.rjs.html#what-4",
+    "href": "01_webpage.rjs.html#what-4",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nWe need changes made in codespaces to become changes in the repository.\n\nYou may wonder why this isn’t automatic: I’m not sure!\n\nTo do so we will change from the “Explorer” activity to the “Source Control” activity\n\nIt’s the technical term for “keeping track of code”\n\nLots of paperwork!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-4",
+    "href": "01_webpage.rjs.html#how-4",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nClick the \nClick  ✓ Commit \n\nI get a box pop-up and say Always"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#alert",
+    "href": "01_webpage.rjs.html#alert",
+    "title": "📄 Webpages!",
+    "section": "🚨 Alert!",
+    "text": "🚨 Alert!\n\nThis pops up :\n\n\n\nCOMMIT_EDITMSG\n\n\n# Please enter the commit message for your changes. Lines starting\n# with '#' will be ignored, and an empty message aborts the commit.\n#\n# On branch main\n# Your branch is up to date with 'origin/main'.\n#\n# Changes to be committed:\n#   new file:   index.html\n#\n\n\n\n\n\n\n\nCaution\n\n\nWe must name our changes."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#resolve",
+    "href": "01_webpage.rjs.html#resolve",
+    "title": "📄 Webpages!",
+    "section": "🤝 Resolve",
+    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an index.html there!\nYou may need to refresh/reload."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-4",
+    "href": "01_webpage.rjs.html#why-4",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it be easier, but that’s okay!\nIt gets better every year!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-5",
+    "href": "01_webpage.rjs.html#what-5",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nLet’s take index.html and make it a webpage!\nWe’ll use “GitHub Pages”\n\nNot too hard to set up…\nI use it a lot for fun 😬\n\nYou’ll be able to show anything you do to friends and family!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-5",
+    "href": "01_webpage.rjs.html#how-5",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\nCreating a GitHub Pages site\nOr:\n\nBack on the repository page… - &lt;account name&gt;.github.io/&lt;repository name&gt;\nWe’ll change repository settings.\n\nOn the top, click on  Settings\nOn the left, click on  Pages\nIn the middle, under branch, change “None” to “Main” via the drop-down menu."
+  },
+  {
+    "objectID": "01_webpage.rjs.html#visually-1",
+    "href": "01_webpage.rjs.html#visually-1",
+    "title": "📄 Webpages!",
+    "section": "👀 Visually",
+    "text": "👀 Visually"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-5",
+    "href": "01_webpage.rjs.html#why-5",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nWe get to examine what we did!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#what-6",
+    "href": "01_webpage.rjs.html#what-6",
+    "title": "📄 Webpages!",
+    "section": "What?",
+    "text": "What?\n\nCheck our work.\nLearn how to see where updates will show up.\n\nA few minutes after “Commit+Sync”\n\nTell ourselves we did a good job!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#how-6",
+    "href": "01_webpage.rjs.html#how-6",
+    "title": "📄 Webpages!",
+    "section": "How?",
+    "text": "How?\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nOr:\n\nBack to &lt;&gt; Code\nBottom right, under “Deployments”, click github-pages\nThere will be a link on this page under the heading github-pages"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#why-6",
+    "href": "01_webpage.rjs.html#why-6",
+    "title": "📄 Webpages!",
+    "section": "Why?",
+    "text": "Why?\n\nThere’s many ways to publish online but this is…\n\nFree.\nRelatively quick (minutes, not hours).\nPowerful enough for interactive, public webpages.\n\nIt also builds a lot of valuable skills!"
+  },
+  {
+    "objectID": "01_webpage.rjs.html#today-1",
+    "href": "01_webpage.rjs.html#today-1",
+    "title": "📄 Webpages!",
     "section": "Today",
-    "text": "Today\n\nBackgrounds!\nRadii!\nPositioning!"
+    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage"
+  },
+  {
+    "objectID": "02_content.rjs.html#goals",
+    "href": "02_content.rjs.html#goals",
+    "title": "📺 Content!",
+    "section": "Goals",
+    "text": "Goals\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive"
+  },
+  {
+    "objectID": "02_content.rjs.html#today",
+    "href": "02_content.rjs.html#today",
+    "title": "📺 Content!",
+    "section": "Today",
+    "text": "Today\n\nContent!\nNesting!\nHeadings!"
+  },
+  {
+    "objectID": "02_content.rjs.html#what",
+    "href": "02_content.rjs.html#what",
+    "title": "📺 Content!",
+    "section": "What?",
+    "text": "What?\n\nHTML5 is the latest, greatest, and final version of “HTML”\n\nHypertext\n\nText for the internet\n\nMarkup\n\nText that describes how it should be displayed\n\nLanguage\n\nA consistent grammar for the above"
+  },
+  {
+    "objectID": "02_content.rjs.html#how",
+    "href": "02_content.rjs.html#how",
+    "title": "📺 Content!",
+    "section": "How?",
+    "text": "How?\n\nHTML Living Standard\nCheck it out!\n\nSearch (via Ctrl+f\nLook for &lt;head&gt;\nThe first “hit” will be the most basic HTML page that is well-formed\n\nThat is, doesn’t break any rules."
+  },
+  {
+    "objectID": "02_content.rjs.html#visually",
+    "href": "02_content.rjs.html#visually",
+    "title": "📺 Content!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Sample page&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;Sample page&lt;/h1&gt;\n  &lt;p&gt;This is a &lt;a href=\"demo.html\"&gt;simple&lt;/a&gt; sample.&lt;/p&gt;\n  &lt;!-- this is a comment --&gt;\n &lt;/body&gt;\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#why",
+    "href": "02_content.rjs.html#why",
+    "title": "📺 Content!",
+    "section": "Why?",
+    "text": "Why?\n\nThus far we relied on default behavior.\nHello, world was assumed to be:\n\nThe content of\nA paragraph in\nThe body of\nA website with\nNo name or\nSpecial formatting"
+  },
+  {
+    "objectID": "02_content.rjs.html#what-1",
+    "href": "02_content.rjs.html#what-1",
+    "title": "📺 Content!",
+    "section": "What?",
+    "text": "What?\n\nWe recall last time we:\n\nFollowed these instructions”\n\nCoding Camp\n\nCreated a GitHub repository\n\ngithub.com/&lt;account&gt;/&lt;repository&gt;\n\nWorked in GitHub Codespaces\n\nClicked on  &lt;&gt; Code 🔽\n\nCreated a corresponding GitHub page:\n\n&lt;account&gt;.github.io/&lt;repository&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#how-1",
+    "href": "02_content.rjs.html#how-1",
+    "title": "📺 Content!",
+    "section": "How?",
+    "text": "How?\n\nI recommend having exactly these four websites open in tabs.\n\nRead these instructions\nMake changes in the Codespace\nVerify them in the repository\nAfter a few minutes, see them on the webpage"
+  },
+  {
+    "objectID": "02_content.rjs.html#why-1",
+    "href": "02_content.rjs.html#why-1",
+    "title": "📺 Content!",
+    "section": "Why?",
+    "text": "Why?\n\nIt is a little to easy to give up and do nothing.\nThat is no fun!\nCheck that everything works, every time.\nIt’s good practice!"
+  },
+  {
+    "objectID": "02_content.rjs.html#what-2",
+    "href": "02_content.rjs.html#what-2",
+    "title": "📺 Content!",
+    "section": "What?",
+    "text": "What?\n\nThe part of HTML we see is the content\n\nUsually text (like this)\nSometimes images, like below:\n\n\n\nAn image of an image of an image"
+  },
+  {
+    "objectID": "02_content.rjs.html#how-2",
+    "href": "02_content.rjs.html#how-2",
+    "title": "📺 Content!",
+    "section": "How?",
+    "text": "How?\n\nLet’s update index.html\nWe’ll specify that our text is a paragraph.\nWe prefix with &lt;p&gt; and suffix with &lt;/p&gt;\n\n\n\nOld:\n\n\nindex.html\n\nHello world, or some such.\n\nMaybe a second line?\n\nBut these all show up on one line.\n\nEw!\n\n\nNew:\n\n\nindex.html\n\n&lt;p&gt;Hello world, or some such.&lt;/p&gt;\n\n&lt;p&gt;Maybe a second line?&lt;/p&gt;\n\n&lt;p&gt;But these all show up on one line.&lt;/p&gt;\n\n&lt;p&gt;Ew!&lt;/p&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#alert",
+    "href": "02_content.rjs.html#alert",
+    "title": "📺 Content!",
+    "section": "🚨 Alert!",
+    "text": "🚨 Alert!\n\nCodespaces will automatically “close” &lt;p&gt; when you type them!\n\nThis is meant to help you, and will help in time!\n\nIt is not uncommon to use line breaks:\n\n\n\nindex.html\n\n&lt;p&gt;\n    Like this!\n&lt;/p&gt;\n\n&lt;p&gt;\n    It's easier to read!\n&lt;/p&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#caution",
+    "href": "02_content.rjs.html#caution",
+    "title": "📺 Content!",
+    "section": "⚠️ Caution",
+    "text": "⚠️ Caution\n\nUsually nothing breaks if you omit the closing tag &lt;/p&gt;\nIt is considered poor form because it can cause problems in more complicated cases.\n\n\n\nindex.html\n\n&lt;p&gt;This will work but is sketchy."
+  },
+  {
+    "objectID": "02_content.rjs.html#why-2",
+    "href": "02_content.rjs.html#why-2",
+    "title": "📺 Content!",
+    "section": "Why?",
+    "text": "Why?\n\nUntil now, we had no way to tell HTML when to start a new line.\nThis looked dreadful!\nNow we can!"
+  },
+  {
+    "objectID": "02_content.rjs.html#bonus",
+    "href": "02_content.rjs.html#bonus",
+    "title": "📺 Content!",
+    "section": "🏆 Bonus!",
+    "text": "🏆 Bonus!\n\nYou don’t only have to use &lt;p&gt;, of course!\nThe next most common are headings - &lt;h1&gt; is the biggest.\nTry giving your webpage a heading perhaps saying it’s mine.\n\n\n\nindex.html\n\n&lt;h1&gt;My Rad Page 🏍️&lt;/h1&gt;\n\n&lt;p&gt;I have interesting thoughts to share!&lt;/p&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#what-3",
+    "href": "02_content.rjs.html#what-3",
+    "title": "📺 Content!",
+    "section": "What?",
+    "text": "What?\n\nWe can include one kind of HTML content in another kind of HTML content.\nI term this “nesting”"
+  },
+  {
+    "objectID": "02_content.rjs.html#how-3",
+    "href": "02_content.rjs.html#how-3",
+    "title": "📺 Content!",
+    "section": "How?",
+    "text": "How?\n\nWe’ll use a new element - &lt;a&gt;, for links.\nAdd link from your GitHub page to your GitHub repository.\n\nChoose some link text, like “My Repository”\nEnclose in &lt;a&gt; and &lt;/a&gt;\nIn the opening tag &lt;a&gt;, add\n\nhref=&lt;the address of your repository&gt;\nMine would be &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#visually-1",
+    "href": "02_content.rjs.html#visually-1",
+    "title": "📺 Content!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\n\nindex.html\n\n&lt;h1&gt;\n    My Rad Page 🏍️\n&lt;/h1&gt;\n\n&lt;p&gt;\n    I have interesting thoughts to share!\n&lt;/p&gt;\n\n&lt;p&gt;\n    Visit\n    &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;\n        my repository!\n    &lt;/a&gt;\n&lt;/p&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#why-3",
+    "href": "02_content.rjs.html#why-3",
+    "title": "📺 Content!",
+    "section": "Why?",
+    "text": "Why?\n\nThis sort of nesting is a natural way to arrange information.\n\nLetters in words.\nWords in sentences.\nSentences in paragraphs.\nParagraphs in essays.\nEtc."
+  },
+  {
+    "objectID": "02_content.rjs.html#caution-1",
+    "href": "02_content.rjs.html#caution-1",
+    "title": "📺 Content!",
+    "section": "⚠️ Caution",
+    "text": "⚠️ Caution\n\nWe can nest but not overlap.\nConsider the example using bold and italics\nTry this:\n\n\n\nbad\n\n&lt;p&gt;This is &lt;em&gt;very &lt;strong&gt;wrong&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;\n\n\nThis is very wrong!\n\n\nAnd this:\n\n\n\ngood\n\n&lt;p&gt;This &lt;em&gt;is &lt;strong&gt;correct&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;\n\n\nThis is correct."
+  },
+  {
+    "objectID": "02_content.rjs.html#what-4",
+    "href": "02_content.rjs.html#what-4",
+    "title": "📺 Content!",
+    "section": "What?",
+    "text": "What?\n\nNot every part of a webpage is content.\nTo specify just the page content, we place it within a &lt;body&gt;."
+  },
+  {
+    "objectID": "02_content.rjs.html#an-aside",
+    "href": "02_content.rjs.html#an-aside",
+    "title": "📺 Content!",
+    "section": "🥷 An Aside",
+    "text": "🥷 An Aside\n\nContent is enclosed in “tags”, like &lt;p&gt;\nContent and tag is called an element.\n\n\n\n\nThing\nTerm\n\n\n\n\nHello\nContent\n\n\n&lt;p&gt;\nTag\n\n\n&lt;p&gt;Hello&lt;/p&gt;\nElement\n\n\n\n\nMost useful to look up how to do things.\n\nE.g. center text with the &lt;center&gt; tag."
+  },
+  {
+    "objectID": "02_content.rjs.html#how-4",
+    "href": "02_content.rjs.html#how-4",
+    "title": "📺 Content!",
+    "section": "How?",
+    "text": "How?\n\nWe’ll use a new element - &lt;body&gt;\nWe’ll buy everything so far inside it.\n\nFor me, this meant indenting everything again."
+  },
+  {
+    "objectID": "02_content.rjs.html#visually-2",
+    "href": "02_content.rjs.html#visually-2",
+    "title": "📺 Content!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\n\nindex.html\n\n&lt;body&gt;\n    &lt;h1&gt;\n        My Rad Page 🏍️\n    &lt;/h1&gt;\n\n    &lt;p&gt;\n        I have interesting thoughts to share!\n    &lt;/p&gt;\n\n    &lt;p&gt;\n        Visit\n        &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;\n            my repository!\n        &lt;/a&gt;\n    &lt;/p&gt;\n&lt;/body&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#why-4",
+    "href": "02_content.rjs.html#why-4",
+    "title": "📺 Content!",
+    "section": "Why?",
+    "text": "Why?\n\nThis doesn’t do anything yet.\nBut will allow us to add headers:\n\nWays to change how the page is understood…"
+  },
+  {
+    "objectID": "02_content.rjs.html#what-5",
+    "href": "02_content.rjs.html#what-5",
+    "title": "📺 Content!",
+    "section": "What?",
+    "text": "What?\n\nTake a look at either the:\n\nName of the window you are looking at, or\nName of the tab you are looking at\n\nIt is probably “Coding Camp - 🌐 HTML!”\n\nHow did that get there?"
+  },
+  {
+    "objectID": "02_content.rjs.html#how-5",
+    "href": "02_content.rjs.html#how-5",
+    "title": "📺 Content!",
+    "section": "How?",
+    "text": "How?\n\nWe can specify:\n\nPage title\nStyle using CSS (latter)\nScripts using JS (latter)\n\nAdd to the beginning of your page:\n\n\n\nindex.html\n\n&lt;head&gt;\n    &lt;title&gt;\n        Title of your choice!\n    &lt;/title&gt;\n&lt;body&gt;\n    ..."
+  },
+  {
+    "objectID": "02_content.rjs.html#why-5",
+    "href": "02_content.rjs.html#why-5",
+    "title": "📺 Content!",
+    "section": "Why?",
+    "text": "Why?\n\nLess important than it used to be, though still looks sharp.\nHistorically important for search engines!"
+  },
+  {
+    "objectID": "02_content.rjs.html#what-6",
+    "href": "02_content.rjs.html#what-6",
+    "title": "📺 Content!",
+    "section": "What?",
+    "text": "What?\n\nIn the very early days there were (maybe?) formats other than HTML.\nI don’t know what they would be!\nBut there were at least other versions (namely 1-4)\nSo HTML pages should specify they are… HTML!"
+  },
+  {
+    "objectID": "02_content.rjs.html#how-6",
+    "href": "02_content.rjs.html#how-6",
+    "title": "📺 Content!",
+    "section": "How?",
+    "text": "How?\n\nEnclose everything within an &lt;html&gt; element.\n\nIf in English, usually &lt;html lang=\"en\"&gt;\n\nAdd a file header for ducment type\n\nFor HTML, this is &lt;!DOCTYPE html&gt;\n\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n  &lt;body&gt;\n      ...\n  &lt;/body&gt;\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#why-6",
+    "href": "02_content.rjs.html#why-6",
+    "title": "📺 Content!",
+    "section": "Why?",
+    "text": "Why?\n\nMakes things easier (and therefore faster) for web browsers.\nMark of professionalism."
+  },
+  {
+    "objectID": "02_content.rjs.html#what-7",
+    "href": "02_content.rjs.html#what-7",
+    "title": "📺 Content!",
+    "section": "What?",
+    "text": "What?\n\nSometimes we want to leave notes to ourselves or other web developers.\nWe don’t need everyone visiting our page to see them.\nWe do this using the special “comment” element."
+  },
+  {
+    "objectID": "02_content.rjs.html#how-7",
+    "href": "02_content.rjs.html#how-7",
+    "title": "📺 Content!",
+    "section": "How?",
+    "text": "How?\n\nTake some content you don’t want to display.\nEnclose in &lt;!-- and --&gt;\n\n\n\ncomment_example.html\n\n&lt;body&gt;\n    &lt;p&gt;\n        This is visible.\n        &lt;!-- This isn't. --&gt;\n    &lt;/p&gt;\n&lt;/body&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#why-7",
+    "href": "02_content.rjs.html#why-7",
+    "title": "📺 Content!",
+    "section": "Why?",
+    "text": "Why?\n\nI most usually it to keep track of notes.\nMany of my pages have the following:\n\n\n\nindex.html\n\n&lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#what-8",
+    "href": "02_content.rjs.html#what-8",
+    "title": "📺 Content!",
+    "section": "What?",
+    "text": "What?\n\nWe have now covered all the requirements to make a well-formed HTML page!"
+  },
+  {
+    "objectID": "02_content.rjs.html#how-8",
+    "href": "02_content.rjs.html#how-8",
+    "title": "📺 Content!",
+    "section": "How?",
+    "text": "How?\n\n\nExample:\n\n\nexample.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Sample page&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;Sample page&lt;/h1&gt;\n  &lt;p&gt;This is a &lt;a href=\"demo.html\"&gt;simple&lt;/a&gt; sample.&lt;/p&gt;\n  &lt;!-- this is a comment --&gt;\n &lt;/body&gt;\n&lt;/html&gt;\n\n\nOurs:\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Title of your choice!&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;My Rad Page 🏍️&lt;/h1&gt;\n  &lt;p&gt;Visit &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;my repository!&lt;/a&gt;&lt;/p&gt;\n  &lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;\n &lt;/body&gt;\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "02_content.rjs.html#why-8",
+    "href": "02_content.rjs.html#why-8",
+    "title": "📺 Content!",
+    "section": "Why?",
+    "text": "Why?\n\nPer “indeed.com” (maybe don’t just trust them).\n\n100+ jobs\nMost around $40+/hr\n\n🤑\nAlso its fun!"
+  },
+  {
+    "objectID": "02_content.rjs.html#what-9",
+    "href": "02_content.rjs.html#what-9",
+    "title": "📺 Content!",
+    "section": "What?",
+    "text": "What?\n\nMake sure you sync your Codespace to your repository.\nGitHub Pages will update automatically.\nShow off your work!"
+  },
+  {
+    "objectID": "02_content.rjs.html#how-9",
+    "href": "02_content.rjs.html#how-9",
+    "title": "📺 Content!",
+    "section": "How?",
+    "text": "How?\n\nYou can review from last time"
+  },
+  {
+    "objectID": "02_content.rjs.html#why-9",
+    "href": "02_content.rjs.html#why-9",
+    "title": "📺 Content!",
+    "section": "Why?",
+    "text": "Why?\n\nWe learn by doing!\nA little bit every day!"
+  },
+  {
+    "objectID": "02_content.rjs.html#today-1",
+    "href": "02_content.rjs.html#today-1",
+    "title": "📺 Content!",
+    "section": "Today",
+    "text": "Today\n\nContent!\nNesting!\nHeadings!"
   },
   {
     "objectID": "02_content.html",
@@ -862,1031 +1910,445 @@
     ]
   },
   {
-    "objectID": "02_content.rjs.html#goals",
-    "href": "02_content.rjs.html#goals",
-    "title": "📺 Content!",
+    "objectID": "04_art.rjs.html#goals",
+    "href": "04_art.rjs.html#goals",
+    "title": "🖼 Art!",
     "section": "Goals",
     "text": "Goals\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive"
   },
   {
-    "objectID": "02_content.rjs.html#today",
-    "href": "02_content.rjs.html#today",
-    "title": "📺 Content!",
+    "objectID": "04_art.rjs.html#today",
+    "href": "04_art.rjs.html#today",
+    "title": "🖼 Art!",
     "section": "Today",
-    "text": "Today\n\nContent!\nNesting!\nHeadings!"
+    "text": "Today\n\nBackgrounds!\nRadii!\nPositioning!"
   },
   {
-    "objectID": "02_content.rjs.html#what",
-    "href": "02_content.rjs.html#what",
-    "title": "📺 Content!",
+    "objectID": "04_art.rjs.html#what",
+    "href": "04_art.rjs.html#what",
+    "title": "🖼 Art!",
     "section": "What?",
-    "text": "What?\n\nHTML5 is the latest, greatest, and final version of “HTML”\n\nHypertext\n\nText for the internet\n\nMarkup\n\nText that describes how it should be displayed\n\nLanguage\n\nA consistent grammar for the above"
+    "text": "What?\n\nYosra Emad, cool CSS artist/coder made this:"
   },
   {
-    "objectID": "02_content.rjs.html#how",
-    "href": "02_content.rjs.html#how",
-    "title": "📺 Content!",
+    "objectID": "04_art.rjs.html#how",
+    "href": "04_art.rjs.html#how",
+    "title": "🖼 Art!",
     "section": "How?",
-    "text": "How?\n\nHTML Living Standard\nCheck it out!\n\nSearch (via Ctrl+f\nLook for &lt;head&gt;\nThe first “hit” will be the most basic HTML page that is well-formed\n\nThat is, doesn’t break any rules."
+    "text": "How?\n\nYosra:\n\nCreates HTML elements for each “part” of the art.\nUses CSS styling to change colors and borders.\nWe will do the same!"
   },
   {
-    "objectID": "02_content.rjs.html#visually",
-    "href": "02_content.rjs.html#visually",
-    "title": "📺 Content!",
+    "objectID": "04_art.rjs.html#why",
+    "href": "04_art.rjs.html#why",
+    "title": "🖼 Art!",
+    "section": "Why?",
+    "text": "Why?\n\nIt’s cute!"
+  },
+  {
+    "objectID": "04_art.rjs.html#what-1",
+    "href": "04_art.rjs.html#what-1",
+    "title": "🖼 Art!",
+    "section": "What?",
+    "text": "What?\n\n\n\nFirst, make the skeleton of the structure by looking for layers from back to front.\nWe notice, for example, there could be a back-most circle element forming the body.\nUse the &lt;div&gt; element - a very general “division” of website content.\n\nWe will use no content at all - only style the &lt;div&gt;"
+  },
+  {
+    "objectID": "04_art.rjs.html#how-1",
+    "href": "04_art.rjs.html#how-1",
+    "title": "🖼 Art!",
+    "section": "How?",
+    "text": "How?\n\nYosra recommends, and I follow, as:\n\n\n\n\n\nspooky.html\n\n&lt;div id=\"base\"&gt;\n  &lt;div id=\"background\"&gt;\n    &lt;div id=\"spookster\"&gt;\n      &lt;div id=\"peepers\"&gt;&lt;/div&gt;\n      &lt;!-- Short for booplesnoot --&gt;\n      &lt;div id=\"snoot\"&gt;&lt;/div&gt;\n      &lt;div id=\"left-waggler\"&gt;&lt;/div&gt;\n      &lt;div id=\"right-waggler\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div id=\"feets\"&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "04_art.rjs.html#citation-needed",
+    "href": "04_art.rjs.html#citation-needed",
+    "title": "🖼 Art!",
+    "section": "Citation needed",
+    "text": "Citation needed\n\n\n\nBooplesnoot and other part names are a throwback to a legendary meme of a bunny."
+  },
+  {
+    "objectID": "04_art.rjs.html#why-1",
+    "href": "04_art.rjs.html#why-1",
+    "title": "🖼 Art!",
+    "section": "Why?",
+    "text": "Why?\n\nBy default, HTML styles enclosed elements on top of enclosing elements.\nSo we can place, e.g., eyes on a smiley face like so:\n\n\n\nsmiley.html\n\n&lt;div id=\"face\"&gt;\n    &lt;div id=\"left-eye\"&gt;&lt;/div&gt;\n    &lt;div id=\"right-eye\"&gt;&lt;/div&gt;\n    &lt;div id=\"mouth\"&gt;&lt;/div&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "04_art.rjs.html#step-0",
+    "href": "04_art.rjs.html#step-0",
+    "title": "🖼 Art!",
+    "section": "Step 0 🏁",
+    "text": "Step 0 🏁\n\nRecall we will be working with spooky.html\nRecall we need to link our CSS stylesheet in the header\n\n\n\nspooky.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;div id=\"base\"&gt;\n            &lt;div id=\"background\"&gt;\n                &lt;div id=\"spookster\"&gt;\n                    &lt;div id=\"peepers\"&gt;&lt;/div&gt;\n        ..."
+  },
+  {
+    "objectID": "04_art.rjs.html#step-1-1",
+    "href": "04_art.rjs.html#step-1-1",
+    "title": "🖼 Art!",
+    "section": "Step 1 1️⃣",
+    "text": "Step 1 1️⃣\n\n\n\nWe will remove all margins and stretching.\n\nOnce you have done more CSS, take this out and see what happens.\n\nWe use the special * asterisk to apply the style to all elements.\n\n\n\n\nstyles.css\n\n/* This is a CSS Comment */\n/* Like &lt;!-- --&gt; HTML comments */\n\n/* Remove margins and stretching */\n* {\n  margin: 0;\n  padding: 0;\n}"
+  },
+  {
+    "objectID": "04_art.rjs.html#step-2",
+    "href": "04_art.rjs.html#step-2",
+    "title": "🖼 Art!",
+    "section": "Step 2 ⬜",
+    "text": "Step 2 ⬜\n\n\n\nStyle base.\nThis background color\n100% visible height vh and width vw\nFlex means “not inline text”\n\nWe aren’t using text!\n\nWe center everything relative to this div\n\n\n\n\nstyles.css\n\n/* Old */\n* {\n  margin: 0;\n  padding: 0;\n}\n\n/* New! */\n#base {\n  background: white;\n  height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n}"
+  },
+  {
+    "objectID": "04_art.rjs.html#step-3",
+    "href": "04_art.rjs.html#step-3",
+    "title": "🖼 Art!",
+    "section": "Step 3 🟣",
+    "text": "Step 3 🟣\n\n\n\nThe circle behind the spookster.\n70% of the SMALLER of the height and width\nBorder radius is neat - we’ll demo it.\n#e8e0ff is this color\nAnd again center everything.\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#background {\n  width: 70vmin;\n  height: 70vmin;\n  background: #e8e0ff;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}"
+  },
+  {
+    "objectID": "04_art.rjs.html#aside-border-radius",
+    "href": "04_art.rjs.html#aside-border-radius",
+    "title": "🖼 Art!",
+    "section": "Aside: Border Radius",
+    "text": "Aside: Border Radius\n\nWe can clip the borders of elements with backgrounds to be round instead of square with a radius.\n\n\n\n\n0%\n\n&lt;div style=\"background:red;border-radius:0%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n10%\n\n&lt;div style=\"background:red;border-radius:10%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n25%\n\n&lt;div style=\"background:red;border-radius:25%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n50%\n\n&lt;div style=\"background:red;border-radius:50%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText"
+  },
+  {
+    "objectID": "04_art.rjs.html#step-4",
+    "href": "04_art.rjs.html#step-4",
+    "title": "🖼 Art!",
+    "section": "Step 4 🧢",
+    "text": "Step 4 🧢\n\n\n\nThe spookster herself.\n30% of the SMALLER of the height and width\nBorder radius but only on top!\nBlack border but not one the bottom!\n#e8e0ff is this color\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#spookster {\n  position: relative;\n  border: 0.5vmin solid black;\n  width: 30vmin;\n  height: 30vmin;\n  border-top-left-radius: 50%;\n  border-top-right-radius: 50%;\n  border-bottom: 0;\n  box-sizing: border-box;\n  background: #ffdcff;\n}"
+  },
+  {
+    "objectID": "04_art.rjs.html#visually",
+    "href": "04_art.rjs.html#visually",
+    "title": "🖼 Art!",
     "section": "👀 Visually",
-    "text": "👀 Visually\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Sample page&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;Sample page&lt;/h1&gt;\n  &lt;p&gt;This is a &lt;a href=\"demo.html\"&gt;simple&lt;/a&gt; sample.&lt;/p&gt;\n  &lt;!-- this is a comment --&gt;\n &lt;/body&gt;\n&lt;/html&gt;"
+    "text": "👀 Visually\n\nIt will mostly look like this:"
   },
   {
-    "objectID": "02_content.rjs.html#why",
-    "href": "02_content.rjs.html#why",
-    "title": "📺 Content!",
-    "section": "Why?",
-    "text": "Why?\n\nThus far we relied on default behavior.\nHello, world was assumed to be:\n\nThe content of\nA paragraph in\nThe body of\nA website with\nNo name or\nSpecial formatting"
+    "objectID": "04_art.rjs.html#aside-border-radius-1",
+    "href": "04_art.rjs.html#aside-border-radius-1",
+    "title": "🖼 Art!",
+    "section": "Aside: Border Radius",
+    "text": "Aside: Border Radius\n\nHere it is without the border radius set."
   },
   {
-    "objectID": "02_content.rjs.html#what-1",
-    "href": "02_content.rjs.html#what-1",
-    "title": "📺 Content!",
-    "section": "What?",
-    "text": "What?\n\nWe recall last time we:\n\nFollowed these instructions”\n\nCoding Camp\n\nCreated a GitHub repository\n\ngithub.com/&lt;account&gt;/&lt;repository&gt;\n\nWorked in GitHub Codespaces\n\nClicked on  &lt;&gt; Code 🔽\n\nCreated a corresponding GitHub page:\n\n&lt;account&gt;.github.io/&lt;repository&gt;"
+    "objectID": "04_art.rjs.html#step-5",
+    "href": "04_art.rjs.html#step-5",
+    "title": "🖼 Art!",
+    "section": "Step 5 🐾",
+    "text": "Step 5 🐾\n\n\n\nWe create a &lt;div&gt; to hold for 4 feet and also those 4 feet\nEach foot is 1/4 of ghost width.\nRounded and outlined on the bottom.\nThere are four of these!\nBlack border except top!\n#e8e0ff is this color\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#feets {\n  display: flex;\n  width: 30vmin;\n}\n\n#feet {\n  width: 7.5vmin;\n  height: 6vmin;\n  border: 0.5vmin solid black;\n  border-bottom-left-radius: 50%;\n  border-bottom-right-radius: 50%;\n  border-top: 0;\n  background: #ffdcff;\n}"
   },
   {
-    "objectID": "02_content.rjs.html#how-1",
-    "href": "02_content.rjs.html#how-1",
-    "title": "📺 Content!",
-    "section": "How?",
-    "text": "How?\n\nI recommend having exactly these four websites open in tabs.\n\nRead these instructions\nMake changes in the Codespace\nVerify them in the repository\nAfter a few minutes, see them on the webpage"
-  },
-  {
-    "objectID": "02_content.rjs.html#why-1",
-    "href": "02_content.rjs.html#why-1",
-    "title": "📺 Content!",
-    "section": "Why?",
-    "text": "Why?\n\nIt is a little to easy to give up and do nothing.\nThat is no fun!\nCheck that everything works, every time.\nIt’s good practice!"
-  },
-  {
-    "objectID": "02_content.rjs.html#what-2",
-    "href": "02_content.rjs.html#what-2",
-    "title": "📺 Content!",
-    "section": "What?",
-    "text": "What?\n\nThe part of HTML we see is the content\n\nUsually text (like this)\nSometimes images, like below:\n\n\n\nAn image of an image of an image"
-  },
-  {
-    "objectID": "02_content.rjs.html#how-2",
-    "href": "02_content.rjs.html#how-2",
-    "title": "📺 Content!",
-    "section": "How?",
-    "text": "How?\n\nLet’s update index.html\nWe’ll specify that our text is a paragraph.\nWe prefix with &lt;p&gt; and suffix with &lt;/p&gt;\n\n\n\nOld:\n\n\nindex.html\n\nHello world, or some such.\n\nMaybe a second line?\n\nBut these all show up on one line.\n\nEw!\n\n\nNew:\n\n\nindex.html\n\n&lt;p&gt;Hello world, or some such.&lt;/p&gt;\n\n&lt;p&gt;Maybe a second line?&lt;/p&gt;\n\n&lt;p&gt;But these all show up on one line.&lt;/p&gt;\n\n&lt;p&gt;Ew!&lt;/p&gt;"
-  },
-  {
-    "objectID": "02_content.rjs.html#alert",
-    "href": "02_content.rjs.html#alert",
-    "title": "📺 Content!",
-    "section": "🚨 Alert!",
-    "text": "🚨 Alert!\n\nCodespaces will automatically “close” &lt;p&gt; when you type them!\n\nThis is meant to help you, and will help in time!\n\nIt is not uncommon to use line breaks:\n\n\n\nindex.html\n\n&lt;p&gt;\n    Like this!\n&lt;/p&gt;\n\n&lt;p&gt;\n    It's easier to read!\n&lt;/p&gt;"
-  },
-  {
-    "objectID": "02_content.rjs.html#caution",
-    "href": "02_content.rjs.html#caution",
-    "title": "📺 Content!",
-    "section": "⚠️ Caution",
-    "text": "⚠️ Caution\n\nUsually nothing breaks if you omit the closing tag &lt;/p&gt;\nIt is considered poor form because it can cause problems in more complicated cases.\n\n\n\nindex.html\n\n&lt;p&gt;This will work but is sketchy."
-  },
-  {
-    "objectID": "02_content.rjs.html#why-2",
-    "href": "02_content.rjs.html#why-2",
-    "title": "📺 Content!",
-    "section": "Why?",
-    "text": "Why?\n\nUntil now, we had no way to tell HTML when to start a new line.\nThis looked dreadful!\nNow we can!"
-  },
-  {
-    "objectID": "02_content.rjs.html#bonus",
-    "href": "02_content.rjs.html#bonus",
-    "title": "📺 Content!",
-    "section": "🏆 Bonus!",
-    "text": "🏆 Bonus!\n\nYou don’t only have to use &lt;p&gt;, of course!\nThe next most common are headings - &lt;h1&gt; is the biggest.\nTry giving your webpage a heading perhaps saying it’s mine.\n\n\n\nindex.html\n\n&lt;h1&gt;My Rad Page 🏍️&lt;/h1&gt;\n\n&lt;p&gt;I have interesting thoughts to share!&lt;/p&gt;"
-  },
-  {
-    "objectID": "02_content.rjs.html#what-3",
-    "href": "02_content.rjs.html#what-3",
-    "title": "📺 Content!",
-    "section": "What?",
-    "text": "What?\n\nWe can include one kind of HTML content in another kind of HTML content.\nI term this “nesting”"
-  },
-  {
-    "objectID": "02_content.rjs.html#how-3",
-    "href": "02_content.rjs.html#how-3",
-    "title": "📺 Content!",
-    "section": "How?",
-    "text": "How?\n\nWe’ll use a new element - &lt;a&gt;, for links.\nAdd link from your GitHub page to your GitHub repository.\n\nChoose some link text, like “My Repository”\nEnclose in &lt;a&gt; and &lt;/a&gt;\nIn the opening tag &lt;a&gt;, add\n\nhref=&lt;the address of your repository&gt;\nMine would be &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;"
-  },
-  {
-    "objectID": "02_content.rjs.html#visually-1",
-    "href": "02_content.rjs.html#visually-1",
-    "title": "📺 Content!",
+    "objectID": "04_art.rjs.html#visually-1",
+    "href": "04_art.rjs.html#visually-1",
+    "title": "🖼 Art!",
     "section": "👀 Visually",
-    "text": "👀 Visually\n\n\nindex.html\n\n&lt;h1&gt;\n    My Rad Page 🏍️\n&lt;/h1&gt;\n\n&lt;p&gt;\n    I have interesting thoughts to share!\n&lt;/p&gt;\n\n&lt;p&gt;\n    Visit\n    &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;\n        my repository!\n    &lt;/a&gt;\n&lt;/p&gt;"
+    "text": "👀 Visually\n\nIt will mostly look like this:"
   },
   {
-    "objectID": "02_content.rjs.html#why-3",
-    "href": "02_content.rjs.html#why-3",
-    "title": "📺 Content!",
-    "section": "Why?",
-    "text": "Why?\n\nThis sort of nesting is a natural way to arrange information.\n\nLetters in words.\nWords in sentences.\nSentences in paragraphs.\nParagraphs in essays.\nEtc."
+    "objectID": "04_art.rjs.html#aside-partial-borders",
+    "href": "04_art.rjs.html#aside-partial-borders",
+    "title": "🖼 Art!",
+    "section": "Aside: Partial Borders",
+    "text": "Aside: Partial Borders\n\nIf we don’t set border-top: 0:"
   },
   {
-    "objectID": "02_content.rjs.html#caution-1",
-    "href": "02_content.rjs.html#caution-1",
-    "title": "📺 Content!",
-    "section": "⚠️ Caution",
-    "text": "⚠️ Caution\n\nWe can nest but not overlap.\nConsider the example using bold and italics\nTry this:\n\n\n\nbad\n\n&lt;p&gt;This is &lt;em&gt;very &lt;strong&gt;wrong&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;\n\n\nThis is very wrong!\n\n\nAnd this:\n\n\n\ngood\n\n&lt;p&gt;This &lt;em&gt;is &lt;strong&gt;correct&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;\n\n\nThis is correct."
+    "objectID": "04_art.rjs.html#step-6",
+    "href": "04_art.rjs.html#step-6",
+    "title": "🖼 Art!",
+    "section": "Step 6 👁️",
+    "text": "Step 6 👁️\n\n\n\nPeepers are just two circles at a fixed location.\n5% (1/6 of ghost) radius\nA lot down (13%) and a little bit to the left (5%)\nThen add a shadow (the other eye) 14% to the right.\nPhew!\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#peepers {\n  position: absolute;\n  width: 5vmin;\n  height: 5vmin;\n  background: #000;\n  border-radius: 50%;\n  top: 13vmin;\n  left: 5vmin;\n  box-shadow: 14vmin 0;\n}"
   },
   {
-    "objectID": "02_content.rjs.html#what-4",
-    "href": "02_content.rjs.html#what-4",
-    "title": "📺 Content!",
-    "section": "What?",
-    "text": "What?\n\nNot every part of a webpage is content.\nTo specify just the page content, we place it within a &lt;body&gt;."
-  },
-  {
-    "objectID": "02_content.rjs.html#an-aside",
-    "href": "02_content.rjs.html#an-aside",
-    "title": "📺 Content!",
-    "section": "🥷 An Aside",
-    "text": "🥷 An Aside\n\nContent is enclosed in “tags”, like &lt;p&gt;\nContent and tag is called an element.\n\n\n\n\nThing\nTerm\n\n\n\n\nHello\nContent\n\n\n&lt;p&gt;\nTag\n\n\n&lt;p&gt;Hello&lt;/p&gt;\nElement\n\n\n\n\nMost useful to look up how to do things.\n\nE.g. center text with the &lt;center&gt; tag."
-  },
-  {
-    "objectID": "02_content.rjs.html#how-4",
-    "href": "02_content.rjs.html#how-4",
-    "title": "📺 Content!",
-    "section": "How?",
-    "text": "How?\n\nWe’ll use a new element - &lt;body&gt;\nWe’ll buy everything so far inside it.\n\nFor me, this meant indenting everything again."
-  },
-  {
-    "objectID": "02_content.rjs.html#visually-2",
-    "href": "02_content.rjs.html#visually-2",
-    "title": "📺 Content!",
+    "objectID": "04_art.rjs.html#visually-2",
+    "href": "04_art.rjs.html#visually-2",
+    "title": "🖼 Art!",
     "section": "👀 Visually",
-    "text": "👀 Visually\n\n\nindex.html\n\n&lt;body&gt;\n    &lt;h1&gt;\n        My Rad Page 🏍️\n    &lt;/h1&gt;\n\n    &lt;p&gt;\n        I have interesting thoughts to share!\n    &lt;/p&gt;\n\n    &lt;p&gt;\n        Visit\n        &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;\n            my repository!\n        &lt;/a&gt;\n    &lt;/p&gt;\n&lt;/body&gt;"
+    "text": "👀 Visually\n\nIt will mostly look like this:"
   },
   {
-    "objectID": "02_content.rjs.html#why-4",
-    "href": "02_content.rjs.html#why-4",
-    "title": "📺 Content!",
-    "section": "Why?",
-    "text": "Why?\n\nThis doesn’t do anything yet.\nBut will allow us to add headers:\n\nWays to change how the page is understood…"
+    "objectID": "04_art.rjs.html#step-n",
+    "href": "04_art.rjs.html#step-n",
+    "title": "🖼 Art!",
+    "section": "Step \\(n\\) 🎨",
+    "text": "Step \\(n\\) 🎨\n\n\n\nI’ll simply provide the rest for you to play with!\nYou can scroll!\n\n\n\n\nstyles.css\n\n/* the :before allows */\n/* 2 styles to one div */\n\n/* Whites of the eyes */\n#peepers:before{\n  content: \"\";\n  position: absolute;\n  background: white;\n  width: 2.5vmin;\n  height: 2.5vmin;\n  border-radius: 50%;\n  left: 2vmin;\n  box-shadow: 14vmin 0 white;\n}\n\n#snoot {\n  position: absolute;\n  width: 4vmin;\n  height: 2vmin;\n  border: 0.7vmin solid black;\n  border-bottom-left-radius: 4vmin;\n  border-bottom-right-radius: 4vmin;\n  border-top: 0;\n  top: 16vmin;\n  left: 12vmin;\n}\n\n/* Both wagglers (hands) have */\n/* much in common */\n#left-waggler, #right-waggler {\n  position: absolute;\n  width: 4vmin;\n  height: 4vmin;\n  border: 0.5vmin solid black;\n  border-bottom-left-radius: 50%;\n  border-bottom-right-radius: 50%;\n  border-top: 0;\n}\n\n/* But are in different */ \n/* 1. locations and */\n/* 2. orientations */\n#left-waggler {\n  top: 22vmin;\n  left: 6vmin;\n  transform: rotate(-45deg)\n}\n#right-waggler{\n  top: 22vmin;\n  left: 18vmin;\n  transform: rotate(45deg)\n}\n\n\n\nTry it out all at once or piece-by-piece!"
   },
   {
-    "objectID": "02_content.rjs.html#what-5",
-    "href": "02_content.rjs.html#what-5",
-    "title": "📺 Content!",
-    "section": "What?",
-    "text": "What?\n\nTake a look at either the:\n\nName of the window you are looking at, or\nName of the tab you are looking at\n\nIt is probably “Coding Camp - 🌐 HTML!”\n\nHow did that get there?"
-  },
-  {
-    "objectID": "02_content.rjs.html#how-5",
-    "href": "02_content.rjs.html#how-5",
-    "title": "📺 Content!",
-    "section": "How?",
-    "text": "How?\n\nWe can specify:\n\nPage title\nStyle using CSS (latter)\nScripts using JS (latter)\n\nAdd to the beginning of your page:\n\n\n\nindex.html\n\n&lt;head&gt;\n    &lt;title&gt;\n        Title of your choice!\n    &lt;/title&gt;\n&lt;body&gt;\n    ..."
-  },
-  {
-    "objectID": "02_content.rjs.html#why-5",
-    "href": "02_content.rjs.html#why-5",
-    "title": "📺 Content!",
-    "section": "Why?",
-    "text": "Why?\n\nLess important than it used to be, though still looks sharp.\nHistorically important for search engines!"
-  },
-  {
-    "objectID": "02_content.rjs.html#what-6",
-    "href": "02_content.rjs.html#what-6",
-    "title": "📺 Content!",
-    "section": "What?",
-    "text": "What?\n\nIn the very early days there were (maybe?) formats other than HTML.\nI don’t know what they would be!\nBut there were at least other versions (namely 1-4)\nSo HTML pages should specify they are… HTML!"
-  },
-  {
-    "objectID": "02_content.rjs.html#how-6",
-    "href": "02_content.rjs.html#how-6",
-    "title": "📺 Content!",
-    "section": "How?",
-    "text": "How?\n\nEnclose everything within an &lt;html&gt; element.\n\nIf in English, usually &lt;html lang=\"en\"&gt;\n\nAdd a file header for ducment type\n\nFor HTML, this is &lt;!DOCTYPE html&gt;\n\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n  &lt;body&gt;\n      ...\n  &lt;/body&gt;\n&lt;/html&gt;"
-  },
-  {
-    "objectID": "02_content.rjs.html#why-6",
-    "href": "02_content.rjs.html#why-6",
-    "title": "📺 Content!",
-    "section": "Why?",
-    "text": "Why?\n\nMakes things easier (and therefore faster) for web browsers.\nMark of professionalism."
-  },
-  {
-    "objectID": "02_content.rjs.html#what-7",
-    "href": "02_content.rjs.html#what-7",
-    "title": "📺 Content!",
-    "section": "What?",
-    "text": "What?\n\nSometimes we want to leave notes to ourselves or other web developers.\nWe don’t need everyone visiting our page to see them.\nWe do this using the special “comment” element."
-  },
-  {
-    "objectID": "02_content.rjs.html#how-7",
-    "href": "02_content.rjs.html#how-7",
-    "title": "📺 Content!",
-    "section": "How?",
-    "text": "How?\n\nTake some content you don’t want to display.\nEnclose in &lt;!-- and --&gt;\n\n\n\ncomment_example.html\n\n&lt;body&gt;\n    &lt;p&gt;\n        This is visible.\n        &lt;!-- This isn't. --&gt;\n    &lt;/p&gt;\n&lt;/body&gt;"
-  },
-  {
-    "objectID": "02_content.rjs.html#why-7",
-    "href": "02_content.rjs.html#why-7",
-    "title": "📺 Content!",
-    "section": "Why?",
-    "text": "Why?\n\nI most usually it to keep track of notes.\nMany of my pages have the following:\n\n\n\nindex.html\n\n&lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;"
-  },
-  {
-    "objectID": "02_content.rjs.html#what-8",
-    "href": "02_content.rjs.html#what-8",
-    "title": "📺 Content!",
-    "section": "What?",
-    "text": "What?\n\nWe have now covered all the requirements to make a well-formed HTML page!"
-  },
-  {
-    "objectID": "02_content.rjs.html#how-8",
-    "href": "02_content.rjs.html#how-8",
-    "title": "📺 Content!",
-    "section": "How?",
-    "text": "How?\n\n\nExample:\n\n\nexample.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Sample page&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;Sample page&lt;/h1&gt;\n  &lt;p&gt;This is a &lt;a href=\"demo.html\"&gt;simple&lt;/a&gt; sample.&lt;/p&gt;\n  &lt;!-- this is a comment --&gt;\n &lt;/body&gt;\n&lt;/html&gt;\n\n\nOurs:\n\n\nindex.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n &lt;head&gt;\n  &lt;title&gt;Title of your choice!&lt;/title&gt;\n &lt;/head&gt;\n &lt;body&gt;\n  &lt;h1&gt;My Rad Page 🏍️&lt;/h1&gt;\n  &lt;p&gt;Visit &lt;a href=\"https://cd-example.github.io/bug-free-sniffle/\"&gt;my repository!&lt;/a&gt;&lt;/p&gt;\n  &lt;!-- Adapted from https://html.spec.whatwg.org/ --&gt;\n &lt;/body&gt;\n&lt;/html&gt;"
-  },
-  {
-    "objectID": "02_content.rjs.html#why-8",
-    "href": "02_content.rjs.html#why-8",
-    "title": "📺 Content!",
-    "section": "Why?",
-    "text": "Why?\n\nPer “indeed.com” (maybe don’t just trust them).\n\n100+ jobs\nMost around $40+/hr\n\n🤑\nAlso its fun!"
-  },
-  {
-    "objectID": "02_content.rjs.html#what-9",
-    "href": "02_content.rjs.html#what-9",
-    "title": "📺 Content!",
-    "section": "What?",
-    "text": "What?\n\nMake sure you sync your Codespace to your repository.\nGitHub Pages will update automatically.\nShow off your work!"
-  },
-  {
-    "objectID": "02_content.rjs.html#how-9",
-    "href": "02_content.rjs.html#how-9",
-    "title": "📺 Content!",
-    "section": "How?",
-    "text": "How?\n\nYou can review from last time"
-  },
-  {
-    "objectID": "02_content.rjs.html#why-9",
-    "href": "02_content.rjs.html#why-9",
-    "title": "📺 Content!",
-    "section": "Why?",
-    "text": "Why?\n\nWe learn by doing!\nA little bit every day!"
-  },
-  {
-    "objectID": "02_content.rjs.html#today-1",
-    "href": "02_content.rjs.html#today-1",
-    "title": "📺 Content!",
-    "section": "Today",
-    "text": "Today\n\nContent!\nNesting!\nHeadings!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#about-me",
-    "href": "01_webpage.rjs.html#about-me",
-    "title": "📄 Webpages!",
-    "section": "About Me",
-    "text": "About Me\n\nName\n\n(Prof.) Calvin (Deutschbein)\n\nEmail\n\nckdeutschbein\n\nWebsite\n\ncd-public.github.io\n\nField\n\nHardware Security, Computer Systems\n\nPronouns\n\nThey/Them"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#goals",
-    "href": "01_webpage.rjs.html#goals",
-    "title": "📄 Webpages!",
-    "section": "Goals",
-    "text": "Goals\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#technologies",
-    "href": "01_webpage.rjs.html#technologies",
-    "title": "📄 Webpages!",
-    "section": "Technologies",
-    "text": "Technologies\n\nGitHub!\n\nThe worlds #1 online collaboration platform!\n\nThree languages.\n\nHTML - for text.\nCSS - for style.\nJavaScript - for action."
-  },
-  {
-    "objectID": "01_webpage.rjs.html#today",
-    "href": "01_webpage.rjs.html#today",
-    "title": "📄 Webpages!",
-    "section": "Today",
-    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#what",
-    "href": "01_webpage.rjs.html#what",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nCreate a GitHub account!\n\nUse whatever name and password you want…\n\nBut make sure you remember them!\n\nI really recommend using your .edu email address!\n\nYou get extra goodies!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how",
-    "href": "01_webpage.rjs.html#how",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nCreating an account on GitHub\nOr:\n\nGo to GitHub.com\nEnter your email.\nClick Sign up for GitHub\nFollow the steps!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#why",
-    "href": "01_webpage.rjs.html#why",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nGitHub is a great tool for:\n\nLearning new technologies.\nSharing your projects.\nWorking on projects together.\nCreating websites or portfolios.\n\nI wish I’d learned about it sooner!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#what-1",
-    "href": "01_webpage.rjs.html#what-1",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nCreate a GitHub repository!\n\nRepositories are how GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how-1",
-    "href": "01_webpage.rjs.html#how-1",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nQuickstart for repositories\nOr:\n\nGo to GitHub.com\n\nIt should look different now that you’re logged in!\n\nClick  New\n\nGive it a name\nAdd a README file\nClick Create Repositry"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#why-1",
-    "href": "01_webpage.rjs.html#why-1",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\n\n\nStore files that make up a webpage:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#what-2",
-    "href": "01_webpage.rjs.html#what-2",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nOpen a GitHub codespace!\n\nOnline code editor\n\nGoogle Docs for code.\n\nHas a lot of options.\n\nWe won’t use most of them.\nThere’s plenty of room to grow!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how-2",
-    "href": "01_webpage.rjs.html#how-2",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nCreating a codespace for a repository\nOr:\n\nOn the page for the respository you created…\n\ngithub.com/&lt;account name&gt;/&lt;repository name&gt;\n\nClick  &lt;&gt; Code 🔽\nClick the “Codespaces” tab.\nClick Create codespace on main\nA new window will open… slowly."
-  },
-  {
-    "objectID": "01_webpage.rjs.html#why-2",
-    "href": "01_webpage.rjs.html#why-2",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nEdit files that make up a webpages:\n\n“HTML” page “content”.\n\nWe’ll do this one first!\nIt is the foundation of all webpages!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#what-3",
-    "href": "01_webpage.rjs.html#what-3",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nNow: The first achievement when coding!\n“Hello, world!”\nWithin GitHub codespaces, create a new file.\n\nIt must be called index.html\nHTML for “hypertext markup language”\nThe language of the internet!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how-3",
-    "href": "01_webpage.rjs.html#how-3",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\nTwo overlapping files \nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#visually",
-    "href": "01_webpage.rjs.html#visually",
-    "title": "📄 Webpages!",
+    "objectID": "04_art.rjs.html#visually-3",
+    "href": "04_art.rjs.html#visually-3",
+    "title": "🖼 Art!",
     "section": "👀 Visually",
     "text": "👀 Visually"
   },
   {
-    "objectID": "01_webpage.rjs.html#why-3",
-    "href": "01_webpage.rjs.html#why-3",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nWe want to be able to determine what appears on our webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!"
+    "objectID": "04_art.rjs.html#demo-repo",
+    "href": "04_art.rjs.html#demo-repo",
+    "title": "🖼 Art!",
+    "section": "Demo Repo",
+    "text": "Demo Repo\n\nCheck it out here:\n\nPage\nRepo"
   },
   {
-    "objectID": "01_webpage.rjs.html#what-4",
-    "href": "01_webpage.rjs.html#what-4",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nWe need changes made in codespaces to become changes in the repository.\n\nYou may wonder why this isn’t automatic: I’m not sure!\n\nTo do so we will change from the “Explorer” activity to the “Source Control” activity\n\nIt’s the technical term for “keeping track of code”\n\nLots of paperwork!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how-4",
-    "href": "01_webpage.rjs.html#how-4",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nClick the \nClick  ✓ Commit \n\nI get a box pop-up and say Always"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#alert",
-    "href": "01_webpage.rjs.html#alert",
-    "title": "📄 Webpages!",
-    "section": "🚨 Alert!",
-    "text": "🚨 Alert!\n\nThis pops up :\n\n\n\nCOMMIT_EDITMSG\n\n\n# Please enter the commit message for your changes. Lines starting\n# with '#' will be ignored, and an empty message aborts the commit.\n#\n# On branch main\n# Your branch is up to date with 'origin/main'.\n#\n# Changes to be committed:\n#   new file:   index.html\n#\n\n\n\n\n\n\n\nCaution\n\n\nWe must name our changes."
-  },
-  {
-    "objectID": "01_webpage.rjs.html#resolve",
-    "href": "01_webpage.rjs.html#resolve",
-    "title": "📄 Webpages!",
-    "section": "🤝 Resolve",
-    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an index.html there!\nYou may need to refresh/reload."
-  },
-  {
-    "objectID": "01_webpage.rjs.html#why-4",
-    "href": "01_webpage.rjs.html#why-4",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it be easier, but that’s okay!\nIt gets better every year!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#what-5",
-    "href": "01_webpage.rjs.html#what-5",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nLet’s take index.html and make it a webpage!\nWe’ll use “GitHub Pages”\n\nNot too hard to set up…\nI use it a lot for fun 😬\n\nYou’ll be able to show anything you do to friends and family!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how-5",
-    "href": "01_webpage.rjs.html#how-5",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nCreating a GitHub Pages site\nOr:\n\nBack on the repository page… - &lt;account name&gt;.github.io/&lt;repository name&gt;\nWe’ll change repository settings.\n\nOn the top, click on  Settings\nOn the left, click on  Pages\nIn the middle, under branch, change “None” to “Main” via the drop-down menu."
-  },
-  {
-    "objectID": "01_webpage.rjs.html#visually-1",
-    "href": "01_webpage.rjs.html#visually-1",
-    "title": "📄 Webpages!",
-    "section": "👀 Visually",
-    "text": "👀 Visually"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#why-5",
-    "href": "01_webpage.rjs.html#why-5",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nWe get to examine what we did!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#what-6",
-    "href": "01_webpage.rjs.html#what-6",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nCheck our work.\nLearn how to see where updates will show up.\n\nA few minutes after “Commit+Sync”\n\nTell ourselves we did a good job!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#how-6",
-    "href": "01_webpage.rjs.html#how-6",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nOr:\n\nBack to &lt;&gt; Code\nBottom right, under “Deployments”, click github-pages\nThere will be a link on this page under the heading github-pages"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#why-6",
-    "href": "01_webpage.rjs.html#why-6",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nThere’s many ways to publish online but this is…\n\nFree.\nRelatively quick (minutes, not hours).\nPowerful enough for interactive, public webpages.\n\nIt also builds a lot of valuable skills!"
-  },
-  {
-    "objectID": "01_webpage.rjs.html#today-1",
-    "href": "01_webpage.rjs.html#today-1",
-    "title": "📄 Webpages!",
+    "objectID": "04_art.rjs.html#today-1",
+    "href": "04_art.rjs.html#today-1",
+    "title": "🖼 Art!",
     "section": "Today",
-    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage"
+    "text": "Today\n\nBackgrounds!\nRadii!\nPositioning!"
   },
   {
-    "objectID": "01_webpage.html",
-    "href": "01_webpage.html",
-    "title": "📄 Webpages!",
-    "section": "",
-    "text": "Name\n\n(Prof.) Calvin (Deutschbein)\n\nEmail\n\nckdeutschbein\n\nWebsite\n\ncd-public.github.io\n\nField\n\nHardware Security, Computer Systems\n\nPronouns\n\nThey/Them\n\n\n\n\n\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive\n\n\n\n\n\nGitHub!\n\nThe worlds #1 online collaboration platform!\n\nThree languages.\n\nHTML - for text.\nCSS - for style.\nJavaScript - for action.\n\n\n\n\n\n\nGithub!\nHTML!\nCreate a 📄 webpage",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#about-me",
-    "href": "01_webpage.html#about-me",
-    "title": "📄 Webpages!",
-    "section": "",
-    "text": "Name\n\n(Prof.) Calvin (Deutschbein)\n\nEmail\n\nckdeutschbein\n\nWebsite\n\ncd-public.github.io\n\nField\n\nHardware Security, Computer Systems\n\nPronouns\n\nThey/Them",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#goals",
-    "href": "01_webpage.html#goals",
-    "title": "📄 Webpages!",
-    "section": "",
-    "text": "Create a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#technologies",
-    "href": "01_webpage.html#technologies",
-    "title": "📄 Webpages!",
-    "section": "",
-    "text": "GitHub!\n\nThe worlds #1 online collaboration platform!\n\nThree languages.\n\nHTML - for text.\nCSS - for style.\nJavaScript - for action.",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#today",
-    "href": "01_webpage.html#today",
-    "title": "📄 Webpages!",
-    "section": "",
-    "text": "Github!\nHTML!\nCreate a 📄 webpage",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#what",
-    "href": "01_webpage.html#what",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nCreate a GitHub account!\n\nUse whatever name and password you want…\n\nBut make sure you remember them!\n\nI really recommend using your .edu email address!\n\nYou get extra goodies!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#how",
-    "href": "01_webpage.html#how",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nCreating an account on GitHub\nOr:\n\nGo to GitHub.com\nEnter your email.\nClick Sign up for GitHub\nFollow the steps!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#why",
-    "href": "01_webpage.html#why",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nGitHub is a great tool for:\n\nLearning new technologies.\nSharing your projects.\nWorking on projects together.\nCreating websites or portfolios.\n\nI wish I’d learned about it sooner!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#what-1",
-    "href": "01_webpage.html#what-1",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nCreate a GitHub repository!\n\nRepositories are how GitHub stores the information in a website\nUse whatever name you want…\n\nBut make sure you remember it!\n\n(Someday) it will live at:\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nCheck out cd-example.github.io/bug-free-sniffle/",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#how-1",
-    "href": "01_webpage.html#how-1",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nQuickstart for repositories\nOr:\n\nGo to GitHub.com\n\nIt should look different now that you’re logged in!\n\nClick  New\n\nGive it a name\nAdd a README file\nClick Create Repositry",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#why-1",
-    "href": "01_webpage.html#why-1",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\n\n\nStore files that make up a webpage:\n\n“HTML” page “content”.\n“CSS” page “formatting”.\n“JS” (JavaScript) “interactivity”.\nWe can use images, like PNGs or SVGs.\n\n\n\n\n\nAn image",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#what-2",
-    "href": "01_webpage.html#what-2",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nOpen a GitHub codespace!\n\nOnline code editor\n\nGoogle Docs for code.\n\nHas a lot of options.\n\nWe won’t use most of them.\nThere’s plenty of room to grow!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#how-2",
-    "href": "01_webpage.html#how-2",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nCreating a codespace for a repository\nOr:\n\nOn the page for the respository you created…\n\ngithub.com/&lt;account name&gt;/&lt;repository name&gt;\n\nClick  &lt;&gt; Code 🔽\nClick the “Codespaces” tab.\nClick Create codespace on main\nA new window will open… slowly.",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#why-2",
-    "href": "01_webpage.html#why-2",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nEdit files that make up a webpages:\n\n“HTML” page “content”.\n\nWe’ll do this one first!\nIt is the foundation of all webpages!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#what-3",
-    "href": "01_webpage.html#what-3",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nNow: The first achievement when coding!\n“Hello, world!”\nWithin GitHub codespaces, create a new file.\n\nIt must be called index.html\nHTML for “hypertext markup language”\nThe language of the internet!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#how-3",
-    "href": "01_webpage.html#how-3",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nOn the left side of the screen, ensure “Explorer” is opened.\nTwo overlapping files \nA bar will pop out and at the top there will be a few icons.\n\nClick the file with a + on it.\nIf missing, “mouseover” repository name!\n\nType index.html as the name and press enter.\nA new file will open up, type “Hello, world!”",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#visually",
-    "href": "01_webpage.html#visually",
-    "title": "📄 Webpages!",
-    "section": "👀 Visually",
-    "text": "👀 Visually",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#why-3",
-    "href": "01_webpage.html#why-3",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nWe want to be able to determine what appears on our webpage.\nFor now, it matters less what we change than that we can change the content.\nWe’ll learn more soon!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#what-4",
-    "href": "01_webpage.html#what-4",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nWe need changes made in codespaces to become changes in the repository.\n\nYou may wonder why this isn’t automatic: I’m not sure!\n\nTo do so we will change from the “Explorer” activity to the “Source Control” activity\n\nIt’s the technical term for “keeping track of code”\n\nLots of paperwork!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#how-4",
-    "href": "01_webpage.html#how-4",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nClick the \nClick  ✓ Commit \n\nI get a box pop-up and say Always",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#alert",
-    "href": "01_webpage.html#alert",
-    "title": "📄 Webpages!",
-    "section": "🚨 Alert!",
-    "text": "🚨 Alert!\n\nThis pops up :\n\n\n\nCOMMIT_EDITMSG\n\n\n# Please enter the commit message for your changes. Lines starting\n# with '#' will be ignored, and an empty message aborts the commit.\n#\n# On branch main\n# Your branch is up to date with 'origin/main'.\n#\n# Changes to be committed:\n#   new file:   index.html\n#\n\n\n\n\n\n\n\nCaution\n\n\n\nWe must name our changes.",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#resolve",
-    "href": "01_webpage.html#resolve",
-    "title": "📄 Webpages!",
-    "section": "🤝 Resolve",
-    "text": "🤝 Resolve\n\nAdd any message to the first line:\n\n\n\nCOMMIT_EDITMSG\n\nHi it's me :)\n### Please enter...\n\n\nClick the ✓ on the top right.\nClick  Sync Changes 1 ↑ \nNow go back to the repository page.\n\nThere should now be an index.html there!\nYou may need to refresh/reload.",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#why-4",
-    "href": "01_webpage.html#why-4",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nWe don’t want just anyone or anything publish to a website we administer.\n\nSpam, broken links, stale memes, etc.\nMostly GitHub doesn’t want that and won’t leave it up to us!\n\nThis process requires every change to be intentional.\n\nI would rather it be easier, but that’s okay!\nIt gets better every year!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#what-5",
-    "href": "01_webpage.html#what-5",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nLet’s take index.html and make it a webpage!\nWe’ll use “GitHub Pages”\n\nNot too hard to set up…\nI use it a lot for fun 😬\n\nYou’ll be able to show anything you do to friends and family!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#how-5",
-    "href": "01_webpage.html#how-5",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\nCreating a GitHub Pages site\nOr:\n\nBack on the repository page… - &lt;account name&gt;.github.io/&lt;repository name&gt;\nWe’ll change repository settings.\n\nOn the top, click on  Settings\nOn the left, click on  Pages\nIn the middle, under branch, change “None” to “Main” via the drop-down menu.",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#visually-1",
-    "href": "01_webpage.html#visually-1",
-    "title": "📄 Webpages!",
-    "section": "👀 Visually",
-    "text": "👀 Visually",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#why-5",
-    "href": "01_webpage.html#why-5",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nWe get to examine what we did!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#what-6",
-    "href": "01_webpage.html#what-6",
-    "title": "📄 Webpages!",
-    "section": "What?",
-    "text": "What?\n\nCheck our work.\nLearn how to see where updates will show up.\n\nA few minutes after “Commit+Sync”\n\nTell ourselves we did a good job!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#how-6",
-    "href": "01_webpage.html#how-6",
-    "title": "📄 Webpages!",
-    "section": "How?",
-    "text": "How?\n\n&lt;account name&gt;.github.io/&lt;repository name&gt;\nOr:\n\nBack to &lt;&gt; Code\nBottom right, under “Deployments”, click github-pages\nThere will be a link on this page under the heading github-pages",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#why-6",
-    "href": "01_webpage.html#why-6",
-    "title": "📄 Webpages!",
-    "section": "Why?",
-    "text": "Why?\n\nThere’s many ways to publish online but this is…\n\nFree.\nRelatively quick (minutes, not hours).\nPowerful enough for interactive, public webpages.\n\nIt also builds a lot of valuable skills!",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "01_webpage.html#today-1",
-    "href": "01_webpage.html#today-1",
-    "title": "📄 Webpages!",
-    "section": "Today",
-    "text": "Today\n\nGithub!\nHTML!\nCreate a 📄 webpage",
-    "crumbs": [
-      "📄 Webpages!"
-    ]
-  },
-  {
-    "objectID": "03_style.rjs.html#goals",
-    "href": "03_style.rjs.html#goals",
-    "title": "😎 Style!",
-    "section": "Goals",
-    "text": "Goals\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive"
-  },
-  {
-    "objectID": "03_style.rjs.html#today",
-    "href": "03_style.rjs.html#today",
-    "title": "😎 Style!",
-    "section": "Today",
-    "text": "Today\n\nStyle!\nid!\nCSS!"
-  },
-  {
-    "objectID": "03_style.rjs.html#what",
-    "href": "03_style.rjs.html#what",
-    "title": "😎 Style!",
-    "section": "What?",
-    "text": "What?\n\nHTML can emphasize or strengthen text.\n\n&lt;p&gt;\n    This is\n    &lt;strong&gt;\n        bold\n    &lt;/strong&gt;\n    and this is \n    &lt;em&gt;\n        italicized.\n    &lt;/em&gt;\n&lt;/p&gt;\n\nThis is  bold  and this is  italicized. \n\n\nOkay, how do you make text blue?\n\nNot &lt;blue&gt; and &lt;green&gt; for every color!"
-  },
-  {
-    "objectID": "03_style.rjs.html#how",
-    "href": "03_style.rjs.html#how",
-    "title": "😎 Style!",
-    "section": "How?",
-    "text": "How?\n\nAttributes\n\nLike links &lt;a href=\"xkcd.com\"&gt;link&lt;/a&gt;\n\nWe use the style attribute.\n\nOften with &lt;span&gt; - text-without-linebreak.\n\nThis is\n&lt;span style=\"color:green\"&gt;\n  green\n&lt;/span&gt;\nand this is \n&lt;span style=\"color:pink\"&gt;\n  pink.\n&lt;/span&gt;\n\nThis is  green  and this is  pink."
-  },
-  {
-    "objectID": "03_style.rjs.html#why",
-    "href": "03_style.rjs.html#why",
-    "title": "😎 Style!",
-    "section": "Why?",
-    "text": "Why?\n\nWhat if you want:\n\nBold\nItalic\nUnderline\nCentered\nPink text on a green background.\n\n\n&lt;p style=\"font-weight:bold;font-style:italic;text-decoration:underline;text-align:center;color:pink;background:green\"&gt;No problem.&lt;/p&gt;\n\nNo problem."
-  },
-  {
-    "objectID": "03_style.rjs.html#what-1",
-    "href": "03_style.rjs.html#what-1",
-    "title": "😎 Style!",
-    "section": "What?",
-    "text": "What?\n\nThis is annoying:\n\n&lt;p style=\"font-weight:bold;font-style:italic;text-decoration:underline;text-align:center;color:pink;background:green\"&gt;No problem.&lt;/p&gt;\n\nMust better would be:\n\n&lt;p id=\"stylish\"&gt;No problem&lt;/a&gt;\n\nAnd write the style down elsewhere."
-  },
-  {
-    "objectID": "03_style.rjs.html#how-1",
-    "href": "03_style.rjs.html#how-1",
-    "title": "😎 Style!",
-    "section": "How?",
-    "text": "How?\n\nCSS (Cascading Style Sheets)\nIn your &lt;head&gt;, add a &lt;style&gt; element.\nWrite out all the styling you want!\nWe’ll show a minimal example!"
-  },
-  {
-    "objectID": "03_style.rjs.html#visually",
-    "href": "03_style.rjs.html#visually",
-    "title": "😎 Style!",
-    "section": "👀 Visually",
-    "text": "👀 Visually\n\n\nstyled.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;style&gt;\n            #stylish {\n                font-weight: bold;\n                font-style: italic;\n                text-decoration: underline;\n                text-align: center;\n                color: pink;\n                background: green;\n            }\n        &lt;/style&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"stylish\"&gt;No problem&lt;/a&gt;\n    &lt;/body&gt;\n&lt;/html&gt;"
-  },
-  {
-    "objectID": "03_style.rjs.html#why-1",
-    "href": "03_style.rjs.html#why-1",
-    "title": "😎 Style!",
-    "section": "Why?",
-    "text": "Why?\n\nMore consistent.\n\nCan say “stylish” anywhere!\n\nLess messy.\n\nEasier to e.g. translate “No problem!” ⇒ “¡No hay problema!”\n\nCan be placed in a separate file…"
-  },
-  {
-    "objectID": "03_style.rjs.html#what-2",
-    "href": "03_style.rjs.html#what-2",
-    "title": "😎 Style!",
-    "section": "What?",
-    "text": "What?\n\nMoving all the formatting to a header is nice enough…\nBut what if we have multiple pages on our website!\n\n“About me” and “Cool poems”, perhaps.\n\nWe may want to style them both the same!"
-  },
-  {
-    "objectID": "03_style.rjs.html#how-2",
-    "href": "03_style.rjs.html#how-2",
-    "title": "😎 Style!",
-    "section": "How?",
-    "text": "How?\n\nMake a CSS file!\nInclude it in your HTML file with a &lt;link&gt;\n\n\n\n\n\nstyles.css\n\n#stylish {\n    font-weight: bold;\n    font-style: italic;\n    text-decoration: underline;\n    text-align: center;\n    color: pink;\n    background: green;\n}\n\n\n\n\nstyled.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"stylish\"&gt;No problem&lt;/p&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n\n\n\nEnsure files in the same repository and link name is correct (e.g. styles.css)"
-  },
-  {
-    "objectID": "03_style.rjs.html#why-2",
-    "href": "03_style.rjs.html#why-2",
-    "title": "😎 Style!",
-    "section": "Why?",
-    "text": "Why?\n\nWay easier when you have multiple styles."
-  },
-  {
-    "objectID": "03_style.rjs.html#today-1",
-    "href": "03_style.rjs.html#today-1",
-    "title": "😎 Style!",
-    "section": "Today",
-    "text": "Today\n\nStyle!\nid!\nCSS!"
-  },
-  {
-    "objectID": "03_style.html#goals",
-    "href": "03_style.html#goals",
-    "title": "😎 Style!",
+    "objectID": "04_art.html#goals",
+    "href": "04_art.html#goals",
+    "title": "🖼 Art!",
     "section": "Goals",
     "text": "Goals\n\nCreate a webpage\nMake it well-formed\nMake it stylish\nMake it graphical\nMake it interactive",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#today",
-    "href": "03_style.html#today",
-    "title": "😎 Style!",
+    "objectID": "04_art.html#today",
+    "href": "04_art.html#today",
+    "title": "🖼 Art!",
     "section": "Today",
-    "text": "Today\n\nStyle!\nid!\nCSS!",
+    "text": "Today\n\nBackgrounds!\nRadii!\nPositioning!",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#what",
-    "href": "03_style.html#what",
-    "title": "😎 Style!",
+    "objectID": "04_art.html#what",
+    "href": "04_art.html#what",
+    "title": "🖼 Art!",
     "section": "What?",
-    "text": "What?\n\nHTML can emphasize or strengthen text.\n\n&lt;p&gt;\n    This is\n    &lt;strong&gt;\n        bold\n    &lt;/strong&gt;\n    and this is \n    &lt;em&gt;\n        italicized.\n    &lt;/em&gt;\n&lt;/p&gt;\n\nThis is  bold  and this is  italicized. \n\n\nOkay, how do you make text blue?\n\nNot &lt;blue&gt; and &lt;green&gt; for every color!",
+    "text": "What?\n\nYosra Emad, cool CSS artist/coder made this:",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#how",
-    "href": "03_style.html#how",
-    "title": "😎 Style!",
+    "objectID": "04_art.html#how",
+    "href": "04_art.html#how",
+    "title": "🖼 Art!",
     "section": "How?",
-    "text": "How?\n\nAttributes\n\nLike links &lt;a href=\"xkcd.com\"&gt;link&lt;/a&gt;\n\nWe use the style attribute.\n\nOften with &lt;span&gt; - text-without-linebreak.\n\nThis is\n&lt;span style=\"color:green\"&gt;\n  green\n&lt;/span&gt;\nand this is \n&lt;span style=\"color:pink\"&gt;\n  pink.\n&lt;/span&gt;\n\nThis is  green  and this is  pink.",
+    "text": "How?\n\nYosra:\n\nCreates HTML elements for each “part” of the art.\nUses CSS styling to change colors and borders.\nWe will do the same!",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#why",
-    "href": "03_style.html#why",
-    "title": "😎 Style!",
+    "objectID": "04_art.html#why",
+    "href": "04_art.html#why",
+    "title": "🖼 Art!",
     "section": "Why?",
-    "text": "Why?\n\nWhat if you want:\n\nBold\nItalic\nUnderline\nCentered\nPink text on a green background.\n\n\n&lt;p style=\"font-weight:bold;font-style:italic;text-decoration:underline;text-align:center;color:pink;background:green\"&gt;No problem.&lt;/p&gt;\n\nNo problem.",
+    "text": "Why?\n\nIt’s cute!",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#what-1",
-    "href": "03_style.html#what-1",
-    "title": "😎 Style!",
+    "objectID": "04_art.html#what-1",
+    "href": "04_art.html#what-1",
+    "title": "🖼 Art!",
     "section": "What?",
-    "text": "What?\n\nThis is annoying:\n\n&lt;p style=\"font-weight:bold;font-style:italic;text-decoration:underline;text-align:center;color:pink;background:green\"&gt;No problem.&lt;/p&gt;\n\nMust better would be:\n\n&lt;p id=\"stylish\"&gt;No problem&lt;/a&gt;\n\nAnd write the style down elsewhere.",
+    "text": "What?\n\n\n\nFirst, make the skeleton of the structure by looking for layers from back to front.\nWe notice, for example, there could be a back-most circle element forming the body.\nUse the &lt;div&gt; element - a very general “division” of website content.\n\nWe will use no content at all - only style the &lt;div&gt;",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#how-1",
-    "href": "03_style.html#how-1",
-    "title": "😎 Style!",
+    "objectID": "04_art.html#how-1",
+    "href": "04_art.html#how-1",
+    "title": "🖼 Art!",
     "section": "How?",
-    "text": "How?\n\nCSS (Cascading Style Sheets)\nIn your &lt;head&gt;, add a &lt;style&gt; element.\nWrite out all the styling you want!\nWe’ll show a minimal example!",
+    "text": "How?\n\nYosra recommends, and I follow, as:\n\n\n\n\n\nspooky.html\n\n&lt;div id=\"base\"&gt;\n  &lt;div id=\"background\"&gt;\n    &lt;div id=\"spookster\"&gt;\n      &lt;div id=\"peepers\"&gt;&lt;/div&gt;\n      &lt;!-- Short for booplesnoot --&gt;\n      &lt;div id=\"snoot\"&gt;&lt;/div&gt;\n      &lt;div id=\"left-waggler\"&gt;&lt;/div&gt;\n      &lt;div id=\"right-waggler\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div id=\"feets\"&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n      &lt;div id=\"feet\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#visually",
-    "href": "03_style.html#visually",
-    "title": "😎 Style!",
+    "objectID": "04_art.html#citation-needed",
+    "href": "04_art.html#citation-needed",
+    "title": "🖼 Art!",
+    "section": "Citation needed",
+    "text": "Citation needed\n\n\n\nBooplesnoot and other part names are a throwback to a legendary meme of a bunny.",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#why-1",
+    "href": "04_art.html#why-1",
+    "title": "🖼 Art!",
+    "section": "Why?",
+    "text": "Why?\n\nBy default, HTML styles enclosed elements on top of enclosing elements.\nSo we can place, e.g., eyes on a smiley face like so:\n\n\n\nsmiley.html\n\n&lt;div id=\"face\"&gt;\n    &lt;div id=\"left-eye\"&gt;&lt;/div&gt;\n    &lt;div id=\"right-eye\"&gt;&lt;/div&gt;\n    &lt;div id=\"mouth\"&gt;&lt;/div&gt;\n&lt;/div&gt;",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#step-0",
+    "href": "04_art.html#step-0",
+    "title": "🖼 Art!",
+    "section": "Step 0 🏁",
+    "text": "Step 0 🏁\n\nRecall we will be working with spooky.html\nRecall we need to link our CSS stylesheet in the header\n\n\n\nspooky.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;div id=\"base\"&gt;\n            &lt;div id=\"background\"&gt;\n                &lt;div id=\"spookster\"&gt;\n                    &lt;div id=\"peepers\"&gt;&lt;/div&gt;\n        ...",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#step-1-1",
+    "href": "04_art.html#step-1-1",
+    "title": "🖼 Art!",
+    "section": "Step 1 1️⃣",
+    "text": "Step 1 1️⃣\n\n\n\nWe will remove all margins and stretching.\n\nOnce you have done more CSS, take this out and see what happens.\n\nWe use the special * asterisk to apply the style to all elements.\n\n\n\n\nstyles.css\n\n/* This is a CSS Comment */\n/* Like &lt;!-- --&gt; HTML comments */\n\n/* Remove margins and stretching */\n* {\n  margin: 0;\n  padding: 0;\n}",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#step-2",
+    "href": "04_art.html#step-2",
+    "title": "🖼 Art!",
+    "section": "Step 2 ⬜",
+    "text": "Step 2 ⬜\n\n\n\nStyle base.\nThis background color\n100% visible height vh and width vw\nFlex means “not inline text”\n\nWe aren’t using text!\n\nWe center everything relative to this div\n\n\n\n\nstyles.css\n\n/* Old */\n* {\n  margin: 0;\n  padding: 0;\n}\n\n/* New! */\n#base {\n  background: white;\n  height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n}",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#step-3",
+    "href": "04_art.html#step-3",
+    "title": "🖼 Art!",
+    "section": "Step 3 🟣",
+    "text": "Step 3 🟣\n\n\n\nThe circle behind the spookster.\n70% of the SMALLER of the height and width\nBorder radius is neat - we’ll demo it.\n#e8e0ff is this color\nAnd again center everything.\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#background {\n  width: 70vmin;\n  height: 70vmin;\n  background: #e8e0ff;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#aside-border-radius",
+    "href": "04_art.html#aside-border-radius",
+    "title": "🖼 Art!",
+    "section": "Aside: Border Radius",
+    "text": "Aside: Border Radius\n\nWe can clip the borders of elements with backgrounds to be round instead of square with a radius.\n\n\n\n\n0%\n\n&lt;div style=\"background:red;border-radius:0%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n10%\n\n&lt;div style=\"background:red;border-radius:10%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n25%\n\n&lt;div style=\"background:red;border-radius:25%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText\n\n\n\n50%\n\n&lt;div style=\"background:red;border-radius:50%;text-align:center\"&gt;Text&lt;/div&gt;\n\nText",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#step-4",
+    "href": "04_art.html#step-4",
+    "title": "🖼 Art!",
+    "section": "Step 4 🧢",
+    "text": "Step 4 🧢\n\n\n\nThe spookster herself.\n30% of the SMALLER of the height and width\nBorder radius but only on top!\nBlack border but not one the bottom!\n#e8e0ff is this color\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#spookster {\n  position: relative;\n  border: 0.5vmin solid black;\n  width: 30vmin;\n  height: 30vmin;\n  border-top-left-radius: 50%;\n  border-top-right-radius: 50%;\n  border-bottom: 0;\n  box-sizing: border-box;\n  background: #ffdcff;\n}",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#visually",
+    "href": "04_art.html#visually",
+    "title": "🖼 Art!",
     "section": "👀 Visually",
-    "text": "👀 Visually\n\n\nstyled.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;style&gt;\n            #stylish {\n                font-weight: bold;\n                font-style: italic;\n                text-decoration: underline;\n                text-align: center;\n                color: pink;\n                background: green;\n            }\n        &lt;/style&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"stylish\"&gt;No problem&lt;/a&gt;\n    &lt;/body&gt;\n&lt;/html&gt;",
+    "text": "👀 Visually\n\nIt will mostly look like this:",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#why-1",
-    "href": "03_style.html#why-1",
-    "title": "😎 Style!",
-    "section": "Why?",
-    "text": "Why?\n\nMore consistent.\n\nCan say “stylish” anywhere!\n\nLess messy.\n\nEasier to e.g. translate “No problem!” ⇒ “¡No hay problema!”\n\nCan be placed in a separate file…",
+    "objectID": "04_art.html#aside-border-radius-1",
+    "href": "04_art.html#aside-border-radius-1",
+    "title": "🖼 Art!",
+    "section": "Aside: Border Radius",
+    "text": "Aside: Border Radius\n\nHere it is without the border radius set.",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#what-2",
-    "href": "03_style.html#what-2",
-    "title": "😎 Style!",
-    "section": "What?",
-    "text": "What?\n\nMoving all the formatting to a header is nice enough…\nBut what if we have multiple pages on our website!\n\n“About me” and “Cool poems”, perhaps.\n\nWe may want to style them both the same!",
+    "objectID": "04_art.html#step-5",
+    "href": "04_art.html#step-5",
+    "title": "🖼 Art!",
+    "section": "Step 5 🐾",
+    "text": "Step 5 🐾\n\n\n\nWe create a &lt;div&gt; to hold for 4 feet and also those 4 feet\nEach foot is 1/4 of ghost width.\nRounded and outlined on the bottom.\nThere are four of these!\nBlack border except top!\n#e8e0ff is this color\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#feets {\n  display: flex;\n  width: 30vmin;\n}\n\n#feet {\n  width: 7.5vmin;\n  height: 6vmin;\n  border: 0.5vmin solid black;\n  border-bottom-left-radius: 50%;\n  border-bottom-right-radius: 50%;\n  border-top: 0;\n  background: #ffdcff;\n}",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#how-2",
-    "href": "03_style.html#how-2",
-    "title": "😎 Style!",
-    "section": "How?",
-    "text": "How?\n\nMake a CSS file!\nInclude it in your HTML file with a &lt;link&gt;\n\n\n\n\n\nstyles.css\n\n#stylish {\n    font-weight: bold;\n    font-style: italic;\n    text-decoration: underline;\n    text-align: center;\n    color: pink;\n    background: green;\n}\n\n\n\n\nstyled.html\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;link rel=\"stylesheet\" href=\"styles.css\"&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"stylish\"&gt;No problem&lt;/p&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n\n\n\n\nEnsure files in the same repository and link name is correct (e.g. styles.css)",
+    "objectID": "04_art.html#visually-1",
+    "href": "04_art.html#visually-1",
+    "title": "🖼 Art!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nIt will mostly look like this:",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#why-2",
-    "href": "03_style.html#why-2",
-    "title": "😎 Style!",
-    "section": "Why?",
-    "text": "Why?\n\nWay easier when you have multiple styles.",
+    "objectID": "04_art.html#aside-partial-borders",
+    "href": "04_art.html#aside-partial-borders",
+    "title": "🖼 Art!",
+    "section": "Aside: Partial Borders",
+    "text": "Aside: Partial Borders\n\nIf we don’t set border-top: 0:",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   },
   {
-    "objectID": "03_style.html#today-1",
-    "href": "03_style.html#today-1",
-    "title": "😎 Style!",
+    "objectID": "04_art.html#step-6",
+    "href": "04_art.html#step-6",
+    "title": "🖼 Art!",
+    "section": "Step 6 👁️",
+    "text": "Step 6 👁️\n\n\n\nPeepers are just two circles at a fixed location.\n5% (1/6 of ghost) radius\nA lot down (13%) and a little bit to the left (5%)\nThen add a shadow (the other eye) 14% to the right.\nPhew!\n\n\n\n\nstyles.css\n\n/* Only showing new stuff... */\n#peepers {\n  position: absolute;\n  width: 5vmin;\n  height: 5vmin;\n  background: #000;\n  border-radius: 50%;\n  top: 13vmin;\n  left: 5vmin;\n  box-shadow: 14vmin 0;\n}",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#visually-2",
+    "href": "04_art.html#visually-2",
+    "title": "🖼 Art!",
+    "section": "👀 Visually",
+    "text": "👀 Visually\n\nIt will mostly look like this:",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#step-n",
+    "href": "04_art.html#step-n",
+    "title": "🖼 Art!",
+    "section": "Step \\(n\\) 🎨",
+    "text": "Step \\(n\\) 🎨\n\n\n\nI’ll simply provide the rest for you to play with!\nYou can scroll!\n\n\n\n\nstyles.css\n\n/* the :before allows */\n/* 2 styles to one div */\n\n/* Whites of the eyes */\n#peepers:before{\n  content: \"\";\n  position: absolute;\n  background: white;\n  width: 2.5vmin;\n  height: 2.5vmin;\n  border-radius: 50%;\n  left: 2vmin;\n  box-shadow: 14vmin 0 white;\n}\n\n#snoot {\n  position: absolute;\n  width: 4vmin;\n  height: 2vmin;\n  border: 0.7vmin solid black;\n  border-bottom-left-radius: 4vmin;\n  border-bottom-right-radius: 4vmin;\n  border-top: 0;\n  top: 16vmin;\n  left: 12vmin;\n}\n\n/* Both wagglers (hands) have */\n/* much in common */\n#left-waggler, #right-waggler {\n  position: absolute;\n  width: 4vmin;\n  height: 4vmin;\n  border: 0.5vmin solid black;\n  border-bottom-left-radius: 50%;\n  border-bottom-right-radius: 50%;\n  border-top: 0;\n}\n\n/* But are in different */ \n/* 1. locations and */\n/* 2. orientations */\n#left-waggler {\n  top: 22vmin;\n  left: 6vmin;\n  transform: rotate(-45deg)\n}\n#right-waggler{\n  top: 22vmin;\n  left: 18vmin;\n  transform: rotate(45deg)\n}\n\n\n\n\nTry it out all at once or piece-by-piece!",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#visually-3",
+    "href": "04_art.html#visually-3",
+    "title": "🖼 Art!",
+    "section": "👀 Visually",
+    "text": "👀 Visually",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#demo-repo",
+    "href": "04_art.html#demo-repo",
+    "title": "🖼 Art!",
+    "section": "Demo Repo",
+    "text": "Demo Repo\n\nCheck it out here:\n\nPage\nRepo",
+    "crumbs": [
+      "🖼 Art!"
+    ]
+  },
+  {
+    "objectID": "04_art.html#today-1",
+    "href": "04_art.html#today-1",
+    "title": "🖼 Art!",
     "section": "Today",
-    "text": "Today\n\nStyle!\nid!\nCSS!",
+    "text": "Today\n\nBackgrounds!\nRadii!\nPositioning!",
     "crumbs": [
-      "😎 Style!"
+      "🖼 Art!"
     ]
   }
 ]

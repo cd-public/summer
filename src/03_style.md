@@ -2,9 +2,6 @@
 title: 😎 Style!
 ---
 
-
-<link rel="stylesheet" href="css/spookster.css">
-
 # 👋 Introduction
 
 ## Goals

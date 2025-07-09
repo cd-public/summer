@@ -1,5 +1,5 @@
 ---
-title: 😎 Style!
+title: 🖼 Art!
 ---
 
 
@@ -367,6 +367,7 @@ title: 😎 Style!
 
 - It will mostly look like this:
 
+
 ```{=html}
 <div id="base">
   <div id="background">
@@ -374,6 +375,7 @@ title: 😎 Style!
   </div>
 </div>
 ```
+
 
 
 ## Aside: Border Radius
