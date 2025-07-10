@@ -456,6 +456,7 @@ function func2(event) {
 - This is a bit confusing.
 - Try this out altogether like so.
 - This uses mousemove rather than click (it's more fun).
+    - [Link](https://cd-public.github.io/spookster/eye.html)
 
 ```{.html filename="altogether.html"}
 <!DOCTYPE html>

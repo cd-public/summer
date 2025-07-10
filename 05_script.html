@@ -714,11 +714,8 @@ function func2(event) {
     const element = document.getElementById("thing1");
     /* Find the new "x" value*/
     const x = 3 * event.pageX / window.innerWidth;
-    /* Find the new "y" value*/
-    const y = 3 * event.pageY / window.innerHeight;
     /* Update */
     element.style["left"] = x + "vmin";
-    element.style["top"] = y + "vmin";
 }
 </script>
 </section>
@@ -1707,63 +1704,60 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb19-442"><a href="#cb19-442"></a><span class="in">    const element = document.getElementById("thing1");</span></span>
 <span id="cb19-443"><a href="#cb19-443"></a><span class="in">    /* Find the new "x" value*/</span></span>
 <span id="cb19-444"><a href="#cb19-444"></a><span class="in">    const x = 3 * event.pageX / window.innerWidth;</span></span>
-<span id="cb19-445"><a href="#cb19-445"></a><span class="in">    /* Find the new "y" value*/</span></span>
-<span id="cb19-446"><a href="#cb19-446"></a><span class="in">    const y = 3 * event.pageY / window.innerHeight;</span></span>
-<span id="cb19-447"><a href="#cb19-447"></a><span class="in">    /* Update */</span></span>
-<span id="cb19-448"><a href="#cb19-448"></a><span class="in">    element.style["left"] = x + "vmin";</span></span>
-<span id="cb19-449"><a href="#cb19-449"></a><span class="in">    element.style["top"] = y + "vmin";</span></span>
-<span id="cb19-450"><a href="#cb19-450"></a><span class="in">}</span></span>
-<span id="cb19-451"><a href="#cb19-451"></a><span class="in">&lt;/script&gt;</span></span>
-<span id="cb19-452"><a href="#cb19-452"></a><span class="in">```</span></span>
-<span id="cb19-453"><a href="#cb19-453"></a></span>
-<span id="cb19-454"><a href="#cb19-454"></a><span class="fu">## Altogether</span></span>
-<span id="cb19-455"><a href="#cb19-455"></a></span>
-<span id="cb19-456"><a href="#cb19-456"></a><span class="ss">- </span>This is a bit confusing.</span>
-<span id="cb19-457"><a href="#cb19-457"></a><span class="ss">- </span>Try this out altogether like so.</span>
-<span id="cb19-458"><a href="#cb19-458"></a><span class="ss">- </span>This uses mousemove rather than click (it's more fun).</span>
-<span id="cb19-459"><a href="#cb19-459"></a><span class="ss">    - </span><span class="co">[</span><span class="ot">Link</span><span class="co">](https://cd-public.github.io/spookster/eye.html)</span></span>
-<span id="cb19-460"><a href="#cb19-460"></a></span>
-<span id="cb19-461"><a href="#cb19-461"></a><span class="in">```{.html filename="altogether.html"}</span></span>
-<span id="cb19-462"><a href="#cb19-462"></a><span class="in">&lt;!DOCTYPE html&gt;</span></span>
-<span id="cb19-463"><a href="#cb19-463"></a><span class="in">&lt;html&gt;</span></span>
-<span id="cb19-464"><a href="#cb19-464"></a><span class="in">  &lt;head&gt;</span></span>
-<span id="cb19-465"><a href="#cb19-465"></a><span class="in">    &lt;style&gt;</span></span>
-<span id="cb19-466"><a href="#cb19-466"></a><span class="in">        #eye {</span></span>
-<span id="cb19-467"><a href="#cb19-467"></a><span class="in">          position: absolute;</span></span>
-<span id="cb19-468"><a href="#cb19-468"></a><span class="in">          border-radius: 50%;</span></span>
-<span id="cb19-469"><a href="#cb19-469"></a><span class="in">          top: 50%;</span></span>
-<span id="cb19-470"><a href="#cb19-470"></a><span class="in">          left: 50%;</span></span>
-<span id="cb19-471"><a href="#cb19-471"></a><span class="in">          width: 6vmin;</span></span>
-<span id="cb19-472"><a href="#cb19-472"></a><span class="in">          height: 6vmin;</span></span>
-<span id="cb19-473"><a href="#cb19-473"></a><span class="in">          background: black;</span></span>
-<span id="cb19-474"><a href="#cb19-474"></a><span class="in">        }</span></span>
-<span id="cb19-475"><a href="#cb19-475"></a><span class="in">        #pupil {</span></span>
-<span id="cb19-476"><a href="#cb19-476"></a><span class="in">          position: absolute;</span></span>
-<span id="cb19-477"><a href="#cb19-477"></a><span class="in">          border-radius: 50%;</span></span>
-<span id="cb19-478"><a href="#cb19-478"></a><span class="in">          width: 3vmin;</span></span>
-<span id="cb19-479"><a href="#cb19-479"></a><span class="in">          height: 3vmin;</span></span>
-<span id="cb19-480"><a href="#cb19-480"></a><span class="in">          background: white;</span></span>
-<span id="cb19-481"><a href="#cb19-481"></a><span class="in">        }</span></span>
-<span id="cb19-482"><a href="#cb19-482"></a><span class="in">    &lt;/style&gt;</span></span>
-<span id="cb19-483"><a href="#cb19-483"></a><span class="in">    &lt;script&gt;</span></span>
-<span id="cb19-484"><a href="#cb19-484"></a><span class="in">        function peep(e) {</span></span>
-<span id="cb19-485"><a href="#cb19-485"></a><span class="in">            const p = document.getElementById("pupil");</span></span>
-<span id="cb19-486"><a href="#cb19-486"></a><span class="in">            p.style["left"] = (3 * e.pageX / window.innerWidth).toString() + "vmin";</span></span>
-<span id="cb19-487"><a href="#cb19-487"></a><span class="in">            p.style["top"] = (3 * e.pageY / window.innerHeight).toString() + "vmin";</span></span>
-<span id="cb19-488"><a href="#cb19-488"></a><span class="in">        }</span></span>
+<span id="cb19-445"><a href="#cb19-445"></a><span class="in">    /* Update */</span></span>
+<span id="cb19-446"><a href="#cb19-446"></a><span class="in">    element.style["left"] = x + "vmin";</span></span>
+<span id="cb19-447"><a href="#cb19-447"></a><span class="in">}</span></span>
+<span id="cb19-448"><a href="#cb19-448"></a><span class="in">&lt;/script&gt;</span></span>
+<span id="cb19-449"><a href="#cb19-449"></a><span class="in">```</span></span>
+<span id="cb19-450"><a href="#cb19-450"></a></span>
+<span id="cb19-451"><a href="#cb19-451"></a><span class="fu">## Altogether</span></span>
+<span id="cb19-452"><a href="#cb19-452"></a></span>
+<span id="cb19-453"><a href="#cb19-453"></a><span class="ss">- </span>This is a bit confusing.</span>
+<span id="cb19-454"><a href="#cb19-454"></a><span class="ss">- </span>Try this out altogether like so.</span>
+<span id="cb19-455"><a href="#cb19-455"></a><span class="ss">- </span>This uses mousemove rather than click (it's more fun).</span>
+<span id="cb19-456"><a href="#cb19-456"></a><span class="ss">    - </span><span class="co">[</span><span class="ot">Link</span><span class="co">](https://cd-public.github.io/spookster/eye.html)</span></span>
+<span id="cb19-457"><a href="#cb19-457"></a></span>
+<span id="cb19-458"><a href="#cb19-458"></a><span class="in">```{.html filename="altogether.html"}</span></span>
+<span id="cb19-459"><a href="#cb19-459"></a><span class="in">&lt;!DOCTYPE html&gt;</span></span>
+<span id="cb19-460"><a href="#cb19-460"></a><span class="in">&lt;html&gt;</span></span>
+<span id="cb19-461"><a href="#cb19-461"></a><span class="in">  &lt;head&gt;</span></span>
+<span id="cb19-462"><a href="#cb19-462"></a><span class="in">    &lt;style&gt;</span></span>
+<span id="cb19-463"><a href="#cb19-463"></a><span class="in">        #eye {</span></span>
+<span id="cb19-464"><a href="#cb19-464"></a><span class="in">          position: absolute;</span></span>
+<span id="cb19-465"><a href="#cb19-465"></a><span class="in">          border-radius: 50%;</span></span>
+<span id="cb19-466"><a href="#cb19-466"></a><span class="in">          top: 50%;</span></span>
+<span id="cb19-467"><a href="#cb19-467"></a><span class="in">          left: 50%;</span></span>
+<span id="cb19-468"><a href="#cb19-468"></a><span class="in">          width: 6vmin;</span></span>
+<span id="cb19-469"><a href="#cb19-469"></a><span class="in">          height: 6vmin;</span></span>
+<span id="cb19-470"><a href="#cb19-470"></a><span class="in">          background: black;</span></span>
+<span id="cb19-471"><a href="#cb19-471"></a><span class="in">        }</span></span>
+<span id="cb19-472"><a href="#cb19-472"></a><span class="in">        #pupil {</span></span>
+<span id="cb19-473"><a href="#cb19-473"></a><span class="in">          position: absolute;</span></span>
+<span id="cb19-474"><a href="#cb19-474"></a><span class="in">          border-radius: 50%;</span></span>
+<span id="cb19-475"><a href="#cb19-475"></a><span class="in">          width: 3vmin;</span></span>
+<span id="cb19-476"><a href="#cb19-476"></a><span class="in">          height: 3vmin;</span></span>
+<span id="cb19-477"><a href="#cb19-477"></a><span class="in">          background: white;</span></span>
+<span id="cb19-478"><a href="#cb19-478"></a><span class="in">        }</span></span>
+<span id="cb19-479"><a href="#cb19-479"></a><span class="in">    &lt;/style&gt;</span></span>
+<span id="cb19-480"><a href="#cb19-480"></a><span class="in">    &lt;script&gt;</span></span>
+<span id="cb19-481"><a href="#cb19-481"></a><span class="in">        function peep(e) {</span></span>
+<span id="cb19-482"><a href="#cb19-482"></a><span class="in">            const p = document.getElementById("pupil");</span></span>
+<span id="cb19-483"><a href="#cb19-483"></a><span class="in">            p.style["left"] = (3 * e.pageX / window.innerWidth).toString() + "vmin";</span></span>
+<span id="cb19-484"><a href="#cb19-484"></a><span class="in">            p.style["top"] = (3 * e.pageY / window.innerHeight).toString() + "vmin";</span></span>
+<span id="cb19-485"><a href="#cb19-485"></a><span class="in">        }</span></span>
+<span id="cb19-486"><a href="#cb19-486"></a><span class="in">        </span></span>
+<span id="cb19-487"><a href="#cb19-487"></a><span class="in">        document.addEventListener('mousemove', peep);</span></span>
+<span id="cb19-488"><a href="#cb19-488"></a><span class="in">    &lt;/script&gt;</span></span>
 <span id="cb19-489"><a href="#cb19-489"></a><span class="in">        </span></span>
-<span id="cb19-490"><a href="#cb19-490"></a><span class="in">        document.addEventListener('mousemove', peep);</span></span>
-<span id="cb19-491"><a href="#cb19-491"></a><span class="in">    &lt;/script&gt;</span></span>
-<span id="cb19-492"><a href="#cb19-492"></a><span class="in">        </span></span>
-<span id="cb19-493"><a href="#cb19-493"></a><span class="in">  &lt;/head&gt;</span></span>
-<span id="cb19-494"><a href="#cb19-494"></a><span class="in">  &lt;body&gt;</span></span>
-<span id="cb19-495"><a href="#cb19-495"></a><span class="in">      &lt;div id="eye"&gt;</span></span>
-<span id="cb19-496"><a href="#cb19-496"></a><span class="in">        &lt;div id="pupil"&gt;&lt;/div&gt;</span></span>
-<span id="cb19-497"><a href="#cb19-497"></a><span class="in">      &lt;/div&gt;</span></span>
-<span id="cb19-498"><a href="#cb19-498"></a><span class="in">  &lt;/body&gt;</span></span>
-<span id="cb19-499"><a href="#cb19-499"></a><span class="in">&lt;/html&gt;</span></span>
-<span id="cb19-500"><a href="#cb19-500"></a></span>
-<span id="cb19-501"><a href="#cb19-501"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb19-490"><a href="#cb19-490"></a><span class="in">  &lt;/head&gt;</span></span>
+<span id="cb19-491"><a href="#cb19-491"></a><span class="in">  &lt;body&gt;</span></span>
+<span id="cb19-492"><a href="#cb19-492"></a><span class="in">      &lt;div id="eye"&gt;</span></span>
+<span id="cb19-493"><a href="#cb19-493"></a><span class="in">        &lt;div id="pupil"&gt;&lt;/div&gt;</span></span>
+<span id="cb19-494"><a href="#cb19-494"></a><span class="in">      &lt;/div&gt;</span></span>
+<span id="cb19-495"><a href="#cb19-495"></a><span class="in">  &lt;/body&gt;</span></span>
+<span id="cb19-496"><a href="#cb19-496"></a><span class="in">&lt;/html&gt;</span></span>
+<span id="cb19-497"><a href="#cb19-497"></a></span>
+<span id="cb19-498"><a href="#cb19-498"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

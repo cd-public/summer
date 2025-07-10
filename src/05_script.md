@@ -442,11 +442,8 @@ function func2(event) {
     const element = document.getElementById("thing1");
     /* Find the new "x" value*/
     const x = 3 * event.pageX / window.innerWidth;
-    /* Find the new "y" value*/
-    const y = 3 * event.pageY / window.innerHeight;
     /* Update */
     element.style["left"] = x + "vmin";
-    element.style["top"] = y + "vmin";
 }
 </script>
 ```
